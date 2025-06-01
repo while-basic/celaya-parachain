@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "c94ddc4116249f9a",
+    "content_hash": "c94ddc4116249f9a95ed84cea025b5dc3665aeea5da3e394b611a39f66237c9c",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:48.062053",
+    "content": "Called agent beacon_agent with task: Search for comprehensive knowledge on: AI applications in sustainable energy",
+    "signature": "aa4d9e919fb8260d896a92e19c829e0375c2e426fd4311dc91f61ca4703c49516a54783a00340a8f8f6215194e0c25aeb984eee6725a57a71a426886e29aaa88440541d635e19ebd452822ac064882fc4227ab66fa5bf305f83b2ee5b0835534e216a465b477ddb96e073822fe7e3d4af02a8dab19ce2281498610aff5f9bfd65409190e41588ffefa24f89015d322809b93c548e78c13928d691c2e70c22ee4216be91f637c514a52125d69e889fad9993ad0451d1553b3174e89197c9c8090c33a2964afa0e615caf3341ea484f056311aad876a73fcbd33101d0f020d2fab5ce082a1532127e4630ae51f1a0e1c52e696b840c61646b14f0d97a6467b2860"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "beacon_agent"
+  }
+}

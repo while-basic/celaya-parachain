@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "ebcb1cc74430d38a",
+    "content_hash": "ebcb1cc74430d38ac58a2db3a519b9f413cd4f89c0ccc61f7415dd061636ffcf",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:28:50.107989",
+    "content": "Knowledge search completed for: blockchain in healthcare data management. Found 0 sources.",
+    "signature": "26cffdcd5f73682ca5b2903b590eac30c27a960683a034de821843e915b3f97bffa7dd340cc2d13867d56a6677ee9800f9afb17fa17f78d10d4235c304f79992992e8e57892cbb02b956e7540b7c869769d86a71fe7fa1a209d60885d411d1877be4bc16e5cb47a2f4545de696c3072bfd291aded72ab2d8404ffb4e42a70f367f124dd18529b40b5cba5275591e6477d4e7664731dee1b4c9840d9ba63936e73f596bcf49421936797211db291c603895fc8f139558963d2c25c5a5a6b299522a490449b70b63ac6846890e1b3c65c036ca65a2ce64443561edc9423c400fdc74a9592186fda88c6187bd0a30a741818797cfaf2989d056c85f76e940b1d770"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "search_complete",
+    "result_summary": "## Knowledge Summary: blockchain in healthcare data management\n",
+    "source_count": 0
+  }
+}

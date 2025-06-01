@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "9e16e8808542b8cf",
+    "content_hash": "9e16e8808542b8cfdb9a68c4cc5bc3b6d7a65789a6c6117248a6a4e6963fc0c7",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:01:26.659113",
+    "content": "RISK_MEDIUM: Document scanning failed: 'LensAgentEnhanced' object has no attribute '_detect_document_type'",
+    "signature": "9ba887781f706faf97717523b65608b16fcbff2c52bacccf4e85595e9eb67ad996c329960af37c046e6dd5e7bcee146d78321f5835a2f256df13604dfa1deb369ef0c527540a5fb10ba17cd1f9c30adbf85a44ed633c4fe6c7c768b19f1358705680a4fccd67a6ec87de7a5bf532642d6cb89612ab94b9d290ce240bff667b44e06ba93fc34e393f874bc90100b563f5043ae401007f83a44bb713887029ec251b14d8ee337cd98d81a20ad83091dc3ae3dc898dc8c28797965e8d936d9b278ff7890cdb2f4678ada55a640330514c02a93b41568d26ee38fc5d80dbf9130233bb5b44b6cfe326f26c1e700cc1faf7dfb15042b8258e70c43649fecbb6622ff6"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "medium"
+  }
+}

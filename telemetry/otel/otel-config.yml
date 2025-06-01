@@ -1,0 +1,132 @@
+# ----------------------------------------------------------------------------
+#  File:        otel-config.yml
+#  Project:     Celaya Solutions (C-Suite Blockchain)
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: OpenTelemetry Collector configuration for blockchain telemetry
+#  Version:     1.0.0
+#  License:     BSL (SPDX id BUSL)
+#  Last Update: (June 2025)
+# ----------------------------------------------------------------------------
+
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+
+  prometheus:
+    config:
+      scrape_configs:
+        - job_name: 'otel-collector'
+          scrape_interval: 10s
+          static_configs:
+            - targets: ['0.0.0.0:8888']
+
+processors:
+  batch:
+    timeout: 1s
+    send_batch_size: 1024
+    send_batch_max_size: 2048
+
+  resourcedetection:
+    detectors: [env, system, docker]
+    timeout: 5s
+    override: false
+
+  attributes:
+    actions:
+      - key: blockchain.network
+        value: "celaya-testnet"
+        action: insert
+      - key: blockchain.version
+        value: "1.0.0"
+        action: insert
+      - key: environment
+        value: "development"
+        action: insert
+
+  spanmetrics:
+    metrics_exporter: prometheus
+    latency_histogram_buckets: [100us, 1ms, 2ms, 6ms, 10ms, 100ms, 250ms]
+    dimensions:
+      - name: http.method
+        default: GET
+      - name: http.status_code
+      - name: agent.id
+
+  # Transform blockchain-specific spans
+  transform:
+    trace_statements:
+      - context: span
+        statements:
+          # Add custom attributes for consensus events
+          - set(attributes["consensus.round_time"], duration) where name == "consensus_round"
+          - set(attributes["agent.reputation"], attributes["reputation_delta"]) where name == "agent_action"
+          
+          # Calculate gas efficiency
+          - set(attributes["gas.efficiency"], attributes["gas_used"] / duration) where attributes["gas_used"] != nil
+
+exporters:
+  # Send traces to Tempo
+  otlp/tempo:
+    endpoint: http://tempo:4317
+    tls:
+      insecure: true
+
+  # Send metrics to Prometheus
+  prometheus:
+    endpoint: "0.0.0.0:8888"
+    const_labels:
+      service_name: "otel-collector"
+      version: "1.0.0"
+
+  # Send logs to Loki
+  loki:
+    endpoint: http://loki:3100/loki/api/v1/push
+    tenant_id: "celaya"
+    labels:
+      attributes:
+        service.name: "service_name"
+        severity: "severity_text"
+
+  # Debug export to console
+  logging:
+    loglevel: info
+
+extensions:
+  health_check:
+    endpoint: 0.0.0.0:13133
+  
+  pprof:
+    endpoint: 0.0.0.0:1777
+  
+  zpages:
+    endpoint: 0.0.0.0:55679
+
+service:
+  extensions: [health_check, pprof, zpages]
+  
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [resourcedetection, attributes, spanmetrics, batch]
+      exporters: [otlp/tempo, logging]
+    
+    metrics:
+      receivers: [otlp, prometheus]
+      processors: [resourcedetection, attributes, batch]
+      exporters: [prometheus, logging]
+    
+    logs:
+      receivers: [otlp]
+      processors: [resourcedetection, attributes, batch]
+      exporters: [loki, logging]
+
+  telemetry:
+    logs:
+      level: "info"
+    metrics:
+      address: 0.0.0.0:8888 

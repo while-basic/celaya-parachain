@@ -1,0 +1,20 @@
+{
+  "recall_entry": {
+    "cid": "fe1ac1082b9326a9",
+    "content_hash": "fe1ac1082b9326a9babdd8596e1701a52563df42d3317e0110baae022b266b9e",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:54:11.534811",
+    "content": "Consensus completed: consensus_1748764451 - failed_quorum",
+    "signature": "3a9f46dd62e1c2f8a74490dcdbc6038719ae392e1e5299c4f9d094fd56e7cf9f99cc64079656f1a3d11f0873b4bf9f178275d38e523f4a03409c8c0bd6e8980f9ec30f3b1d368239e31dcc153772577758c8b2ae31afd68d124be113344d847ec4e724a3852adf1576c30afe6211404bc49f9e117d48c9e1f91a92ef8e7060d41bc148b2d61907b1216b542cdf0981b3aa962f3aadf66fc7f8bff557f8a9b54cb874d38919c8927de97b83e91ac628b283bb445f4ec980961af78e9f675151cd3050d9b8a5cdeea8d010adf47f68f2ef87ff00658f5405f315398f2186e1d59dc7c2ef2970bc6cfcf76b41768ce5c27befd5020106bf5a81a78a098644626dfc"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "consensus_complete",
+    "consensus_id": "consensus_1748764451",
+    "topic": "Delegation",
+    "result": "failed_quorum",
+    "votes_for": 0,
+    "votes_against": 0,
+    "event_id": "event_1748764451"
+  }
+}

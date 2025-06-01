@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "9d10c09926f89b2d",
+    "content_hash": "9d10c09926f89b2d0aaae3e32426f961f7a95aa678eba86f04076eaebbd2e1f0",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.629890",
+    "content": "Synthesizing 2 insights for: artificial intelligence in finance",
+    "signature": "2593582dbea824af12c7940038381885e5b786fb9d6ee78a08009062c2f4a7b6d5064aa417ec66e63bd4003346035cf03f194ff5d58666db8d362b4796c9da4a7fd35bca6c06cbfee0547fc4d0e3fc26ab8de7e9a240cead9ee6de81a00fa4d1a905452782259dd4bf593d0bb59cda7ac45f0b42a04bcd52380a4c45e9f0870a649b5ac5ffa429c881445f8e820016af1182eb61d90e1fdda3823568a87223e6b9d62150d1375806266c863a7870b70f4b311d3f87de2508fb6e3891872ffda31756830eb99d74bd3bf2fd35f1557fb1b10f6b27b614001eb14d350e5e197d75f0a24e3e3f473680dce47be34b725b704bca31d7b230ef37bdcfab0b251934ec"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "synthesis_start",
+    "topic": "artificial intelligence in finance",
+    "synthesis_id": "d85799dbe9a43286"
+  }
+}

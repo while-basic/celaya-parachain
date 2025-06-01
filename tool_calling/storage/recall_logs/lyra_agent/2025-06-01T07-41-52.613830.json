@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "2ee2669f0cd86c33",
+    "content_hash": "2ee2669f0cd86c334f035f8da8f23ac5c6ca54bdc24b2fd55f753145165807af",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.613830",
+    "content": "Called agent volt_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "0698a5ed18bcabcfdfd7d0a72ab054af181588e737cf18be82fbb98c233435a13dc7851e3d91516450f0b41bcde84ab439948d303c5291cc58d93689488a23c162f866f65d93cebf54e402161d7849a1a4235609eedfc273f3de3b4e21af966a2269c5996f1801cbc59e57cb6addb670072a69c03739186d30fb4e1841a8d45410876f1a30ad0d49d4e491c4e9d6895ed188896af168f4a6730a795f2184ad5643938eea2869cbde21a3f154bda26847fff48c81fbb73c37282e5fe2a5ffaa0611b22ccb33f3507aab49deee11834310f28287ff3e13398fcd1aaa9c1ef4f482ae165e68a698f2d34b5b03ce15aaa48e9de8ed596fc6971b8c1ee1dcbd775150"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "volt_agent"
+  }
+}

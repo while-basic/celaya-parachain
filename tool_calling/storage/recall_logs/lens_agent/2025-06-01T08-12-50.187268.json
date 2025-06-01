@@ -1,0 +1,22 @@
+{
+  "recall_entry": {
+    "cid": "683f397c6a36ad6b",
+    "content_hash": "683f397c6a36ad6b40ba13e8f4fce6cbf7631df7a973a4f5914a4b366075c57d",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:12:50.187268",
+    "content": "Pattern detection completed: 4 patterns found",
+    "signature": "7cfc051452b491e6b269c738e40f49dbd11f2b6de192adfcebd78297fa37b30dd912c425d14d0e30667a58cc69d3271693233e8703fa1ad509138c20b0ced8e9cfcfea484d5cef32fcd5fb00cb2a2ed420c17a7c9dcd0d75b538367f37c116f861b826e9cbb9f4b5f8c1d53b065ed2c9312a5220427616c64d5c30731be18c3b76f003e98e2e8535320ff139455ca3db70afe2cbbfd81fe019cad29074844ac7debc6a6e615751f65256229085a51f39f38a73f843fb7319943200220f3094b86117db664c50aa733b815317abdee464906ef0c2339819d923a81f9c617eb8302beb20973cabdbc3fc1ae9c2b82d51a4460a8b3f79057ea9a60edc773b4d9f2e"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "pattern_detection",
+    "detection_id": "pattern_1748765570_8160a182",
+    "image_hash": "8160a182f0b57a149e431d6534c88bf4bf3ccbd71d8ed20a3586e3e2d5bea3f3",
+    "pattern_types": [
+      "shapes",
+      "text_patterns"
+    ],
+    "total_matches": 4,
+    "detection_confidence": 0.845
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "9361e4a9e4ac2cdd",
+    "content_hash": "9361e4a9e4ac2cdd772b4e1699a12d46db52eae79b214e307a7927d9a0c3029e",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.463732",
+    "content": "Processing completed for: quantum computing applications in cybersecurity. Confidence: 0.83",
+    "signature": "39b6fa8c83b2e6fb72bd38c8c260f1e9e083fbc7acf7fba24a2a4552691bcdb49f6f09481849c3ce434ebff5e90515eac3e1657feb9a5c45b2abf05bcceeb6eb60a2a706fe62c307537773465d265b6e825a50c185e932aaf401547df2ab2a35692d5ab3838605ed545d49793737abd099603d89562302cfb1c803abb5347e227e5960f5138b9ae786220dcc44d171d70a4e5f28fc7fcd417cd61156b55aa1df72f37f422ca0ecd51d2c36936e05c85d5322d67ea6bba86e6a64d055a5f734333a923faf597944f440a59cd54f27c9785ee15867dc8b7dc56d31af70655714efb14d6208dce9a689295a55625f1317b76e8f6528127492db64835137e6eee8a1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "processing_complete",
+    "task_id": "3eec5133f071ba4a",
+    "confidence": 0.832
+  }
+}

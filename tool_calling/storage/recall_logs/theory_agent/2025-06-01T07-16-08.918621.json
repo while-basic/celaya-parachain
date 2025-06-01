@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "fa319659dc34c737",
+    "content_hash": "fa319659dc34c7376974694bce3df573ad59a6b930cf0fb00e72bb15f708627b",
+    "signer": "theory_agent",
+    "timestamp": "2025-06-01T07:16:08.918621",
+    "content": "Analyzing bias in content (76 chars)",
+    "signature": "26162a9404bc5c489626629c254b3ac0eadcdadb210c1791f13daba0300ed3da1783c620124d901949aec905008d6f5c374b1418cc1ab6d452a0bf39e4950fea3033554380760fb6d6218d88a8bf68848f7818415184667dee8fc24579baeb4cb5bd5f37dd30ccd2fd027c357df0d104adb475bf450bd10ff2b2849a18e1b5e61a7d47f53ceceacfe14843bbffae041988a02b2fc182a136f87a5342026307e94f646af842a4a74c5f821448b2f004392c0af290b0847cbe78294356c75638ca90bfd94467bbd9d612c6e070398475e0ccea9a1fcf86061423cdcb9847a9aaf6a8e3ff9698fbded336321c13c96e63d49fa3783ebb0acdceeb65a97fb3691907"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "bias_analysis",
+    "content_length": 76
+  }
+}

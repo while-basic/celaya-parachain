@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "7ffb7f0f7765522e",
+    "content_hash": "7ffb7f0f7765522e3b85fb765c98a8b0f9a2f26e7e8aeb683512348f563c67e1",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:50.121808",
+    "content": "Synthesizing 2 insights for: unknown",
+    "signature": "127530913e43585dbece739054cdb41f502d5cf445be961e89290b08fb678472a3496b1a427f4705874d17e089b081658a46075242eef539e75686d6729d82f079b3055512f1f48de4a6140718ecaa2f0894ec95de6e6b88c30b6678a1713270540d9b718486d4745797578bb3ac386c1e68c25d3db13d460bc87045cb8f8c0dccc96825923a1af104d9c24f58c26bc3286c486ae651da736eef4531fe515ce6cc84977ae06fce05b513aea41326d76bfd202f99ebf90815e76f4ff7f2264ff602dbc25076ea2bfc353178d2f280480a620a112766214f3b22cbfd947dfbac4877fd938b91209163e4ba7cd421335397f882606bbed95a27e0e751488f6e9c45"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "synthesis_start",
+    "topic": "unknown",
+    "synthesis_id": "f8ee02e03b1a2b84"
+  }
+}

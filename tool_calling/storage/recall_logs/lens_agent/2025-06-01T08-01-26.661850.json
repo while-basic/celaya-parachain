@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "e2ade2a8ffe76bc5",
+    "content_hash": "e2ade2a8ffe76bc5e6630554e066f8719a09a872fc562fad169de6ec3dec3197",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:01:26.661850",
+    "content": "RISK_MEDIUM: Pattern detection failed: 'LensAgentEnhanced' object has no attribute '_detect_geometric_shapes'",
+    "signature": "4760bf9d92351f70bc44f675bf43a67af59e9326407d7de1a0561ab6fead5ad0a4d0877458e5e35e81823569511e27519faa87f8852d8b06f60eaadce6579356fdb6d2605375ee5e8f7adb24e7ac12a9939d64bb4e4c3cf428da6ec0a4219668365b7cdd696f27583fcf4b29eedf3270ed03409fe58723e0b40adfd0d893c32aa4fee7fcbe7fce18e1fda9773181de09b6162a78b6403d6855416984a9302a22ea30d7bd44590d5f7e96414a2f39ece84524d8bb78c3f951ad83e3b7c6bbca74474a8c2657a0084eee17efe5b149e7157508dd551f8c72c2164a1db06384554f1069ab2fa3caf8ced570c01a5584f499c381c3f7dbdd5cb2bf1d64fbc4a203b3"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "medium"
+  }
+}

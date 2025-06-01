@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "c23ad36d4d02bb77",
+    "content_hash": "c23ad36d4d02bb773c4a8e5dde055c673caa259015b778b8d7416e6e7938fbec",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:22:04.088556",
+    "content": "Reliability check for en.wikipedia.org: 0.85",
+    "signature": "24c575d80a67731820574742eababa08414c6a71432e46100d170020a1ee8861c5cbfb84b9c28cddbc61118a91ec3127f38a4c014b55268e426038d06e59f0f40385a9585172b79af3c4f1a8939882e5ca95e17c401b66b66ab6acbf4e0fabf96acddfbc8931e90cbf73949dbc3d69263462595b79a56fcc3a48f22f12fff6a36cc467e7cb229401a13cecdd4f6bd31075f7104918a47411482efdf01d56c782554c3eb8c0aa4a346cb8bd2aed99cbd77776d3a9c1e2f2a4d22a426f09b0e92ae12a16ac5a435ab06923706dc1046c6e706e171e218af61d13b1ba6c2b25b3208b8774cfa0698e32ab1accb5b7e9f6086202b797476350618d84559191995315"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "reliability_check",
+    "domain": "en.wikipedia.org",
+    "score": 0.85
+  }
+}

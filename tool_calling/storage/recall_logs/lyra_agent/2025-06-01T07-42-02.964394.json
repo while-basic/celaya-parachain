@@ -1,0 +1,18 @@
+{
+  "recall_entry": {
+    "cid": "445124d60191c56e",
+    "content_hash": "445124d60191c56e55f34e0d50b1f212bd4259702e0cba6c65ec366e124792b1",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:42:02.964394",
+    "content": "Agent registration: test as tesst",
+    "signature": "8049e3db7d19e44ace5d5a4406c5a745b2901733c4f52a292523a14b3755d0c14f41a085f2120ddb8bb4c9afd48c820caf910083641d31217ddc7ac23231de33306d23f169b0d7d93c982bea97f4266b58359fb3b7bfa7bb936eb71995d2aef7cfadab7fd2e7c5857d358854e9c29c0a28b8829ac20effd5422091d76573929513930e86a1a5717f8cdc0d9babb83ce719a59c2b6bb49a37c23d49e5f3864c3533d22c804e3102154b95865afe195aefe981ba2c711083fca25c25d73bd9bb2e69f2817333d701bbdbacb799a51cfa2e8216ca24e73f02b848e2803936c9744128c644538ba7ca23785f8ffaa31d2b73cd39210234800d57d41e701c2a1822ae"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "agent_registration",
+    "agent_id": "test",
+    "role": "tesst",
+    "capabilities": [],
+    "event_id": "event_1748763722"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "topic": "blockchain in healthcare data management",
+  "report": {
+    "original_content": "## Knowledge Summary: blockchain in healthcare data management\n",
+    "fact_checks": [
+      {
+        "claim": "## Knowledge Summary: blockchain in healthcare data management",
+        "verification_status": "unverified",
+        "confidence_score": 0.5,
+        "supporting_sources": [],
+        "contradicting_sources": [],
+        "reasoning": "Claim: '## Knowledge Summary: blockchain in healthcare data management...' if len(claim) > 100 else claim. Status: UNVERIFIED. Insufficient evidence for verification",
+        "checked_at": "2025-06-01T07:28:50.118640"
+      }
+    ],
+    "overall_reliability_score": 0.475,
+    "source_credibility_scores": {},
+    "bias_analysis": {
+      "overall_bias_score": 0.0,
+      "bias_level": "low",
+      "category_scores": {
+        "emotional_language": {
+          "found": [],
+          "count": 0,
+          "score": 0.0
+        },
+        "absolute_terms": {
+          "found": [],
+          "count": 0,
+          "score": 0.0
+        },
+        "conspiracy_terms": {
+          "found": [],
+          "count": 0,
+          "score": 0.0
+        }
+      },
+      "total_indicators_found": 0,
+      "analysis_timestamp": "2025-06-01T07:28:50.118662"
+    },
+    "consensus_recommendation": "reject",
+    "theory_signature": "4946672d6d12aac89994b1b8703e067bef8de7d6b5534b3ae248787a628aef2f",
+    "validation_timestamp": "2025-06-01T07:28:50.118685"
+  },
+  "saved_at": "2025-06-01T07:28:50.121609"
+}

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "2de71c36b419b4fe",
+    "content_hash": "2de71c36b419b4fe0d3518606155dbc0f5d9cd92c9ebea436b873a00fd0b3d96",
+    "signer": "theory_agent",
+    "timestamp": "2025-06-01T07:16:08.913242",
+    "content": "Checking claim: Artificial intelligence can solve all problems instantly....",
+    "signature": "bb5bca855925b830dde65676e4c01583bef41b4510e87d07b368a7887da80d0d499676aab1b62d5f0b9ab373294c6820c91c628c1922d6a8ab145e7c52ae7cb67a725106ac0544376413f121fdf10416cd687beefbe4351be4286601f37cbc496c3b138a25fe1a7e3a8b75cd2a4676e60e919e2591bfedd7a7ba4be4bbb3203b4c4c2a01a3d367678f3eca494a87007cf0e1b8f737484bce3f4e5fb6a486bc6678b8e77de0743c9ef1eb0f590eca3586c2aae3e8a6fe2fbda15bf158d8c253a9d2d062440e4e39c305a67a624a7f2143a6f1e9a07f2fdc91ffd234066f01e6075f184841c970230ebb0533c23cd25fe88635cf82d940de6a94a60e2a10e89640"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "claim_check",
+    "claim": "Artificial intelligence can solve all problems instantly.",
+    "context": "Test claim for validation"
+  }
+}

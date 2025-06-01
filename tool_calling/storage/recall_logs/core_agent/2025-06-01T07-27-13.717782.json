@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "986f1bc3e03a10f8",
+    "content_hash": "986f1bc3e03a10f8c69ff9ad3d4e8a14f687490afb4cb9edec8affaa158561d0",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.717782",
+    "content": "Agent coordination completed. Success rate: 1.00",
+    "signature": "ad913347119f390a96d996910d81da5b386b8ae30df56d9b7bacb735c20059ba6a8f032c4a51e29cc5a1745f05edecd5a0a33ad3ee3a4f620b3c0c30ac8fc414042c2a9145a953e9b7fedf3a9640fad317a8f7b72e36cc000658ba8358dfec50679553ad56463a5aac745bb5416e41c93b3c6a43ad1d9c1e0ee0d8eccef0632c9ee7db8c185aacfb79df258f147c96f4f93a2834b2e5a8cd5cebfb0605b8a672f06c07da072a3f727d2b1176e8087ae9dd409d746b1b661a4195bf0e521e399498c2be728f488367f86e02a71aa564ece2fa6e1cfd26cdc4f0ec6c7b3ce5db0ace0198ddad5be2db560cca8a499ce31e314b62635007e1d0bcadfd0ddd8f8906"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "coordination_complete",
+    "coordination_id": "52473a59757959a0",
+    "success_rate": 1.0
+  }
+}

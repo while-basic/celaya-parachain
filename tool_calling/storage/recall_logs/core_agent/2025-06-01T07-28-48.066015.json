@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "79cb686ac916f693",
+    "content_hash": "79cb686ac916f693590da788250d37a6ed34235a624e81e25ebf3acdc5906f6c",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:48.066015",
+    "content": "Starting consensus for: AI applications in sustainable energy with 2 agents",
+    "signature": "0aa7bbc69f9ed147677f83ba2b3fc8b131f75b198fa1bc7a46d2f50b5eb213387f5fe181bd9bbc0abb05dedd83abd117b9305d0d8c643a7f1f67b1993b3ce477f901814601726d68078c3720c3203a53f2cc815df506aff891a6194c65e6880fea368570af772af262fdcb8dac9475e00616c3b991b04ef6dcde241e3e99247028301878c7cdd63c8756882bb67f2de32b922f12486a81e743be11bf1bd10e6af4797f2eac3f46cbace477ee837fe7febc2f928520d81ec2ab3ae6f8100455f807dc1457244088168c501cbc7c53e5b974fc491ade280aefa209403a0a432bc47b3f95443ea8337dc9500bf321d42593962ba3f2bce8527518dada277d2653fb"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "consensus_start",
+    "topic": "AI applications in sustainable energy",
+    "consensus_id": "3cf46069569d650e"
+  }
+}

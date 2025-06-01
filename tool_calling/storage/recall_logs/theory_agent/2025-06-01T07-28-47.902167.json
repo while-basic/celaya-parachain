@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "e80d558627529b9b",
+    "content_hash": "e80d558627529b9b19ba484f9e22951395406ba882617365cbd971c3c6050b05",
+    "signer": "theory_agent",
+    "timestamp": "2025-06-01T07:28:47.902167",
+    "content": "Bias analysis completed: score 0.125",
+    "signature": "8d57ad92956fb28bf4e9f4010d0f18fbd0f84af24932c9e12a8b94acab1ded0e83c86bc7a0addb0c191c724d4e6c18b7a6f1693d2b4813a47971c76b794d31d33d0bee5cd34adcd50a199f8de59fdd75dbc7c8d16282eafad01c8030b7c85fc874c6335432dae06802c3d56b3cb52ab25fcc6bdf765ef7ca34a09de0ad1ef9061de382961af53315ee588c9860fc8b80993b572746bd7dded8d4a4eaa51b708a920b1d28a6178d4574a2e18b01786a997968d25c745cd571b38a47f0a3927b2e803e2fdea89a5d73fb6f4f3b3f31e079faaaf7ad867c8436e7df714097a912eb3543cc495f4226c57cbea217ec6fe2526ba6cd742b8a8cb2bdcdb5ff6ff8ca21"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "bias_analysis_complete",
+    "score": 0.125
+  }
+}

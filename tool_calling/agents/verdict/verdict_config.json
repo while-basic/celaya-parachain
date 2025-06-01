@@ -1,0 +1,11 @@
+{
+  "agent_id": "verdict_agent",
+  "role": "Legal & Compliance Agent",
+  "compliance_threshold": 0.8,
+  "risk_tolerance": "medium",
+  "auto_approve_threshold": 0.95,
+  "legal_review_timeout": 300,
+  "contract_approval_levels": ["conditional", "approved", "rejected"],
+  "supported_jurisdictions": ["federal", "state", "international", "industry_specific"],
+  "regulatory_monitoring": true
+} 

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "9f1045f378935ab4",
+    "content_hash": "9f1045f378935ab44d9f262ce9ab6f440affdbcf88943bd53ad803deb4030224",
+    "signer": "theory_agent",
+    "timestamp": "2025-06-01T07:28:50.118725",
+    "content": "Validation completed for: blockchain in healthcare data management. Score: 0.475, Recommendation: reject",
+    "signature": "6d3552d8474e9c9726eb6eafafdeb64bec185471d9abaa09641594d967c537c97d03a28167b8d7fd80c05f39d29794ad32ee04ea24b58e71117094e49351681a23e2780907c781ecdd05f6296f93f049725b2cf892ea2dd4578ad8d1b839a4f074b0cb534c0b9b1bf205d4da7dc2c0e8a49e95a62935aef5714e8b78de3723a911b96941892f0c3e6aae9819bd4c5910f70105ccce69bf39e58dafeda9a4cb275516abc9610d9326c61448c3c316e7bcc8cef1936fce9a96e4d464344519033b3967aa63d24337c42a2d5a184526ec5a0236097fe01891a8df310d1cfa07e736d10efeb4a020c74deeda53b15659c3dd90ba70eda72397c18336744634c21a99"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "validation_complete",
+    "reliability_score": 0.475,
+    "recommendation": "reject"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "news_api_key": "92d5c6dc5138426981f975aa7bffd632",
+  "wolfram_api_key": "UL7JX9-AP6UJ2X7P6", 
+  "default_sources": ["wikipedia", "pubmed", "wolfram", "news"],
+  "max_sources_per_query": 3,
+  "cache_timeout_minutes": 60,
+  "insight_log_path": "./insight_logs"
+}

@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "57f5ec474b888270",
+    "content_hash": "57f5ec474b888270111a7c31b6a74f0999501bed9ada591e07f540c86f578c1a",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.626987",
+    "content": "Called agent luma_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "736d574753ee7328dd002cfd39189c39083b413436459cc26b7c142fb62d0182b6e9cb54bf8e32e1e230887167474c63c11c91d01d092ec2b9be04e73284bca11dbfcee8e4da536cfb3c3b1937f6515bd24eb788bd19822458fd21b7e01e2086b39600a679bcaa4e5baf1d3dfa150f8ddd3e5fee904139fa220076f41a874b3954425d462ac49539d75b0c38df1884a9486224f71d13ef6e2feb6b1a60379685e9f71f2a1cc1d3b08c321bbea9da69620ec1a17fc58143c8131bb7b2fdd7a1503e8c2ecfabf4b9ceb995ffa9dc5a951b52075680d8a7461d0a8b766d0ddb42bc6a24ad6d324c3d77f5236c87e1231f0c6f1d0918c24a309b57be5e5238bdfd96"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "luma_agent"
+  }
+}

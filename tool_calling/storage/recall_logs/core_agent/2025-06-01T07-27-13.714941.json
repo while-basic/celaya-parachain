@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "e1876a156b80fa68",
+    "content_hash": "e1876a156b80fa682748d8017edda2c0a6cc0f1aff28814f00647f3f41a96b8e",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.714941",
+    "content": "Called agent theory_agent with task: Execute task: Research environmental impact of electric vehicles",
+    "signature": "2d307a93c4fe10a87efdaeca5fe8f0f45a298d993a452f58384d9e3178b8c7a8a34dbd5e6673e4de6373e1056216cd67cc0aad26cc2e7f31f1941776f7a3057d87e7143b7db57e3b67dfedd2951d02f9258251c6706becaf901bb2daf5b14ba5447f2bc5acc5fe230e982efc016092c5b624f1cca4748a8315fd6db17d641d25de889c079900045ad204b4aec53fc5f0b8d475a97f81dea44cb349f2d8477ddc9d4bb48eafa2bec4e4ae4708697064f5f89d3d4a27a3bacb0a60033eb2f24b5909fbd57fe52bda22d1436271d3046cb285f062dc4835fad053f592ba8a8ebadd76f26a3ec100d7e30c6a7ce5201d76db1d13e02e4cb80c032478be4b66748715"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "theory_agent"
+  }
+}

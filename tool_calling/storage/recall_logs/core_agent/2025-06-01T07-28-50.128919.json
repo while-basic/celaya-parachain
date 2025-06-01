@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "b09581bb9acc896a",
+    "content_hash": "b09581bb9acc896ac0f4c7fbdd2445c117d56d2bdfb15a4bb7f460517ef8f6e5",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:50.128919",
+    "content": "Synthesis completed for: unknown. Reliability: 0.50",
+    "signature": "28f5388c326f423e6194f14ebeb8ba2b28ae682971f27058e14db7312e62592c959ec3112b85cfae1687e550b48afddc5f461bfd4f55bc182af81d6010eda7fbcdd9f0c5d86428795e9b251880eb3382feae21518068d740e5fa04e6f5ccd86a5d0c149e902026b3aed8dc9bb816a836b32735294268422ff13dd3a03c3fd788fdbc612bf86decd98393888c91b41f06a8f120b0966fe33351d30323c5b89eaba35fa0e61585033d7b53285498243952377f5d1e1021d85c3b3e35a5a4c1ddd9cca46b986e464768e92751dfcec6f24354453efc57cecb4de24c2e874205e56e14298ae41478fabaddee4ba3a9e91c2e3c83f11c78b7bdec7f65a8d3868c1879"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "synthesis_complete",
+    "synthesis_id": "f8ee02e03b1a2b84",
+    "reliability": 0.5
+  }
+}

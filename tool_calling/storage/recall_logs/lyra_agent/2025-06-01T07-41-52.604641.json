@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "04859bd3266270a4",
+    "content_hash": "04859bd3266270a405c0043be51836e88bd075005709a4477b0f8f294f0e9146",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.604641",
+    "content": "Called agent theory_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "b62d573fa9397f749082dc07074e8a4b89d88c2e5edff4a9f120d72e61c80034b480443a27015ef122cdc1ed6617dd438eb928126d2041b5221ee51125b3626a19e9ef3b1548793863cdc7238dce35238c0ad1a6697d1bcd3f84ee3fedbcd6f0180286b7f2eb408695bed86a4ae1b4d14ed32204218fe806d9f0e7d3e91fec09345d004ceeb1d3f356b66a777377e504b4a887cb474b08a20e8bef14f5578f9b564c600c403ab4675bf51c200933efecfb07f27768303964b95f31fc158a14699f3001fa24fc2342e388dca30230c1137fd4abb9028d1d827e194e90034e3bcb55fc1995f94d3d53582bb1daafc13b17ddc02ec142d668315dff6676ff35d43f"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "theory_agent"
+  }
+}

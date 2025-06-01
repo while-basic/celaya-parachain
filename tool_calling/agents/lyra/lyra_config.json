@@ -1,0 +1,10 @@
+{
+  "agent_id": "lyra_agent",
+  "role": "OS/Meta-Orchestrator",
+  "max_agents": 13,
+  "consensus_timeout": 300,
+  "is_super_agent": true,
+  "system_boot_timeout": 60,
+  "health_check_interval": 30,
+  "delegation_default_duration": 60
+} 

@@ -1,0 +1,65 @@
+# ----------------------------------------------------------------------------
+#  File:        tempo-config.yml
+#  Project:     Celaya Solutions (C-Suite Blockchain)
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Tempo configuration for blockchain distributed tracing
+#  Version:     1.0.0
+#  License:     BSL (SPDX id BUSL)
+#  Last Update: (June 2025)
+# ----------------------------------------------------------------------------
+
+server:
+  http_listen_port: 3200
+
+distributor:
+  receivers:
+    otlp:
+      protocols:
+        grpc:
+          endpoint: 0.0.0.0:4317
+        http:
+          endpoint: 0.0.0.0:4318
+
+ingester:
+  trace_idle_period: 10s
+  max_block_bytes: 1_000_000
+  max_block_duration: 5m
+
+compactor:
+  compaction:
+    compaction_window: 1h
+    max_compaction_objects: 1000000
+    block_retention: 1h
+    compacted_block_retention: 10m
+
+storage:
+  trace:
+    backend: local                     # backend configuration to use
+    wal:
+      path: /tmp/tempo/wal             # where to store the the wal locally
+    local:
+      path: /tmp/tempo/blocks
+
+query_frontend:
+  search:
+    duration_slo: 5s
+    throughput_bytes_slo: 1.073741824e+09
+  trace_by_id:
+    duration_slo: 5s
+
+metrics_generator:
+  registry:
+    external_labels:
+      source: tempo
+      cluster: celaya-testnet
+  storage:
+    path: /tmp/tempo/generator/wal
+    remote_write:
+      - url: http://prometheus:9090/api/v1/write
+        send_exemplars: true
+
+overrides:
+  defaults:
+    metrics_generator:
+      processors: [service-graphs, span-metrics] 

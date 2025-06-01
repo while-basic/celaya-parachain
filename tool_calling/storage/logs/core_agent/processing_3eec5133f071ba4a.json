@@ -1,0 +1,59 @@
+{
+  "task_id": "3eec5133f071ba4a",
+  "topic": "quantum computing applications in cybersecurity",
+  "processing_type": "comprehensive",
+  "status": "completed",
+  "beacon_insights": {
+    "topic": "quantum computing applications in cybersecurity",
+    "summary": "Comprehensive knowledge summary for quantum computing applications in cybersecurity",
+    "sources": [
+      {
+        "url": "https://example.com/source1",
+        "reliability_score": 0.9
+      },
+      {
+        "url": "https://example.com/source2",
+        "reliability_score": 0.8
+      }
+    ],
+    "confidence": 0.85,
+    "agent": "beacon_agent"
+  },
+  "theory_validation": {
+    "topic": "quantum computing applications in cybersecurity",
+    "reliability_score": 0.82,
+    "bias_level": "low",
+    "recommendation": "accept_with_caution",
+    "fact_checks": [
+      "claim1_verified",
+      "claim2_disputed"
+    ],
+    "agent": "theory_agent"
+  },
+  "core_synthesis": {
+    "topic": "quantum computing applications in cybersecurity",
+    "synthesized_summary": "Core synthesis for quantum computing applications in cybersecurity: Comprehensive knowledge summary for quantum computing applications in cybersecurity",
+    "overall_confidence": 0.675,
+    "overall_reliability": 0.6599999999999999,
+    "source_count": 2,
+    "synthesis_method": "core_weighted_average",
+    "task_id": "3eec5133f071ba4a",
+    "synthesized_at": "2025-06-01T07:27:13.463559"
+  },
+  "consensus": {
+    "topic": "quantum computing applications in cybersecurity",
+    "participating_agents": [
+      "beacon",
+      "theory"
+    ],
+    "consensus_score": 0.6675,
+    "agreement_level": "medium",
+    "task_id": "3eec5133f071ba4a",
+    "recorded_at": "2025-06-01T07:27:13.463566"
+  },
+  "overall_confidence": 0.832,
+  "processing_time": 1748762833.463572,
+  "processing_id": "d14ffb3238009940",
+  "memory_key": "abcda00be8399b2b4a9e0b793d530b8e",
+  "completed_at": "2025-06-01T07:27:13.463574"
+}

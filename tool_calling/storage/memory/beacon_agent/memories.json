@@ -1,0 +1,120 @@
+{
+  "332173c09688b7553e7cb89a5b55ee38": {
+    "key": "332173c09688b7553e7cb89a5b55ee38",
+    "content": "Test memory content for tool calling",
+    "metadata": {
+      "test": true,
+      "type": "test_memory"
+    },
+    "timestamp": "2025-06-01T07:16:08.481784",
+    "vector": null
+  },
+  "ef9071972b793acc519e2e508eeed65a": {
+    "key": "ef9071972b793acc519e2e508eeed65a",
+    "content": "Knowledge search: artificial intelligence",
+    "metadata": {
+      "type": "search_query",
+      "sources": [
+        "wikipedia"
+      ],
+      "search_id": "a6c0372997c4425c"
+    },
+    "timestamp": "2025-06-01T07:16:08.564176",
+    "vector": null
+  },
+  "d1caed26df8788418dfce02921fdc255": {
+    "key": "d1caed26df8788418dfce02921fdc255",
+    "content": "Topic: artificial intelligence\nSummary: ## Knowledge Summary: artificial intelligence\n\n\n**Wikipedia Overview:** Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals....",
+    "metadata": {
+      "type": "knowledge_insight",
+      "topic": "artificial intelligence",
+      "source_count": 1,
+      "signature": "19ca05e2c494baf36d507f690d3fcd1df867773fbf04c5456f50406da76a3588bff01223db8adb1bbda23473e1acc85dc9684089c7077ea96ed22ce2162ef413379984a70dfe2310370aaf3b8181f154ff3f6ba0b17ce01f0718fb4809b957ff8c734a413dfd05b6b1bbf5dba9698bde407041d6bfe203baaa8470193b730d410352ca7c00246a7fe04cdd2edd579817614174a5fbc781dec58c8aa3f5f866105d785d420d2279843a3b66b1b9b29a3d18b7eb8a5413f0f8ba04a96ad3f1f12fca462952699bb69b72adda2143593c85b7e1aca9d61e10ae5377f4c2ea47616e2f5cc8912fd49d57cfce83fd7d95af5e5722cd3598c64e694da66d870fc91137"
+    },
+    "timestamp": "2025-06-01T07:16:08.834928",
+    "vector": null
+  },
+  "bec38872bb09ca4c25e810bb77d9fef6": {
+    "key": "bec38872bb09ca4c25e810bb77d9fef6",
+    "content": "Test memory content for tool calling",
+    "metadata": {
+      "test": true,
+      "type": "test_memory"
+    },
+    "timestamp": "2025-06-01T07:22:03.745230",
+    "vector": null
+  },
+  "a80764323afdafe133741d61e3b4866c": {
+    "key": "a80764323afdafe133741d61e3b4866c",
+    "content": "Knowledge search: artificial intelligence",
+    "metadata": {
+      "type": "search_query",
+      "sources": [
+        "wikipedia"
+      ],
+      "search_id": "a6c0372997c4425c"
+    },
+    "timestamp": "2025-06-01T07:22:03.826031",
+    "vector": null
+  },
+  "e243457ae68df5d27bc62a1df354b102": {
+    "key": "e243457ae68df5d27bc62a1df354b102",
+    "content": "Topic: artificial intelligence\nSummary: ## Knowledge Summary: artificial intelligence\n\n\n**Wikipedia Overview:** Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals....",
+    "metadata": {
+      "type": "knowledge_insight",
+      "topic": "artificial intelligence",
+      "source_count": 1,
+      "signature": "5262b686d848e35fdcbdd6a03a8ad1bfb32e22b549dbaa954510a08c8d3abaa5bbb01e484a13c922e415bb4b0c80a3b32648db43f50845b845b3266950e9413af9d35573837e0fc9fbb2622ab670f30d6302c2ff7dd13f3a9528a2920394975fdaf59aed2d409c463dd7e9590f3cee4b4ed5023d4e3a559bf66b7bace6b5a1e260c3692eb3cdc5a08edafa2431234fa626ae15e8598b827844e5cf8c934386af17085dabbd33aef23f47773b5c6233d7c9fe4a3c624918db336e7cb18b403e53b41ce2f2e94df753549866b2eb8c33470021f30d3b5a98760c0cb35797e2dd5fa53a410c9370ed2d3080df3fae905abf2988b474d175331c8fb85d931777e79d"
+    },
+    "timestamp": "2025-06-01T07:22:04.093437",
+    "vector": null
+  },
+  "20a88d0ebd6b78e5f695f94711a11855": {
+    "key": "20a88d0ebd6b78e5f695f94711a11855",
+    "content": "Test memory content for tool calling",
+    "metadata": {
+      "test": true,
+      "type": "test_memory"
+    },
+    "timestamp": "2025-06-01T07:28:47.377553",
+    "vector": null
+  },
+  "5f4ef1bf33e97dd127b9812ecaa7fd9b": {
+    "key": "5f4ef1bf33e97dd127b9812ecaa7fd9b",
+    "content": "Knowledge search: artificial intelligence",
+    "metadata": {
+      "type": "search_query",
+      "sources": [
+        "wikipedia"
+      ],
+      "search_id": "a6c0372997c4425c"
+    },
+    "timestamp": "2025-06-01T07:28:47.465456",
+    "vector": null
+  },
+  "4912c7b16001463c16757f51e7efdb0d": {
+    "key": "4912c7b16001463c16757f51e7efdb0d",
+    "content": "Topic: artificial intelligence\nSummary: ## Knowledge Summary: artificial intelligence\n\n\n**Wikipedia Overview:** Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals....",
+    "metadata": {
+      "type": "knowledge_insight",
+      "topic": "artificial intelligence",
+      "source_count": 1,
+      "signature": "827c3c6415bf0454cfa5a699ff0524a3f4d8363b670051486dfa2397b365aacd6463f5309e7bb32b7f92920f2abf4d66bf34f675b4fe15d5b2ffa6e31fe70324a549bb25ee95968c77ee5083c7e59774d6974cddcecd9929a137a6ac2d365dc9431b40cfe90cf7e6754a28c8e527ba28777facb35f09880a9d9ca365bab4306e893b1cb5ab85d4510fe58eb510df7fc3642040fe0d833fadc159bf5d3e8fe455b0bd94a02c0c3d8ef47cd7958013a8b6574d8de6987543d1de4e86829f166e3c8f7668eea45b78c72bb3ed24341535db28c026b318bc63c019376c824bf8d88bf88eaa50177be2a511aa1e84d9e20f4cc8a08def202f99aa0fc28b9115a7fa1d"
+    },
+    "timestamp": "2025-06-01T07:28:47.819563",
+    "vector": null
+  },
+  "ee3661abd4cdd32242d0cb60eb3c5368": {
+    "key": "ee3661abd4cdd32242d0cb60eb3c5368",
+    "content": "Knowledge search: blockchain in healthcare data management",
+    "metadata": {
+      "type": "search_query",
+      "sources": [
+        "wikipedia"
+      ],
+      "search_id": "9891ab807e2300e6"
+    },
+    "timestamp": "2025-06-01T07:28:48.303885",
+    "vector": null
+  }
+}

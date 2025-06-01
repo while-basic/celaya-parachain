@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "e5e1fabba2ddc76b",
+    "content_hash": "e5e1fabba2ddc76b0530f9588a5a309bc0b5199e6bf9afee7fc2af26e58fd7d4",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:48.060639",
+    "content": "Starting insight processing for: AI applications in sustainable energy",
+    "signature": "9e04b7c2eb6b93ad298e95726e0c5ae202ab3d6924a143b19dd5ed65eb4edf1b7346dad254a163ecfcf4bd1aee5117ac9b4cebb26523f3ce52dacde329f907ecc818678d9bedeb43e729d47e5d4ca26c72f1eb4cdad1578cee2bbe69a8a24a5966ffe8c437c575635dbc8e443f6500a96d4b99fe8be7a800d2d2523e33044e5c8fec8fb73ff0e8587fb301426079550cf427715d14489535ad82601c5e6e895d764065f24d4bd7fb6bbc96d7c4a9d44346bef09c0ab255145bb377b80f91fc1189a61537de8348946de920ccf3652b2faeb80858e3b5e3cacb4b1b809829e99b7662480890de60af9d9f893113b20cf12b79ce615a7258b1fe60b96d364dbfea"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "processing_start",
+    "topic": "AI applications in sustainable energy",
+    "task_id": "656e0ccaadc3cdef",
+    "processing_type": "comprehensive"
+  }
+}

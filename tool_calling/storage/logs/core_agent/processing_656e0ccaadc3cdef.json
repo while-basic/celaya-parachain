@@ -1,0 +1,59 @@
+{
+  "task_id": "656e0ccaadc3cdef",
+  "topic": "AI applications in sustainable energy",
+  "processing_type": "comprehensive",
+  "status": "completed",
+  "beacon_insights": {
+    "topic": "AI applications in sustainable energy",
+    "summary": "Comprehensive knowledge summary for AI applications in sustainable energy",
+    "sources": [
+      {
+        "url": "https://example.com/source1",
+        "reliability_score": 0.9
+      },
+      {
+        "url": "https://example.com/source2",
+        "reliability_score": 0.8
+      }
+    ],
+    "confidence": 0.85,
+    "agent": "beacon_agent"
+  },
+  "theory_validation": {
+    "topic": "AI applications in sustainable energy",
+    "reliability_score": 0.82,
+    "bias_level": "low",
+    "recommendation": "accept_with_caution",
+    "fact_checks": [
+      "claim1_verified",
+      "claim2_disputed"
+    ],
+    "agent": "theory_agent"
+  },
+  "core_synthesis": {
+    "topic": "AI applications in sustainable energy",
+    "synthesized_summary": "Core synthesis for AI applications in sustainable energy: Comprehensive knowledge summary for AI applications in sustainable energy",
+    "overall_confidence": 0.675,
+    "overall_reliability": 0.6599999999999999,
+    "source_count": 2,
+    "synthesis_method": "core_weighted_average",
+    "task_id": "656e0ccaadc3cdef",
+    "synthesized_at": "2025-06-01T07:28:48.064600"
+  },
+  "consensus": {
+    "topic": "AI applications in sustainable energy",
+    "participating_agents": [
+      "beacon",
+      "theory"
+    ],
+    "consensus_score": 0.6675,
+    "agreement_level": "medium",
+    "task_id": "656e0ccaadc3cdef",
+    "recorded_at": "2025-06-01T07:28:48.064607"
+  },
+  "overall_confidence": 0.832,
+  "processing_time": 1748762928.0646122,
+  "processing_id": "e5e1fabba2ddc76b",
+  "memory_key": "cf0fc6364b760701afaf12a518ab8655",
+  "completed_at": "2025-06-01T07:28:48.064614"
+}

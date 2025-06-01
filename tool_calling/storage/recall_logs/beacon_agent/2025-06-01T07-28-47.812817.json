@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "9d41365deaab2059",
+    "content_hash": "9d41365deaab20594b87cab0118afb760811a8cf9687a13fa0ea1388629b2520",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:28:47.812817",
+    "content": "Knowledge search completed for: artificial intelligence. Found 1 sources.",
+    "signature": "7e3508f3a36bf2b54da31d47990bf2ced2c4c195f372789bec732ae62879e1a6d29395dc6787b4158d95de889c72670b02313ceab5fab1150b50e4c8094880989339cd390e7a05de918a625b908d1c78daf1ca1f7314ab092ea7a15f5e81c2e2312b4673f7b755e82893747d4284fd7bdfe3ce9fcb10fb7b0cd0f3a6993700f8bdcad6b5d2a2067452ab99212f74f9e6867be945345f346c5ddc0289e871466402015c0298b8cccd81aa49c6ab0dde067acdff45bb0f8c846a0daea34d7d4491dcf2d4c0f12fb2d9ab78fca18e9658f440d20d1c9f84cd8ab6da9eccf641103bdebe4af1d3d3daf53d27e30021192a13ed98affd37038b777db94472b6cdb73e"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "search_complete",
+    "result_summary": "## Knowledge Summary: artificial intelligence\n\n\n**Wikipedia Overview:** Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelli",
+    "source_count": 1
+  }
+}

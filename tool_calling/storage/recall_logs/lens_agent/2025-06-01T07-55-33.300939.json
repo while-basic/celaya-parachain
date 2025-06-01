@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "d58c3eb9fc3044a5",
+    "content_hash": "d58c3eb9fc3044a5ed8da43b6d4c8248daa47e3f147ac45cf6df9746303948e4",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T07:55:33.300939",
+    "content": "RISK_HIGH: Visual analysis failed: 'LensAgentEnhanced' object has no attribute '_assess_image_quality'",
+    "signature": "49e916786c88b98607499a87ab2646dcd345ccbcf46c6f7eb21a23c9a1b14b89980956c077271c155030647f4b57f7e7b003d919dcdb35624fd603037167fc703e232ef978e58042b12f5c1dec13be870a75105cc98e4a77590dafde31cda80ce2da53cbbe48686b9cac7dc79251d692ee74b07b7274cf8202aabf2b4e2fc9f3f2f069770ef1e78c4d614a4b904b2d29cf4e4a4d662eccab521e173c45ce23ff2c2063737be34d02ce99a5d9fc242a79c14948ad9b30795b581c6af46e34fcdd4e6a995505103ce14971d0d8e259c22087e72838de4ce8bd1a1d0db9fdfec0d5e92cc95f40aa316efa3aa5209dc97a469daaf685fa0ef1aa1fcd12fb7e6dcc85"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "high"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "9f4c98f8d36b9ed2",
+    "content_hash": "9f4c98f8d36b9ed29fe184c720fa9257d85516b429b35fa722068e1ecb65066e",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.615685",
+    "content": "Called agent vitals_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "0ed2a8e31268454e41fa8673241514f58adcc50b1e350a95f10269ec4230ffbd4027f975a4472a6b9f8148cf63cbacac24da3ecc48b05ff01c738bbe6d0805f151d1e8e6c02a22ec61ace64715eb249605f115de489c1b62f41dff2a69acd01fcb92c42a2fd3c7d1600aac6024214b0ee44a16a77566dc792b0798cfd8608e59b7ead5496d0a1206207cb9c4dd9f4d4fae0183e6044c5b5a8c5a7ac90e5e0ba9398c668ae4760379f5319a41c6764799bdd29551814f33e19147d42bd0ec3d18bb0279e19301ce6b650892379048fcecb69492aa2d332a4831ad44528a1b2850161f80b16c9f0e79c5e43f6e2ef51286602842ccbbd107ea041c76e8869a094f"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "vitals_agent"
+  }
+}

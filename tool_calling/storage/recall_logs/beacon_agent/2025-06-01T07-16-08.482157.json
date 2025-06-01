@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "df0544218d0bbb51",
+    "content_hash": "df0544218d0bbb51a9ac51f7daa8ce7e657fbe845e2da9ac2353ed8dae64ee30",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:16:08.482157",
+    "content": "Test insight for blockchain logging",
+    "signature": "4e30e737318cb17f313b88209139aa55242f42cd936315a1c17144f3629c6448af3a4d2ee7eaa79060d84d7aa9e83e423ba9b9be4060fedc434f2d862c3eff1f7c236b797bcf95ddc74dd5fde59c788496694bbd7df81df81eee1918564e1a1bc4ddd8049c262f43c6fb3b4e29c185dc152d413fbcef984b44885c1ef5ebb3f54bd6e1ff4076ffe5a5fe90f8e52350508ee5b7f8df3ebf83e6033eef58c37ab1ebf7b18c9325b442544a4b30be22bcb85037f54c234acdd00ee25499b36a810d7447df322df767fdf91079dc4b5c618c278ee473e9c971fdea96f7d452ce5a111ec8ed949bb781f93bf4c3a25bff4fd56a6b3a2ef1f5819a3dc4964eee727402"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "test": true,
+    "type": "test_insight"
+  }
+}

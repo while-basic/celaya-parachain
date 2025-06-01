@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "706f8339e19aeb2b",
+    "content_hash": "706f8339e19aeb2b5ce3d4ffc37c278e2e4341647cb8dab157ddc445097cfc78",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:48.070943",
+    "content": "Consensus completed for: AI applications in sustainable energy. Type: split, Score: 0.67",
+    "signature": "46b591a311dc24cbf679db70d2192e08bc8352d156721fc6b4252c60be5509e1c6f24d38e7a513dbaf9187e76afdc1a949685e640cffe7eef77955f15fb4939ace76c7117b5bea41a7d9026085ad3657bb24df072137462a65d365146125f83eacd7b4be9c9bf791689be993cd4fbf72ccf917a55561b638f9e796f992e6760f34dc704ce777c24b3c199a1ecb1a44460d66a778244b0207d707435fdea3f45b44a9ac494e75038ca15b00614fe36f3778b1d5a6a44747fe990f50cd0b4dcb14a5d809b8ec3d3a373483e21b1a431e8d8ab39e86e3a70852d8b3dca610c32271b0cb9e8317679a4c5e23490fd2aa4074a9bbeee149c7422f5b229f359fed04de"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "consensus_complete",
+    "consensus_id": "3cf46069569d650e",
+    "score": 0.6675
+  }
+}

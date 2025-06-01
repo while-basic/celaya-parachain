@@ -1,0 +1,18 @@
+{
+  "recall_entry": {
+    "cid": "9891ab807e2300e6",
+    "content_hash": "9891ab807e2300e617636e6aeddf36cd27318ff278a1c44ae10d578a36ff4543",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:28:48.289426",
+    "content": "Starting knowledge search for: blockchain in healthcare data management",
+    "signature": "0d395acd216400525c0b1863123827b2274c7416dc573781025b73f4e9c8580af736a6eaa9dba4080bf9a0c6eee57be18f2f6668eaee509347a611572fb31efed40b91178610c99b2f015ea24d12fa0b047a7f925f00765670fb227281a5201a5bec1c6e492608257577ed12e7c960a6f7cf3f9cef0cf463a7388c2cac236b7b1974f025f2628d0c40069b650825ac4c340dc84495373d538cc8e272bb29b31b9f0021edfb4e0ff66091ab0757ae9160ad167a9e801f76533162c0b69203e37f08f8247556a4ad41448e8a50189b45e8de33f4a82e92527281ed45945153cb54d4d756375e61494bc00bb1371abb19d98cd5be71390bd8edb5565c15ed58011d"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "knowledge_search",
+    "topic": "blockchain in healthcare data management",
+    "sources": [
+      "wikipedia"
+    ]
+  }
+}

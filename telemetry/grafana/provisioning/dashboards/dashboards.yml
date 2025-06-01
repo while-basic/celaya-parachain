@@ -1,0 +1,33 @@
+# ----------------------------------------------------------------------------
+#  File:        dashboards.yml
+#  Project:     Celaya Solutions (C-Suite Blockchain)
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Grafana dashboard provisioning for blockchain observability
+#  Version:     1.0.0
+#  License:     BSL (SPDX id BUSL)
+#  Last Update: (June 2025)
+# ----------------------------------------------------------------------------
+
+apiVersion: 1
+
+providers:
+  - name: 'default'
+    orgId: 1
+    folder: ''
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /var/lib/grafana/dashboards
+
+  - name: 'blockchain'
+    orgId: 1
+    folder: 'Blockchain'
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /var/lib/grafana/dashboards/blockchain 

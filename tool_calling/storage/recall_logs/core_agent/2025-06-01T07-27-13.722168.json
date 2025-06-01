@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "26613f48ac388fa8",
+    "content_hash": "26613f48ac388fa814e122f333b9a74a56e7cbc7fad22ffc70f628f980d957dc",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.722168",
+    "content": "Called agent theory_agent with task: Execute task: Analyze market trends in renewable energy",
+    "signature": "5db23f13c4f3a60fba085966390062fdb78235c8c36d6743154dacf0ad710384f56c2d741bf517312b1039eb508e34f83fac544d854f62132a89431d2c063aeb1d2573524cc861c76b826d4b26a77db6dcfa2fafb653ba0133bda0cc02cdfad0914c6a3ac9aced11cce1fc07dc03c809999c2f74492a0111a2c072039aac06d57a73a5971eb822ef69a32c4c9d47c786bb9a96260fcf91acb29f61d71ccf1c4e6b9dcc3b7c5bedbedda9808d13a0e679f9f8743933280d3cdd329b8995830b48b52d57e5b4f91b98128c3d11ab07c23bd9c8c3b2648a0dd72ef8efbd94078f1e029ab0c7c7c619937ac3717cd0793cf6e88cd2efb12dcd7d50082ce718a43792"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "theory_agent"
+  }
+}

@@ -1,0 +1,73 @@
+# ----------------------------------------------------------------------------
+#  File:        Cargo.toml
+#  Project:     Celaya Solutions (C-Suite Blockchain)
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Reputation pallet with stake-weighted adaptive incentives
+#  Version:     1.0.0
+#  License:     BSL (SPDX id BUSL)
+#  Last Update: (June 2025)
+# ----------------------------------------------------------------------------
+
+[package]
+name = "pallet-reputation"
+version = "0.1.0"
+description = "Stake-weighted reputation system with adaptive incentives and slashing"
+authors = ["Christopher Celaya <chris@celayasolutions.com>"]
+homepage = "https://celayasolutions.com"
+edition = "2021"
+license = "BUSL-1.1"
+publish = false
+repository = "https://github.com/celayasolutions"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[dependencies]
+codec = { features = ["derive"], workspace = true }
+scale-info = { features = ["derive"], workspace = true }
+
+# Substrate
+frame-benchmarking = { optional = true, workspace = true }
+frame-support = { workspace = true }
+frame-system = { workspace = true }
+sp-std = { workspace = true }
+sp-runtime = { workspace = true }
+
+# Staking and Offences
+sp-staking = { workspace = true }
+
+# Local dependencies
+pallet-agent-registry = { path = "../agent", default-features = false }
+
+[dev-dependencies]
+sp-core = { workspace = true, default-features = true }
+sp-io = { workspace = true, default-features = true }
+sp-runtime = { workspace = true, default-features = true }
+
+[features]
+default = ["std"]
+std = [
+	"codec/std",
+	"frame-benchmarking?/std",
+	"frame-support/std",
+	"frame-system/std",
+	"pallet-agent-registry/std",
+	"scale-info/std",
+	"sp-runtime/std",
+	"sp-std/std",
+	"sp-staking/std",
+]
+
+runtime-benchmarks = [
+	"frame-benchmarking/runtime-benchmarks",
+	"frame-support/runtime-benchmarks",
+	"frame-system/runtime-benchmarks",
+	"pallet-agent-registry/runtime-benchmarks",
+]
+
+try-runtime = [
+	"frame-support/try-runtime",
+	"frame-system/try-runtime",
+	"pallet-agent-registry/try-runtime",
+] 

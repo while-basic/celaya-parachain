@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "39193a42f0caae2e",
+    "content_hash": "39193a42f0caae2edd2f6bcf56e9c31ded90f7b9feab0447232740ea70bce93f",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.720820",
+    "content": "Called agent beacon_agent with task: Execute task: Analyze market trends in renewable energy",
+    "signature": "2cf1715fc68d893be92e23c167bb55344f126494a45adb66aa4acba54eba60caa72c984227f8af10143989ed38cfc0df295040dfa960142e4178e44318cf951dfc23fa370315911286ec8b00956e7394aab9fd9238ad748c6c7ce876f99d1e3ab71c0d141d4b493471d8cbaa1c06ada20c2a89e8f91511cb8cbc775f2dd15b944fe2fd7e7558618e17597eec48c4d92acb2ec4412fa431428ef945fe968e2fd2a965d78d8889bc94eed2a6e430043ab24421100120621b4b74aa03ec80aaf911e6010de4618a05a1a413166982bcb115cd3f71f7b8aa984cd0cd34c5bf80ad1b96ad452cf6e767efff6168a908a343b24e88eb673a7734c60dd2d84c64fcd3f4"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "beacon_agent"
+  }
+}

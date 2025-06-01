@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "d2b04f771d6111ac",
+    "content_hash": "d2b04f771d6111accff5dc626b6aad575feb11564929ec22ad4d16fd05455dc9",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.611812",
+    "content": "Called agent verdict_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "beeeb6d507e7e933a0cd18b9b18927209975c12351d40333c4efdd106bb4c7418cdf1a9109d13390391caba3785d80df90eeddf1da0716b6ab0c69395e573d9a62b810607fdf7c9acb754bb02d9af94c4657ab42754f67163b5a93715f4a15700879acd92b70e32fa77c0e19879b4715077eedcbf908c48dc960b043af733a387fb19838fc0d3f14e7c314a20ed4a3360f0053e0b80b73e5ee6143f5d602675c51d220835f5ba1aee44072b67390c97208da84a71fb834d7bfe76b113051f0ef9b379ac8d53ab02c7fb9174a744bbbf5bb4b059c58c147f2dbad3099645c5e0b0134f02af09e8de0caf90101f813edc505629b1a0978761743ddec29a06442c0"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "verdict_agent"
+  }
+}

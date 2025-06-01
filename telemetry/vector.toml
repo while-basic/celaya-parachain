@@ -1,0 +1,193 @@
+# ----------------------------------------------------------------------------
+#  File:        vector.toml
+#  Project:     Celaya Solutions (C-Suite Blockchain)
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Vector.dev configuration for blockchain telemetry and observability
+#  Version:     1.0.0
+#  License:     BSL (SPDX id BUSL)
+#  Last Update: (June 2025)
+# ----------------------------------------------------------------------------
+
+[api]
+enabled = true
+address = "127.0.0.1:8686"
+
+# Data directory for Vector's state
+data_dir = "/tmp/vector"
+
+# =====================================================
+# SOURCES - Collecting data from various inputs
+# =====================================================
+
+# Substrate node logs
+[sources.substrate_logs]
+type = "file"
+include = ["./target/debug/**/*.log", "./blockchain.log", "./zombienet.log"]
+ignore_older_secs = 86400  # 24 hours
+
+# Substrate WebSocket events (requires custom plugin or webhook)
+[sources.substrate_events]
+type = "http_server"
+address = "127.0.0.1:8687"
+path = "/substrate/events"
+method = ["POST"]
+
+# System metrics
+[sources.system_metrics]
+type = "host_metrics"
+collectors = ["cpu", "memory", "disk", "network", "filesystem"]
+
+# Node metrics via HTTP endpoint
+[sources.node_metrics]
+type = "prometheus_scrape"
+endpoints = ["http://127.0.0.1:9615/metrics"]
+scrape_interval_secs = 10
+
+# =====================================================
+# TRANSFORMS - Processing and enriching data
+# =====================================================
+
+# Parse substrate logs
+[transforms.parse_substrate_logs]
+type = "remap"
+inputs = ["substrate_logs"]
+source = '''
+# Parse timestamp and log level
+if match(.message, r'^\d{4}-\d{2}-\d{2}') {
+  .parsed_timestamp = parse_timestamp!(.message, format: "%Y-%m-%d %H:%M:%S%.3f")
+}
+
+# Extract agent actions and consensus events
+if match(.message, r'AgentActionRegistered|ConsensusLogged|InsightSubmitted') {
+  .event_type = "blockchain_event"
+  .is_consensus = contains(.message, "ConsensusLogged")
+  .is_insight = contains(.message, "InsightSubmitted")
+  .is_agent_action = contains(.message, "AgentActionRegistered")
+  
+  # Extract agent ID if present
+  agent_match = parse_regex(.message, r'agent_id:\s*(\w+)')
+  if agent_match != null {
+    .agent_id = agent_match.captures[0]
+  }
+  
+  # Extract log ID if present
+  log_match = parse_regex(.message, r'log_id:\s*([0-9a-fA-F]+)')
+  if log_match != null {
+    .log_id = log_match.captures[0]
+  }
+}
+
+# Extract performance metrics
+if contains(.message, "Imported") {
+  .event_type = "block_import"
+  # Extract block number and import time
+  block_match = parse_regex(.message, r'#(\d+)')
+  if block_match != null {
+    .block_number = to_int!(block_match.captures[0])
+  }
+}
+
+.source = "substrate_node"
+'''
+
+# Parse substrate events from webhook
+[transforms.parse_substrate_events]
+type = "remap"
+inputs = ["substrate_events"]
+source = '''
+# Assume JSON payload from substrate webhook
+if is_object(.) {
+  .event_type = "substrate_event"
+  .timestamp = now()
+  .source = "substrate_webhook"
+  
+  # Extract consensus metrics
+  if .event_name == "ConsensusLogged" {
+    .consensus_agents_count = length(.agents_involved)
+    .consensus_round_time = .metadata.round_time
+  }
+  
+  # Extract agent metrics  
+  if .event_name == "AgentActionRegistered" {
+    .agent_reputation_delta = .metadata.reputation_delta
+    .action_gas_used = .metadata.gas_used
+  }
+}
+'''
+
+# Add OpenTelemetry trace context
+[transforms.add_otel_context]
+type = "remap"
+inputs = ["parse_substrate_logs", "parse_substrate_events"]
+source = '''
+.trace_id = uuid_v4()
+.span_id = uuid_v4()
+.service_name = "celaya-parachain"
+.service_version = "1.0.0"
+
+# Add custom attributes for Grafana
+.custom_attributes = {
+  "blockchain.network": "celaya-testnet",
+  "blockchain.consensus": "pbft",
+  "blockchain.agent_count": 13
+}
+'''
+
+# =====================================================
+# SINKS - Sending data to observability systems
+# =====================================================
+
+# Send to Grafana Loki for log aggregation
+[sinks.loki]
+type = "loki"
+inputs = ["add_otel_context"]
+endpoint = "http://localhost:3100"
+compression = "gzip"
+
+# Convert to Loki labels
+labels.service = "{{ service_name }}"
+labels.event_type = "{{ event_type }}"
+labels.agent_id = "{{ agent_id }}"
+labels.source = "{{ source }}"
+
+# Send metrics to Prometheus
+[sinks.prometheus]
+type = "prometheus_exporter"
+inputs = ["system_metrics", "node_metrics"]
+address = "127.0.0.1:9598"
+
+# Send traces to Tempo (via OTLP)
+[sinks.tempo]
+type = "http"
+inputs = ["add_otel_context"]
+uri = "http://localhost:4318/v1/traces"
+method = "post"
+compression = "gzip"
+
+[sinks.tempo.headers]
+"Content-Type" = "application/json"
+
+[sinks.tempo.encoding]
+codec = "json"
+
+# Send to console for debugging
+[sinks.console]
+type = "console"
+inputs = ["parse_substrate_logs"]
+target = "stdout"
+
+[sinks.console.encoding]
+codec = "json"
+
+# =====================================================
+# HEALTH CHECKS
+# =====================================================
+
+[sources.vector_metrics]
+type = "internal_metrics"
+
+[sinks.vector_health]
+type = "prometheus_exporter"
+inputs = ["vector_metrics"]
+address = "127.0.0.1:9599" 

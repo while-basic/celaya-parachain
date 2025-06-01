@@ -1,0 +1,8 @@
+aiohttp>=3.8.0
+requests>=2.28.0
+asyncio
+pathlib
+cryptography>=3.4.8
+ipfshttpclient>=0.8.0a2
+faiss-cpu>=1.7.0
+numpy>=1.21.0 

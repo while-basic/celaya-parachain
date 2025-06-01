@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "ac59012b4d17e4dd",
+    "content_hash": "ac59012b4d17e4ddb9f44b65a1f14390f4ba2035bbf00c90d31603b4ab2603c3",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.619949",
+    "content": "Called agent lens_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "92a57b32d810f0a9fc9b9b7bb32b01be8507a7d98fabc7d82c01eebc129df2947ce1a4a1fa8f0d5bd2bfd9cb534cf22d5608cc931ad63821cb2b8b5223b8947ff3c8eb01b37ea4acb2d6c4953daf4befe34f88f6e54057aeac7c9ad165ae61530d86cc5a6366bce79f2c6ec366d401743822de2b562000660bebfc7279450d5fabcd1311c4cf27499a05ed3eac5277043b8f6d3575b58fb53973f94154a17f5c741aece8b2f4a5b28fb2e7f6e742aca9ebd33998bf7148f2a0f09354251654fb952f2aafbbc6822d131c19b3e4c90afd9b8cf3000a11aa20d70c922432612a5585cb7a2dbf3de5eaad71ca80b53f900af1f9f14ae93228a1ea1ba6a1a3c13b72"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "lens_agent"
+  }
+}

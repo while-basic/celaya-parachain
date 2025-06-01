@@ -1,0 +1,14 @@
+{
+  "recall_entry": {
+    "cid": "cb6b2e57339886ae",
+    "content_hash": "cb6b2e57339886aeed9ef82342c27004c1f1861e4cdda70ef0bd89a81cfce7bf",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:28:47.819867",
+    "content": "Dashboard update: {\"type\": \"insight_saved\", \"topic\": \"artificial intelligence\", \"insight_hash\": \"8e3e36c89485e0b962935330e29def12f840acc22df04520ab9a3e4009e9814c\", \"sources\": 1}",
+    "signature": "792d5c2bd77f20be91e564a863b0af3bd31a3d9610730cf933ba6446f203e69f9e95d1272f1c620e83079c639071b227d31143f72760fb56396dcee12a7d4a39b834842b9e148d91e860a11086a38c1deada23e620349ba484a9864ef224135dd7190bd760167c04d95736e9671f0030075f2d6810a46cd082a3bd4734b0519faf46a67158de6d4f70c5e6592ffe18c266c13b32b1808106de9460e371ff7050faa669c06cb25a42f63c388a67243cb6da5503ea08e85c00e0aeeaa9254891c18f0696ec949790d9897a616da45fee1c6d637b553bdb3f69eb8f72d206e8b77358fca4b6076fb0bf02bb6a3f4dcb81ad36b270975e02756a3795e3b1be997add"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "dashboard_stream"
+  }
+}

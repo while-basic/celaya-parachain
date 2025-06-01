@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "96ced6f038cbd721",
+    "content_hash": "96ced6f038cbd721d90c9c300b941e554c21df1ece3b62f919db78353efe60b6",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.462317",
+    "content": "Called agent theory_agent with task: Validate insights and check for bias in topic: quantum computing applications in cybersecurity",
+    "signature": "27d25c8810783670403e2a51dcc2b0b43cbd66df5646c3400bd58a1a557b9c7043ceb696f1a3646bc0539d64181ea464ba0268c7240ede44b26ac2521717beffdf0fd4521646bcd88e24ca655e54925cb43572ccd180d697da3dc03bc53d1150c2bc2e4f24488dc1917434725f8f67c2c3b34c39bc0c75adb1cc20d31622a0f8fd2538ee849326d131cdf433246687f02d3cccce59160a7308be740eeabace4a2b44df980fcbed8ebf159fe6048bfaa946a598984cd65ab9ff88ae32dd402333ee9fc5f57368b30c76a47aafc1c65f9aade823a570572c0829ddc529ce93e841c24263f8f86c8f645f64e77b3122c9aae50c0ce4a27b028ef71cbd7530f1f5e8"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "theory_agent"
+  }
+}

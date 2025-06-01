@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "e808c998333ac2c8",
+    "content_hash": "e808c998333ac2c82deb56e1fddd4dd32a6712e4cef22e44293cb33f4cc9b9bf",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.622205",
+    "content": "Called agent arc_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "6440d3a1b4b5864aa193e2ca6fe04713456287cf0b1ddc8f43fbfef668ef2b8536b51ad1a17ab4f4a5e7aafe8c193f699f0fe573f41062cfcfc85d1e979b591679eb8acaab2895f16e18ce83cac97eca1bb2b85ab9d4aa39c32cfe03bc463b6280b8e2d559a0d5d89ef2e09b6952f93d96c5d8fba6dc34a7a26dd6928e3fa2f55733a1b9790334eff188d405c8c7f6aac0559898a61be477cb545574be5e4dad8dadec97dade330aa29fab3a63f56b30adc4b8dd1a9405ea8034125a4461fee21c775af9f7a1214bd5c418a8ba8fe1d15b6afb10a6b4c7fbf26f7e4e6da978a75f1d287cd702cadf12832231d0fc7f67eb94e06b42713e8962e8dd7f1d6b5fe1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "arc_agent"
+  }
+}

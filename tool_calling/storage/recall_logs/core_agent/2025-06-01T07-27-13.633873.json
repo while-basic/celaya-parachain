@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "a2cac0d4462cadbe",
+    "content_hash": "a2cac0d4462cadbe9a3a07d02038a529be866e8decfee99f2593d1fd727c9654",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.633873",
+    "content": "Synthesis completed for: artificial intelligence in finance. Reliability: 0.86",
+    "signature": "1a961796e6d60979e919196a6fc3bebf1700738161b64dd7bb8563a836870066365d478e0db0ebeefbc1a40d52670363caec2f8412610182ebcd141dad85de384bf1583c1ea2b95f9157e4e432850281d4a2d65248934ddd176593eba1a59cd8b03212d10a6e95457a02915552823284a54f9d20dcb2963a6f3b5c5a62b2638a58402cde5bfac1ccfc301b8b6dc08fe48ecdb40f0863c0b2860f519e8a975eb3c46f471bb165f9f9a5c1177455ff684e1fd6454772b8f662eb1d04de8fc856e766bd5c8105f48eeefb2c838f2bd266355305111870c41851774487230d0ec21601edc72715263eb7740c29b21c790952ad7d39a210d2287678db3a6fd693cf4d"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "synthesis_complete",
+    "synthesis_id": "d85799dbe9a43286",
+    "reliability": 0.8645562130177514
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "699d492aa8c157c0",
+    "content_hash": "699d492aa8c157c043f6655cc00e50b936f60928b1401b62bfc01c6fab9fc515",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:48.064763",
+    "content": "Processing completed for: AI applications in sustainable energy. Confidence: 0.83",
+    "signature": "8dc236bea9f8b3fd40a5ac05d2f6d6fa49eff2aa2d148cfa45eb996711d2a1c73a8a1241ab385decc139cf67d4819ef399a22c510cd58e3a50250d3d886e42739227ad3dfc20d6e1e815cde18257b9babce9fa372224a15cbb4b10789d3ded4f4ce6cfdc9f8f48e086e10481a4c2e654c72f2af0993eb78abd8c5cb21c255951530eb1e568968bb6714cdf57ba58f1c4584ed2dcff9e9285e5920c095420cf681e9fa77711909e95599bcfcb4dc337bc93c5d071a14bdc684ecaf604ccde488d3fbd186424a8efc7ac38b58fd57f9ee6251366536b7baef66f5f67240f72ae0713fb6b113155ac81c236657d2310e8f86144cebdf53792398e37a3ebf8f745bd"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "processing_complete",
+    "task_id": "656e0ccaadc3cdef",
+    "confidence": 0.832
+  }
+}

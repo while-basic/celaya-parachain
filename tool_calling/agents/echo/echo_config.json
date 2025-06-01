@@ -1,0 +1,55 @@
+{
+  "audit_threshold": 0.7,
+  "relay_timeout": 30,
+  "compliance_rules": [
+    "source_verification",
+    "content_integrity",
+    "authorization_check",
+    "privacy_protection",
+    "data_classification",
+    "retention_policy"
+  ],
+  "audit_settings": {
+    "confidence_threshold": 0.7,
+    "risk_tolerance": "medium",
+    "auto_approve_threshold": 0.9,
+    "manual_review_threshold": 0.5
+  },
+  "relay_settings": {
+    "default_method": "broadcast",
+    "default_priority": "medium",
+    "max_retry_attempts": 3,
+    "retry_delay_seconds": 5,
+    "emergency_timeout": 10
+  },
+  "monitoring_settings": {
+    "max_monitored_agents": 10,
+    "monitoring_interval_seconds": 30,
+    "alert_threshold": 0.8,
+    "performance_tracking": true
+  },
+  "compliance_settings": {
+    "strict_mode": false,
+    "auto_remediation": true,
+    "compliance_threshold": 0.9,
+    "report_generation": true
+  },
+  "security_settings": {
+    "signature_required": true,
+    "encryption_enabled": true,
+    "access_logging": true,
+    "audit_trail_retention_days": 365
+  },
+  "performance_settings": {
+    "max_concurrent_audits": 5,
+    "max_concurrent_relays": 10,
+    "cache_enabled": true,
+    "cache_ttl_seconds": 300
+  },
+  "logging_settings": {
+    "log_level": "INFO",
+    "log_to_blockchain": true,
+    "log_to_file": true,
+    "log_file_path": "echo_audit.log"
+  }
+} 

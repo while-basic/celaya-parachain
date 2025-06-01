@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "c56cdb582248e042",
+    "content_hash": "c56cdb582248e042404d607240c85ffea717693a1edd35c3b7900caed6161d1c",
+    "signer": "theory_agent",
+    "timestamp": "2025-06-01T07:28:47.899296",
+    "content": "Claim check completed: disputed (confidence: 0.5)",
+    "signature": "b782a461eb788ddb2106f00649c0db0dc2a1c5766161a13b1b6aac288915c19c9ad5875501efa33004132b6e4cb5f210e1f9ad250a826aba74cc4dc0048cb5f3d42534f3812db7461295428586366bf2e67a3bbb152deaea092b18bee17f92004ddbedbe4d77309a016ed1a18028c1c25b15feac6f7ee5c0e01eba4264683c9d09bb8a943fe2251ae7fd2b8fa3560edc458d6bec720e4be86f67af2b8d70e11836e7f997519f1963b06ff342e1c4a8b24b39f97406d4656add038c515cbf283cf2fb9a373b454962b859c2663f25b5b192f2ed55ea9c5ee2b94f93f965d003f78c39a4e81626673c765b0e5f2b1479283a54f50ef2d568596ea85a536a53bd3e"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "claim_check_complete",
+    "status": "disputed",
+    "confidence": 0.5
+  }
+}

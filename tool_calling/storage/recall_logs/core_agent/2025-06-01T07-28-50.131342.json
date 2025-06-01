@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "73ad8915ac6729cd",
+    "content_hash": "73ad8915ac6729cd5926efc3ab881909924355408cfdcbbae7d7118ed605516d",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:50.131342",
+    "content": "Core agent shutting down gracefully",
+    "signature": "9f5322f47afa6bea8331a6c5f478b78269d077323108ebbc0f8a2094e3ffe8264fb6dddb9fb33d14617e5b874bae83af827127aab90798811f5a2a4598009ed9fc8ee9907394f930a4183fa61958c43107921e7d16670a89911cd774b13cbdddeb0f312c3ae825aa71aba3586df737f7edd12d91efb67ac6099fe927f1492295110b055d685820b0fa1c160d9c3c04f5ce99f9ad97cde1294d39745b4446fac0e7b74031a25fb8a688ddf6cf7bc7187a732079e6ece7a79c25ae6380cfb225f28f939727117414722ba6a86f7c136581b5646cc203786bb5b9c5a9afa7ce764003ea77a217eca1338d17d5f06bddadda738933ed4d0f197f2a7fb05f3fffca11"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "core_shutdown",
+    "active_tasks": 0
+  }
+}

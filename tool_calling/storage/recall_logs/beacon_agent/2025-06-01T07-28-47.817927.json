@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "8e3e36c89485e0b9",
+    "content_hash": "8e3e36c89485e0b962935330e29def12f840acc22df04520ab9a3e4009e9814c",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:28:47.817927",
+    "content": "Topic: artificial intelligence\nSummary: ## Knowledge Summary: artificial intelligence\n\n\n**Wikipedia Overview:** Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals....",
+    "signature": "3444c41bfeebd1cd25de53a4992763e444efcaf271640ff9a5e99587b3cc56015083fd4ebff4ca6a597e0fca4616790d329e75eddef40b292747f48130aa6f64302c3e6536b4f3357578621b372d32f0c0e999bae390c16f838e1fdf863a0a698bc6e70a479e5586bf9af678be5432c93dfe813cf2083609aa29616886ba2e279b900a7a26abf1a896d286a6a7d9794cead418b49146a77aa6e339bd3c623c9435a0b7713e8cc009d9db1181a38193918ac3d49e596c9263ece0d0f85cc2f9892f827551d38a04a08597d06cb178c811ba7779263bfb17b9a410252a1888127c13651ec52bc8cb0fb1e075a4103dc12b13ed55872d41ddc785cc1639ff680aac"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "signed_output",
+    "signature": "827c3c6415bf0454cfa5a699ff0524a3f4d8363b670051486dfa2397b365aacd6463f5309e7bb32b7f92920f2abf4d66bf34f675b4fe15d5b2ffa6e31fe70324a549bb25ee95968c77ee5083c7e59774d6974cddcecd9929a137a6ac2d365dc9431b40cfe90cf7e6754a28c8e527ba28777facb35f09880a9d9ca365bab4306e893b1cb5ab85d4510fe58eb510df7fc3642040fe0d833fadc159bf5d3e8fe455b0bd94a02c0c3d8ef47cd7958013a8b6574d8de6987543d1de4e86829f166e3c8f7668eea45b78c72bb3ed24341535db28c026b318bc63c019376c824bf8d88bf88eaa50177be2a511aa1e84d9e20f4cc8a08def202f99aa0fc28b9115a7fa1d"
+  }
+}

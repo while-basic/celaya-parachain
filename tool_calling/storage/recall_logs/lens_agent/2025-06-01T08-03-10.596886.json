@@ -1,0 +1,18 @@
+{
+  "recall_entry": {
+    "cid": "12b99974fa2f88c5",
+    "content_hash": "12b99974fa2f88c58782499ee0e9c6a14f3150c025b5c313d34838186e5237e3",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:03:10.596886",
+    "content": "Visual analysis report generated for 1h period",
+    "signature": "3607e9995b73be164837351238316f1462dbec451afadb255730346237176c324d1a0d04f5ee02544d69a3b704557259751297b62946056b543a2e4f7414528ad70081a40bdba8e0e9cc1de6a5038913c1595810e5c67a01b5ed356f26bbdeb0ed322d15d4c25849fcca2ada5531827ad88e110f7c0ee8aba77eb1c80067bb24ba6df782c829a71aa93427df5dfe4bb0c6dd11e6dbf87153bf3f0d012803ea140584211ab9143b2f8a6379ca81fcb0178eed4300a73126f95aa69864dde7984867e6b7556ec02d6de400c9ca9a57c4b87bfb9eae0be9c11b19baf3355f8558e422890225b848170e3245422d41a88bb3db047a7eb5ed45cdbee0c6139da56e2f"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "visual_report",
+    "report_id": "visual_report_1748764990",
+    "time_period_hours": 1,
+    "total_analyses": 1,
+    "total_ocr": 1
+  }
+}

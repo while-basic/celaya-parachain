@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "4fea7fc27560c122",
+    "content_hash": "4fea7fc27560c122744960a0871cde305e3c6223e3c1b8fac0d10dd624f40160",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:00:18.419842",
+    "content": "RISK_MEDIUM: Image comparison failed: 'LensAgentEnhanced' object has no attribute '_extract_image_features'",
+    "signature": "3799a8f6736bdbc0dff9515edd399f1ca2d05f9eaa46369e449d52ebaca42a43560d0af1b6532e8276923889c7e1a538a46a06ca0ff56f7530f6a1f2443f265e27e3a363a17be758301e92c0aedbc6170623f53dff44ff9cc767577a4384df9decb56cc100635c5a3dfacf7292019c9e7812b573b2a813ff1b746132c2b64157942f39bb5449f5e7453b1cd1f4b10d1a67bbd72a417879346035c40a76b488349ccdd7c4a8c20e470ae460dc32a2c71fb132903fa55e318403ab4a27b416253c4c3512058d1f484a552614d871ae81abf13e544188c5b5dbb0720b2fbf44d93765a08426d7814968335af6cd9fa0645f1ef13c0cb8e9c6f33da56f655a14d6ea"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "medium"
+  }
+}

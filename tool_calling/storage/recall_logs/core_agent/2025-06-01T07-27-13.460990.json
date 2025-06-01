@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "1e55ae9c78f982a0",
+    "content_hash": "1e55ae9c78f982a01fb392e725cdb880c30ce175f29a5886ed320bc2b25c4aac",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.460990",
+    "content": "Called agent beacon_agent with task: Search for comprehensive knowledge on: quantum computing applications in cybersecurity",
+    "signature": "7a406573451345e335a404b2a19f4fae4fc126cf84d9d6166bb611bc2eb85d61739bb1b0c34e2b6d8970c238d4396b8424f0b0786940923b3f8a38b3fc137f679b121346c135d918ad3a86b8ecefe1ef27a98ecb97e3fd893f31c6375759cbf9020e100879bb2af9d70d32690946e25bc61400b70d3ed07854d6af72aa0cb0834d258d2bd5695396c93a38bfd7d9b0b907fb2662a347879a8a54461b160de5dfc974728c35cd3b0bd98d251e37cc0c9658ab2f6b33305e74b6e55dc3702d008b8479507bd2cc580f3df110c1543079eb33636cbbc1bf1efc061febad3b2fc1dfe036149fa7b8942ead305c0c6aa9b766728f926097082adca53d2708cdae04e3"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "beacon_agent"
+  }
+}

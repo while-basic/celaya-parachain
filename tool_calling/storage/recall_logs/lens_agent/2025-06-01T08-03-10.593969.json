@@ -1,0 +1,23 @@
+{
+  "recall_entry": {
+    "cid": "c09519351aebff16",
+    "content_hash": "c09519351aebff1647eaf1b0ec1fdd9d04d607c70c2144ee04967afae6ff1037",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:03:10.593969",
+    "content": "Image comparison completed: similarity",
+    "signature": "04224f8263622e457d611a27b07e8cd391c1ef64e30351244536a6d580bb8a5c22f064d04945b6f965a60de1e0f58763f761a24425d0b85f2a7eaeb43a06dc433d1783db76c935ce2d64986305b0edcd3035ab45338be1897f2746dd8d3ad62f14db98ac26693e86c7f5c6ba38c402e6c2c3f2f6dcb7752cc02df0e23d1bbbc456aab7b8f035df4e518685c172b64ce8ddf4b5658ec19a9b652c506d55e5247a98a9d4709b10c9fae811fd638d596ad1b16fa811562f4d87326bd23ee83aa3e009ed55383e998115a270ad44066ffc5b6914b96b36c07af88c87d856d296a90faff4302977be2a13b6d610012c0b3e9353cb6092cee3c6850cebe605ed560ce8"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "image_comparison",
+    "comparison_id": "compare_1748764990_33d413ad",
+    "image1_hash": "8160a182f0b57a149e431d6534c88bf4bf3ccbd71d8ed20a3586e3e2d5bea3f3",
+    "image2_hash": "79e03252c105ff835661b45547310cd3d4fc309a2979d6fb9d5b4a07f8b4c346",
+    "comparison_type": "similarity",
+    "results_summary": {
+      "comparison_type": "similarity",
+      "overall_similarity": 1.0,
+      "recommendation": "Images are very similar"
+    }
+  }
+}

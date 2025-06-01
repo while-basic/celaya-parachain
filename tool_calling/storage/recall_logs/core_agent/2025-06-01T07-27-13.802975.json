@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "c7959bb7f7add80e",
+    "content_hash": "c7959bb7f7add80e020756f92fd33a3c8c4e8cce5e86a93eb9715238007ad05b",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.802975",
+    "content": "Core agent test completed successfully",
+    "signature": "85d3d9ec90f898d456cc55c1c3f6ef5f46e6248c49c50a756a822fd6bafce95538f13fb37a560e6c023d4a680124445e8c5d44ecd6f8cf90dce9a3202f6304d31472a5724275aaff301c63923cbd3f4b1f5063618809c97d0242c9f2385ff36abb37d1ef94fcf382055d71d35d37ecd2a303efff45258c2f83718cb461a37d20cd7be3e5fbc33e37462abf1577bb3a5164bd8cfc0582817389395bab7da69476156f5c12b72420e75ec957adc612397fd6acb1158be6ffab836395d95d8895138d65057d79363cee3e655791ccba3d6c2bed3d783b3759798cdaccd99cf367e2dbb4289a8e25efde79a7e9ea62db2beee645a9c20642e2e4e9fd4585b40cb9d5"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "test_completion",
+    "agent": "core_agent"
+  }
+}

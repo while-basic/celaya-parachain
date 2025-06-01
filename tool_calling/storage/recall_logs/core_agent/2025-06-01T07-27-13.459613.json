@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "d14ffb3238009940",
+    "content_hash": "d14ffb3238009940cbf88d8ea0d1aa5a4912b36293aafbb0a08c65ffc80dda3e",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.459613",
+    "content": "Starting insight processing for: quantum computing applications in cybersecurity",
+    "signature": "4a36bf6d886965caa85e3fa648ca84a5713955e05f0e183312da6045ee48404723df321609b307c02c3027d2db6e8a361e30fa8f7e9d72632f5bd81668c8e2008270eb25fa7796375378fd27c499f1ae95ee42a88bdafb4cccfe3759bb27d53df2d4636d2268e56d8e89d0b0608cc556188a1256a8ca9e39fdbb245e47de7e08f20e2333e6aa6cc16c2fc15ac222af46f50807f3ba2a5d61ad34e28b24a30bd73c4c85599e2305a6395a9cb8791f522f4a125eaf6d9fe1e3ae6dcff93d6ddba56ba2c7c23b4f7ab2319970de43dec34ac4a33f9f9013322479134b6c12f8ae30e346e9a73790c15c0c18544e9e853c395a6913e394201c589623872b01fb3ad8"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "processing_start",
+    "topic": "quantum computing applications in cybersecurity",
+    "task_id": "3eec5133f071ba4a",
+    "processing_type": "comprehensive"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "recall_entry": {
+    "cid": "aee7bb4908391a13",
+    "content_hash": "aee7bb4908391a1324fe96c8fe8ca97988227f3827c6e175d1ab0f2a5d85bdc4",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:28:47.978171",
+    "content": "Asked user: Is this test working correctly?",
+    "signature": "4b425e7a45e023f0da41ccb785e86429dc85bb5ee7785e33209c59e69c81d2851e75ba85b2452332300f59d78ddd456c149a7f233e04d7429785ad357ca8f02f671db976b9c3b1cadc73830e9a0e5eba20c4cb01a0e987a07822f187b7e197bab728d0e0ab6554a239dc581930671e167d7b0ba5c353d87d504140a8128fcacf94254bad5a932beabaa9845605d7ff7d14eda014dbb98b0578af5ec2ce4c4ff7e63a6fd9427cd765b6c12db9a26780175bfa538248a5e9e1df36bbd0f22635584cdff9ca24c8c80100d98f0b669009e7404c35078a4c02a50b9fb01451dc4cafdcf694187cb8f17d19c258b180773a400b097f122895ba7c76bdad6491ff05bb"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "user_question"
+  }
+}

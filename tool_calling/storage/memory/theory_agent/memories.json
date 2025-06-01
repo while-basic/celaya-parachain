@@ -1,0 +1,189 @@
+{
+  "56b9375df45526afb0802b255ac25d4e": {
+    "key": "56b9375df45526afb0802b255ac25d4e",
+    "content": "Claim check: Artificial intelligence can solve all problems instantly.",
+    "metadata": {
+      "type": "fact_check_result",
+      "check_id": "2de71c36b419b4fe",
+      "result": {
+        "claim": "Artificial intelligence can solve all problems instantly.",
+        "verification_status": "disputed",
+        "confidence_score": 0.5,
+        "supporting_sources": [],
+        "contradicting_sources": [],
+        "reasoning": "Claim: 'Artificial intelligence can solve all problems instantly....' if len(claim) > 100 else claim. Status: DISPUTED. Conflicting information found across sources",
+        "checked_at": "2025-06-01T07:16:08.917047"
+      }
+    },
+    "timestamp": "2025-06-01T07:16:08.917066",
+    "vector": null
+  },
+  "022a96058fa360690ccf195dc861dcc5": {
+    "key": "022a96058fa360690ccf195dc861dcc5",
+    "content": "Bias analysis: 0.125",
+    "metadata": {
+      "type": "bias_analysis_result",
+      "analysis_id": "fa319659dc34c737",
+      "result": {
+        "overall_bias_score": 0.125,
+        "bias_level": "moderate",
+        "category_scores": {
+          "emotional_language": {
+            "found": [
+              "incredible"
+            ],
+            "count": 1,
+            "score": 0.125
+          },
+          "absolute_terms": {
+            "found": [
+              "every",
+              "completely"
+            ],
+            "count": 2,
+            "score": 0.2
+          },
+          "conspiracy_terms": {
+            "found": [],
+            "count": 0,
+            "score": 0.0
+          }
+        },
+        "total_indicators_found": 3,
+        "analysis_timestamp": "2025-06-01T07:16:08.919987",
+        "analysis_id": "fa319659dc34c737",
+        "analyzed_at": "2025-06-01T07:16:08.919991"
+      }
+    },
+    "timestamp": "2025-06-01T07:16:08.919996",
+    "vector": null
+  },
+  "bb8372c3d53074270bd1dca6104ed277": {
+    "key": "bb8372c3d53074270bd1dca6104ed277",
+    "content": "Claim check: Artificial intelligence can solve all problems instantly.",
+    "metadata": {
+      "type": "fact_check_result",
+      "check_id": "2de71c36b419b4fe",
+      "result": {
+        "claim": "Artificial intelligence can solve all problems instantly.",
+        "verification_status": "disputed",
+        "confidence_score": 0.5,
+        "supporting_sources": [],
+        "contradicting_sources": [],
+        "reasoning": "Claim: 'Artificial intelligence can solve all problems instantly....' if len(claim) > 100 else claim. Status: DISPUTED. Conflicting information found across sources",
+        "checked_at": "2025-06-01T07:22:04.171265"
+      }
+    },
+    "timestamp": "2025-06-01T07:22:04.171278",
+    "vector": null
+  },
+  "b9277943dbf723cb53716c747b43db6a": {
+    "key": "b9277943dbf723cb53716c747b43db6a",
+    "content": "Bias analysis: 0.125",
+    "metadata": {
+      "type": "bias_analysis_result",
+      "analysis_id": "fa319659dc34c737",
+      "result": {
+        "overall_bias_score": 0.125,
+        "bias_level": "moderate",
+        "category_scores": {
+          "emotional_language": {
+            "found": [
+              "incredible"
+            ],
+            "count": 1,
+            "score": 0.125
+          },
+          "absolute_terms": {
+            "found": [
+              "every",
+              "completely"
+            ],
+            "count": 2,
+            "score": 0.2
+          },
+          "conspiracy_terms": {
+            "found": [],
+            "count": 0,
+            "score": 0.0
+          }
+        },
+        "total_indicators_found": 3,
+        "analysis_timestamp": "2025-06-01T07:22:04.174950",
+        "analysis_id": "fa319659dc34c737",
+        "analyzed_at": "2025-06-01T07:22:04.174958"
+      }
+    },
+    "timestamp": "2025-06-01T07:22:04.174964",
+    "vector": null
+  },
+  "e819e1cf7293e20cf1f4f1c5c859cfa9": {
+    "key": "e819e1cf7293e20cf1f4f1c5c859cfa9",
+    "content": "Claim check: Artificial intelligence can solve all problems instantly.",
+    "metadata": {
+      "type": "fact_check_result",
+      "check_id": "2de71c36b419b4fe",
+      "result": {
+        "claim": "Artificial intelligence can solve all problems instantly.",
+        "verification_status": "disputed",
+        "confidence_score": 0.5,
+        "supporting_sources": [],
+        "contradicting_sources": [],
+        "reasoning": "Claim: 'Artificial intelligence can solve all problems instantly....' if len(claim) > 100 else claim. Status: DISPUTED. Conflicting information found across sources",
+        "checked_at": "2025-06-01T07:28:47.898408"
+      }
+    },
+    "timestamp": "2025-06-01T07:28:47.898420",
+    "vector": null
+  },
+  "aa1955b2b83837bbd535e33c104389ed": {
+    "key": "aa1955b2b83837bbd535e33c104389ed",
+    "content": "Bias analysis: 0.125",
+    "metadata": {
+      "type": "bias_analysis_result",
+      "analysis_id": "fa319659dc34c737",
+      "result": {
+        "overall_bias_score": 0.125,
+        "bias_level": "moderate",
+        "category_scores": {
+          "emotional_language": {
+            "found": [
+              "incredible"
+            ],
+            "count": 1,
+            "score": 0.125
+          },
+          "absolute_terms": {
+            "found": [
+              "every",
+              "completely"
+            ],
+            "count": 2,
+            "score": 0.2
+          },
+          "conspiracy_terms": {
+            "found": [],
+            "count": 0,
+            "score": 0.0
+          }
+        },
+        "total_indicators_found": 3,
+        "analysis_timestamp": "2025-06-01T07:28:47.901889",
+        "analysis_id": "fa319659dc34c737",
+        "analyzed_at": "2025-06-01T07:28:47.901893"
+      }
+    },
+    "timestamp": "2025-06-01T07:28:47.901896",
+    "vector": null
+  },
+  "009257b5663f27ea8247f037f82944de": {
+    "key": "009257b5663f27ea8247f037f82944de",
+    "content": "Validation request: blockchain in healthcare data management",
+    "metadata": {
+      "type": "validation_request",
+      "validation_id": "b14b530de274cd91"
+    },
+    "timestamp": "2025-06-01T07:28:50.117987",
+    "vector": null
+  }
+}

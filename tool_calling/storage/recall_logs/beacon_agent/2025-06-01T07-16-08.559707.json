@@ -1,0 +1,18 @@
+{
+  "recall_entry": {
+    "cid": "a6c0372997c4425c",
+    "content_hash": "a6c0372997c4425c32919b434737bca6eccac599f648043a6dc1a94efea0737c",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:16:08.559707",
+    "content": "Starting knowledge search for: artificial intelligence",
+    "signature": "42fb7d63ea849439ff575a53b8da2d493b237be7101f8cbb1a8e56c49749004292aef3f27b153677f425e8d02dc80af3638ecc71c38da42b54e296dcfc6f2bfee46afeadbfb46dada5247f3820df5e708560c96ca01b963d140d769769d401ac1ce1176381401fd7446b5ed41ec91c99ea91ebf16ba567991cdf69b578e40ce6458552ad426bb4188945ba1d524576e0c8d04bb56c1dfda0ead3d2cfda5e826d1215cbedc0a19a139575cb51ced028b4b0b6eafdda1717acd4fa8f569ac791c8e7b0698f6055484b30c681616aa9c050e17a4812aae557b736a4000d2ff1f6a678cf0b6aa735793b3e8a4619b717d13ea9eab2134d4f5db4e7ee90df00f8a808"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "knowledge_search",
+    "topic": "artificial intelligence",
+    "sources": [
+      "wikipedia"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "6392acc61ac9d8f6",
+    "content_hash": "6392acc61ac9d8f6d45e44d00603fa0b9017ca786dd93568b3d6c79fcc109548",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.600869",
+    "content": "Called agent beacon_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "0ddbf7cba7fa08197b140df37ffef4a6db47f48eb4f00cba1cd8d1da3efc04020ce3cc06f404bed64ef756663da18cc49440bcaa5a19d41d2af59bf782cec000af6a4ce9de7fb3808332fe340b4e3326912e014a209c2e217866a0539f1d40972ae299028e800733fc3ef0ca16f89aa5d4df0ae9c6c23123ed021db6f51369f0a009be27f858e7f75f2f6f92edf9e7093f75a88a4f28dd0d8c62478246bf07389f7e473cf3102eb07bbf17019568c4ebf283a4dee0eaf75e9f6f972ba37d32663720b773206a166125e6018478507c7b23758bbf688dbc45afcdc94ab9d0cb11175e2cd86cec99518b25c8d8565368edbdcbafcf26ca8585a47c62bff4fbf3a1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "beacon_agent"
+  }
+}

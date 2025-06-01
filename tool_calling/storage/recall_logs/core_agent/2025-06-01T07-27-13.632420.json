@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "f934a910c1f9b0c1",
+    "content_hash": "f934a910c1f9b0c16bc9b2cd95978d13716df7d15162c64b61401a1578d18c53",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.632420",
+    "content": "Synthesized insights for artificial intelligence in finance: beacon_agent: AI applications in finance show promising ROI potential... | theory_agent: AI in finance requires careful regulatory compliance...",
+    "signature": "8c6c5d3fc79d7cd231b120a33439c3f7e55a5ad8372f962d11f1364815e176a37850468cf41b4c03db7e5b5b8ca6b38f556251fd207a0b7da9413e3e54d5f96d0263c8afc6cf5cabe142c467cabdc12b766079df19fc8760900c572cc083bc2e23616c954d038259ffe9437554d68aa379a17398e19e0d1ce82eaabc5d8d0f8eb0980c6f2df8662aa32a594160cb69599dc58e52d82fd234ad65d1052bfc93b8d72026a695caf0bc9b0c3d6d1a96f977e3bd08aed077f5234d4278c2ddaa943f72749b8edf2154477b4d7d5661455ad69ec2fbb24d10c505f91389996e90cc08fc54fca8a3f810cc5492d619fdef062af1a79e1915a75528c6c08d3536e15d1c"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "signed_output",
+    "signature": "82c30248d5af60de1df2e5fd0d6d2b728a7bc9cef3e1b766ec72436bbaa4db43e99875c5a41329a527138906a263d98671fa66d355f57b69637d1f5f1dfdce39de0755c6d6d083ac030de684750de3acd8f36657361c78d2533ee9c26db5c7464e02ae1e032d77db5a8a34a214023a137251ecf36e6f0f9bff8fe94b133a254ce4882be53173e84ec028d441d7d6cc9ec5fc864ac3bdc5682877fcf2165328b51b5dace14e68880b09ed571f631ed7c31e59341c06695f0ce90c9401e995ba75dfc8fe8b9cf02480b58eee900f86084ed7f0e61d6c6b4c8fa96526b189142d3ddb89c384c3cfe7227147bfdac10a5c2e9a4aef0cf7d14dd321b59bb233644d80"
+  }
+}

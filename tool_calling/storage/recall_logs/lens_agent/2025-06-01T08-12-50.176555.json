@@ -1,0 +1,23 @@
+{
+  "recall_entry": {
+    "cid": "2f6db8ae623d9587",
+    "content_hash": "2f6db8ae623d95877d567b9ef0415fd99e5c373087144d12b939c636600ab4f8",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:12:50.176555",
+    "content": "OCR extraction completed: 69 characters",
+    "signature": "0477927d030d9b83bcca16e5ad7eefd3c2450046ad9c16e338698875f6d5c3444e0eedb1d3d03a19dd77846d336017a7a37f9b3f864ae8c04e9ff6dda3580e8133eb70e31db6b2c09d2a128342fa8057d45a3f1ccd7f04438669472b0b102ac35956453f4661e2bdc0a850f2b8b03bb726b264602db6edd900a949ceecf819bbe1d988225eff76a161f4693fc97f7fec854117d0015682a4132e187b9923bfd6b89c8f6586a081ca294b72b918cc35b84c9bc3805f1e995b90eb3e0f6312a0b46753cb34e68ccac637c29a96b17a6a5121dc10ce5d5e0798f1b6db66e80c8a82745176ab034ab35ee9487d3d238b937d0957b2959b736720952b01dcdbadcb93"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "ocr_extraction",
+    "ocr_id": "ocr_1748765570_8160a182",
+    "image_hash": "8160a182f0b57a149e431d6534c88bf4bf3ccbd71d8ed20a3586e3e2d5bea3f3",
+    "language": "en",
+    "text_length": 69,
+    "pattern_matches": 0,
+    "preprocessing": [
+      "deskew",
+      "denoise"
+    ]
+  }
+}

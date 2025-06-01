@@ -1,0 +1,20 @@
+{
+  "recall_entry": {
+    "cid": "1d3480a718586457",
+    "content_hash": "1d3480a718586457935a5f806447dc2d4fde9ab6a0f13982fd4d387762246874",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:42.460108",
+    "content": "Consensus completed: consensus_1748763702 - failed_quorum",
+    "signature": "06bda91a215181f81e75e1429f097b9dad9caabb7670cb38eef6d6396e72612603a86bf96ee772fd40663518bbcc6edb3039082f64528e1f70a9bb64c0f55dec7db38115ed2d0828c632d52fc0c4b3587450bd958c319799132d7184dd6315dd9b4b990f845e3c520390c9f2bd7f67ab8ff31d458d0661a47ed9b65bde2bc8e41373d9827e394d70802304d4197aeb2935c3c6cd107c9f94562d0eb44bfc1000a6f940870bbe1f770656b8716269e6b858ef936635af95867e914aaabdc70f6ee3674f414a5fdc643e76c427b50b07ab2bde04bdfd338c1bc161162653a5f4006f43615caca9136cda6e68fb0bbc41fd5b986b831245f690e5d14eb1f876f0ea"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "consensus_complete",
+    "consensus_id": "consensus_1748763702",
+    "topic": "llms in the blockchain",
+    "result": "failed_quorum",
+    "votes_for": 0,
+    "votes_against": 0,
+    "event_id": "event_1748763702"
+  }
+}

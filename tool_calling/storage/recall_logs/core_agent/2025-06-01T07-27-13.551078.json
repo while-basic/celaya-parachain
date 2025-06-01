@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "dcadb4bb7d2b553d",
+    "content_hash": "dcadb4bb7d2b553d972a4954875d357d4b461a6ba0bddd99bf3101c7d209d701",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.551078",
+    "content": "Consensus completed for: blockchain adoption in supply chain. Type: split, Score: 0.81",
+    "signature": "8f199695f740de107d172679c982485cbcc9646d322d7f61f0a7af33be362d80254c3da8e30e2881b7a00eaa4919ea0f80f1c6915f1b4404e570f75bf199a973064ccaaa07d04dd90a6941b80cb791223a18dc4d8eb0ea24ef12035d691495e7ba32f8ba1504ae54fc907808db6ee9f3b6bc23ad2dd5ee4fb3537e4282c26891febaff39800b4843eade0256a0521e3d4b952f4a2751b48536e7b54d12115809cddaa32b97e0f5dd3d9065a1a279cb0c04f825fae53de2b665be4c6b5c78c88ae68dc026995a724bb654878ae08d69c60b2bce76321d55424698e961866857de68714a0514735f68935dbb4988d52d24bd72fdf414f50988cb6485441facd0d9"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "consensus_complete",
+    "consensus_id": "1ab1e2f2f569fc18",
+    "score": 0.8125
+  }
+}

@@ -1,0 +1,43 @@
+[package]
+name = "pallet-recall"
+version = "0.1.0"
+description = "Recall pallet for storing consensus records and insight logs"
+authors = ["Christopher Celaya <chris@celayasolutions.com>"]
+homepage = "https://celayasolutions.com"
+edition = "2021"
+license = "BSL"
+publish = false
+repository = "https://github.com/celayasolutions/c-suite-blockchain"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[dependencies]
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = [
+	"derive",
+] }
+scale-info = { version = "2.0.0", default-features = false, features = ["derive"] }
+frame-benchmarking = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5", default-features = false, optional = true }
+frame-support = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5", default-features = false }
+frame-system = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5", default-features = false }
+sp-std = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5", default-features = false }
+sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5", default-features = false }
+
+[dev-dependencies]
+sp-core = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5" }
+sp-io = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5" }
+sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "polkadot-stable2503-5" }
+
+[features]
+default = ["std"]
+std = [
+	"codec/std",
+	"frame-benchmarking?/std",
+	"frame-support/std",
+	"frame-system/std",
+	"scale-info/std",
+	"sp-runtime/std",
+	"sp-std/std",
+]
+runtime-benchmarks = ["frame-benchmarking/runtime-benchmarks"]
+try-runtime = ["frame-support/try-runtime"] 

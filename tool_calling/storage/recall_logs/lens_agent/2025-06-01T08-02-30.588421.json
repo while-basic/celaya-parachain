@@ -1,0 +1,20 @@
+{
+  "recall_entry": {
+    "cid": "95e7e09c3dad3132",
+    "content_hash": "95e7e09c3dad3132f5f9e1f8ef9554df33f890c2328118bdbdbbc4697336640f",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:02:30.588421",
+    "content": "Document scan completed: invoice with quality 0.67",
+    "signature": "4ce7636f2854125b6420e830d3637087e6921784abb2fa13d35914670c2d3fe8aedd9ce7e86d17aa0f2140cbc37ab2c59c016952ddbb9929a9bd5b3738be08493efcb172567ccef458278ebd02110295df5a4c0c84bd0f24c4b190372ce48a4b43741c80fa5eb443ae91511f5f3530d55c8061130b4b20e1d9babadd3269ceb50f09b3c0616e6656b2b826d3d66fe432b27d9360a3526a16a98a9524460cba20d0afb52df9172b6642e8a3ce20af1d1d9c8182fa8b2afde3c1aaa045fb6c41565fdfd56383559055effe72aa19e51fba9736ca59a3136e02f4409bf56e840c92f894418e2a45d17a407c79f57865c15619733c502db3d7e427460a614c7af155"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "document_scan",
+    "scan_id": "doc_scan_1748764950_8160a182",
+    "image_hash": "8160a182f0b57a149e431d6534c88bf4bf3ccbd71d8ed20a3586e3e2d5bea3f3",
+    "document_type": "invoice",
+    "quality_score": 0.6729999999999999,
+    "structured_fields": 3,
+    "completeness": 0.3333333333333333
+  }
+}

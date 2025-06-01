@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "e1e8e6fcd40dae9c",
+    "content_hash": "e1e8e6fcd40dae9c3cfd0bea284864ff8ef15b85a7f23cae9e8b46f6bf396ac6",
+    "signer": "lyra_agent",
+    "timestamp": "2025-06-01T07:41:52.624775",
+    "content": "Called agent otto_agent with task: System boot coordination - please report status and capabilities",
+    "signature": "98d234d6e3e2f78c0a721918965dbc0e34b204d78cd25108c6b4a5e9c352ee17079620a1cbbd7a197aed08f92d4d911138bd2e99ef81f705f4cf42fd733df9cd361ba39ea6171fd2530c9d134c1cae9f952b943424d64decf5d73bcf2b0d126eeda92c11e7003bfcb0ffdb2c2a66c426caa0b0abf60ef492f1c16a7fbf8368426ad5ade17a5d64502e53b5d5758775aca0fa794554b0abd019718f8d04964b9389df53d1dd893bdabd74e627838bff84f15edf645a87858203d013edc14d4f7122b50b3c87fb68b8fea3472d62e7fddbfe95618a187dbd8e1879ec8e1ed6c0c56e486cc1261dd86d8260eb49242c78ffc30739eeb2097d3f6f039b032a3d7561"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "otto_agent"
+  }
+}

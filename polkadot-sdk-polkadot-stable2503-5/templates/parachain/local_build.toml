@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "runtime",
+    "node",
+    "pallets/template",
+    "pallets/agent",
+    "pallets/consensus",
+]
+
+[workspace.package]
+authors = ["Christopher Celaya <chris@celayasolutions.com>"]
+edition = "2021"
+homepage = "https://celayasolutions.com"
+license = "BSL"
+repository = "https://github.com/celayasolutions/c-suite-blockchain"
+
+[workspace.dependencies]
+# Polkadot SDK
+polkadot-sdk = { git = "https://github.com/paritytech/polkadot-sdk", tag = "polkadot-stable2503-5", default-features = false }
+
+# Local pallets
+pallet-parachain-template = { path = "pallets/template", default-features = false }
+pallet-agent-registry = { path = "pallets/agent", default-features = false }
+pallet-consensus-log = { path = "pallets/consensus", default-features = false }
+
+# Common dependencies
+codec = { package = "parity-scale-codec", version = "3.6.12", default-features = false, features = ["derive"] }
+scale-info = { version = "2.11.1", default-features = false, features = ["derive"] }
+log = { version = "0.4.21", default-features = false }
+serde_json = { version = "1.0.108", default-features = false }
+hex-literal = { version = "0.4.1" }
+smallvec = "1.11.0" 

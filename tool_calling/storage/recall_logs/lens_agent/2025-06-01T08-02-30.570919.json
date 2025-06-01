@@ -1,0 +1,24 @@
+{
+  "recall_entry": {
+    "cid": "9cba94774955512a",
+    "content_hash": "9cba94774955512a8892f57013fab12d0be1caefb229dc2eb0986e0595edb963",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T08:02:30.570919",
+    "content": "Visual analysis completed: 3 types processed",
+    "signature": "29d6b6591684190bf8ba5e19f846d285e48a1f65c814029a45e856bbb401ab37c2122c1564a637c6e38740eaad1e0967226a2b066f0cd5ff78997cdc4cd1597ffda238f55f8a741cfa20c5b0e011a6c4eca3be2bb06892e0b35bef1484224f894499b35ac16ea4bb2714cedb24a99a28799c1a26139f70adf1a8c7ccacd177369697ac22c248db75266713b054c923b8dc44b96171e0a6a26119f0a87872a37a817cf3fd38b225d0dbcd6f734d1554cb568e735e860cd9bf61f09847be9f8f8bafc21b32ba33e2b470dcfe523e4f53cbcabec39e953795e070a46e209d477e16b179512d69d0a069f71fa7a63fc8120850aef7685e4596e0466e0dde243e0297"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "visual_analysis",
+    "analysis_id": "visual_1748764950_8160a182",
+    "image_hash": "8160a182f0b57a149e431d6534c88bf4bf3ccbd71d8ed20a3586e3e2d5bea3f3",
+    "analysis_types": [
+      "object_detection",
+      "text_recognition",
+      "quality_assessment"
+    ],
+    "confidence_level": "high",
+    "objects_detected": 2,
+    "text_extracted": true
+  }
+}

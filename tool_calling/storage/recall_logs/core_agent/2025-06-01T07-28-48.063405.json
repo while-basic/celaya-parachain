@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "75cfec04f8ee3b8e",
+    "content_hash": "75cfec04f8ee3b8e60dfaf8051a2895a3f94ce463385964fe83b0ed51ca7e9c8",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:28:48.063405",
+    "content": "Called agent theory_agent with task: Validate insights and check for bias in topic: AI applications in sustainable energy",
+    "signature": "b64799b7ecba74bcc52c1b6bbad1657c2797b0a52e40ce193a1d7d78ba9dd136a2c8426b3fa774909f70f12316944da0c928122e7909d1571dd6496af4faca71e3925e2c40f344882c39667139fb410b9c5c046208fed8126449ad429f15906979d48dec4a6d219147519e6b876d93ad0a6118612c995ad7c9c65cf9c4787195adc0e4f438c699048c1542a0661b6ddf0335fb3fdfe1f3f770fd772f2215f6671f0130c293657a675579ba76f04b70df614577ad8c900ea32c4835d6b023e38c5cdd786aa837e915b891da38cc76974bf9adce1309117763e4601722c470961b6b27d7f60c33d80f25d05b078d5484e7561478a28138db4863e66ec42f7bc866"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "theory_agent"
+  }
+}

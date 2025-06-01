@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "21df0b1e6399d7aa",
+    "content_hash": "21df0b1e6399d7aa16538f47cf766608e8073ee241909d05da3f36c6e3d5bbb1",
+    "signer": "beacon_agent",
+    "timestamp": "2025-06-01T07:16:08.992909",
+    "content": "Called agent theory_agent with task: Validate this test communication",
+    "signature": "78736a6a2ef9eda8c58b6e9f60d5159a8211dee22d3a91d2f052e749391fc13bd7a9a559dcdfce022656684e812f8a31f8ff87e78d1da3c2b782d2d070a303e99d54d6c97297db070eeaabbcb9ce7b8f287625b1410c28c82f141635164cfff01f05137364a1839bf98d72ee8f1baf96c8c38d9818ebc03bc3f72a00d57b11c2a951f1356e69b894f98ce942f15ccfd4184e55a926bfae0c7d75d99c8fea6df7f30526e34c1895d2e81efc9cf0bc8e87e16b75c189b7755ea6a86bb6215c164e6254f215e9fe3e655fd87d13d72f502c4f736feb605063a9e21751ba9e222a2f87fff55b0393b39fee00966260d96911f982d8d8d2fc68d42d7470ab083a2b71"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "inter_agent_call",
+    "target": "theory_agent"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "82df1d479d06c9b2",
+    "content_hash": "82df1d479d06c9b22c08c66286a3c362d3a5c9fbf65669a683dc026603953ba5",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.798880",
+    "content": "Core agent initialized and ready for processing",
+    "signature": "18d06a9a151d64ec49b5263e62b2c78130a4d355d25761d656459be0b3805f1e051d825b8e6d1cced467d5a7672852d4874a0ccf8369845b8d52a090f7bcc61b70fd99197abc6a917549571f87d0d1cf82257314e8209f36a947fd72b177b5372c1cb93eba0aef28c62957e20d708b786d76e61e522a55251ad488441c5a208771bd4af12e6015d710d8b2e1262792249047f8080180daed797330f7fca3e137f44b88384b51682f1f7eaafd4b18dc024b129e1dbe5db43554be32a6464d06b54a44c2614d29df3fc113e80312f5e7196031170f0c2c494b954195beffda58b163e1a0849d78ecca43a3a7ed117a2b23700400d43ce94d68296af287599c47fc"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "core_initialization",
+    "status": "ready"
+  }
+}

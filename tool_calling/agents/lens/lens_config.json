@@ -1,0 +1,49 @@
+{
+  "agent_name": "lens_agent",
+  "agent_type": "visual_analysis_scanner",
+  "version": "1.0.0",
+  "max_image_size": 10485760,
+  "supported_formats": ["jpeg", "png", "gif", "bmp", "webp", "tiff"],
+  "ocr_languages": ["en", "es", "fr", "de"],
+  "confidence_threshold": 0.7,
+  "processing_timeout": 30,
+  "cache_results": true,
+  "parallel_processing": true,
+  "max_concurrent_analyses": 5,
+  "quality_thresholds": {
+    "resolution_min": 100,
+    "brightness_range": [30, 220],
+    "contrast_min": 0.3,
+    "blur_threshold": 0.8
+  },
+  "pattern_recognition": {
+    "enable_email_detection": true,
+    "enable_phone_detection": true,
+    "enable_ssn_detection": false,
+    "enable_credit_card_detection": false,
+    "enable_date_detection": true
+  },
+  "document_types": {
+    "auto_detect": true,
+    "supported_types": ["invoice", "receipt", "contract", "license", "certificate"],
+    "confidence_required": 0.8
+  },
+  "security": {
+    "encrypt_temp_files": true,
+    "secure_deletion": true,
+    "audit_all_operations": true,
+    "max_retention_hours": 24
+  },
+  "performance": {
+    "enable_gpu_acceleration": false,
+    "memory_limit_mb": 1024,
+    "batch_size": 10,
+    "prefetch_enabled": true
+  },
+  "logging": {
+    "level": "INFO",
+    "enable_metrics": true,
+    "log_file": "logs/lens_agent.log",
+    "max_log_size_mb": 100
+  }
+} 

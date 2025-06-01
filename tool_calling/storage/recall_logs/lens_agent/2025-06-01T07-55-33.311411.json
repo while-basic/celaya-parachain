@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "bd3535ea8642a0da",
+    "content_hash": "bd3535ea8642a0dac437ab289e1c8cd9f6ed4a3a685fd206d0275ef743ade860",
+    "signer": "lens_agent",
+    "timestamp": "2025-06-01T07:55:33.311411",
+    "content": "RISK_MEDIUM: OCR extraction failed: 'LensAgentEnhanced' object has no attribute '_preprocess_image_for_ocr'",
+    "signature": "12cbac8f4469870632f10c9a7c4c5b84f515a0361df4e4a7019f24992ae991bec902f37e8519f19425701cf826309ac77fa48cf277ef5ecf29f1fe08ee142ba5ab9a7c98f2432cbd76c5aa617162fe3790349c81cb4a278af6cf7b6ec6e47dfc6bd2a509d0657ac935fbfb2d5eef4abd482b2caf17bd90aad863777eba0d1fa2695f88f1207e21e29751b625113a92404604d4bc3106e210103d6840b6901e7592b7d09d03bc9b3c1558b0c29b073eb0d7cbfd98d9f44095f097562ed0d5ef81635716f6711e6857bdae7ffbdf339ce60699421aa5a2a3da0deb038deb1c36653863283780609e5741fdbd47e4c1e183ee9f7bb5239b4f2da6ac65d81dde1b63"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "medium"
+  }
+}

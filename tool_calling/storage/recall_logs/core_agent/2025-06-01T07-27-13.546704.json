@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "5fdbed34baf71f85",
+    "content_hash": "5fdbed34baf71f8595224fd9b35b9416b93b63af2a60cefbe1c18963d42885e4",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T07:27:13.546704",
+    "content": "Starting consensus for: blockchain adoption in supply chain with 2 agents",
+    "signature": "10f125ab996f5bf08849eb893584e001284ce4d5d188e9dbc5b356f1eb11915c4f94034a37821a26543f752a4b47a826d304ba4a6f451507ef52a9598793082d9a07ef85ad13024959c79e270e81e50a2fbfea1b2348570d7c9cf7d3f97994333bed0a166b364dc182ea655e5ca3371537873ee2bd6c8ac5a0e28d37c3374a8e5fed676aede5521f92c2ec9c959131f08efa1e290edf1269a50c7be6cccce5a9b7cc598c836946c7f82758b699f0e4c9e4b83a0226be2e667bddc4f9ba5928240dff9037a4e958cb710953f2eb8192f7e932983b15aa2c01933e7df683bb68d90d7934ef0829488c612de86adc40e0208823f22575c9f4f07a8cbe126989cb43"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "consensus_start",
+    "topic": "blockchain adoption in supply chain",
+    "consensus_id": "1ab1e2f2f569fc18"
+  }
+}

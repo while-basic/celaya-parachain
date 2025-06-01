@@ -1,0 +1,133 @@
+# ----------------------------------------------------------------------------
+#  File:        docker-compose.yml
+#  Project:     Celaya Solutions (C-Suite Blockchain)
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Docker Compose for blockchain observability stack
+#  Version:     1.0.0
+#  License:     BSL (SPDX id BUSL)
+#  Last Update: (June 2025)
+# ----------------------------------------------------------------------------
+
+version: '3.8'
+
+networks:
+  celaya-observability:
+    driver: bridge
+
+volumes:
+  grafana-storage:
+  prometheus-data:
+  loki-data:
+  tempo-data:
+
+services:
+  # Grafana - Visualization and dashboards
+  grafana:
+    image: grafana/grafana:latest
+    container_name: celaya-grafana
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=celaya123
+      - GF_USERS_ALLOW_SIGN_UP=false
+      - GF_FEATURE_TOGGLES_ENABLE=traceqlEditor
+    volumes:
+      - grafana-storage:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+    networks:
+      - celaya-observability
+    restart: unless-stopped
+
+  # Loki - Log aggregation
+  loki:
+    image: grafana/loki:latest
+    container_name: celaya-loki
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    volumes:
+      - loki-data:/loki
+      - ./loki/loki-config.yml:/etc/loki/local-config.yaml
+    networks:
+      - celaya-observability
+    restart: unless-stopped
+
+  # Tempo - Distributed tracing
+  tempo:
+    image: grafana/tempo:latest
+    container_name: celaya-tempo
+    ports:
+      - "4317:4317"  # OTLP gRPC
+      - "4318:4318"  # OTLP HTTP
+      - "3200:3200"  # Tempo HTTP
+    command: 
+      - "-config.file=/etc/tempo.yaml"
+    volumes:
+      - tempo-data:/tmp/tempo
+      - ./tempo/tempo-config.yml:/etc/tempo.yaml
+    networks:
+      - celaya-observability
+    restart: unless-stopped
+    user: "0:0"  # Run as root to avoid permission issues
+
+  # Prometheus - Metrics collection
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: celaya-prometheus
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+    volumes:
+      - prometheus-data:/prometheus
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - celaya-observability
+    restart: unless-stopped
+
+  # Vector - Log and metrics collection
+  vector:
+    image: timberio/vector:latest-alpine
+    container_name: celaya-vector
+    ports:
+      - "8686:8686"  # Vector API
+      - "8687:8687"  # Substrate events webhook
+      - "9598:9598"  # Prometheus metrics export
+      - "9599:9599"  # Vector health metrics
+    volumes:
+      - ./vector.toml:/etc/vector/vector.toml
+      - ../blockchain.log:/app/blockchain.log:ro
+      - ../zombienet.log:/app/zombienet.log:ro
+      - ../target:/app/target:ro
+    networks:
+      - celaya-observability
+    depends_on:
+      - loki
+      - tempo
+      - prometheus
+    restart: unless-stopped
+
+  # OpenTelemetry Collector (optional, for more advanced tracing)
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:latest
+    container_name: celaya-otel-collector
+    ports:
+      - "4319:4317"  # OTLP gRPC
+      - "4320:4318"  # OTLP HTTP
+      - "8888:8888"  # Prometheus metrics
+    volumes:
+      - ./otel/otel-config.yml:/etc/otelcol-contrib/otel-collector.yml
+    command: ["--config=/etc/otelcol-contrib/otel-collector.yml"]
+    networks:
+      - celaya-observability
+    depends_on:
+      - tempo
+      - prometheus
+    restart: unless-stopped 

@@ -1,0 +1,84 @@
+# ----------------------------------------------------------------------------
+#  File:        datasources.yml
+#  Project:     Celaya Solutions (C-Suite Blockchain)
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Grafana datasource provisioning for blockchain observability
+#  Version:     1.0.0
+#  License:     BSL (SPDX id BUSL)
+#  Last Update: (June 2025)
+# ----------------------------------------------------------------------------
+
+apiVersion: 1
+
+deleteDatasources:
+  - name: Prometheus
+  - name: Loki
+  - name: Tempo
+
+datasources:
+  # Prometheus for metrics
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    isDefault: true
+    version: 1
+    editable: false
+    jsonData:
+      httpMethod: POST
+      prometheusType: Prometheus
+      prometheusVersion: 2.37.0
+      cacheLevel: 'High'
+      disableMetricsLookup: false
+      incrementalQuerying: false
+      intervalFactor: 2
+
+  # Loki for logs
+  - name: Loki
+    type: loki
+    access: proxy
+    url: http://loki:3100
+    version: 1
+    editable: false
+    jsonData:
+      maxLines: 1000
+      derivedFields:
+        - datasourceUid: tempo
+          matcherRegex: "trace_id=(\\w+)"
+          name: TraceID
+          url: '$${__value.raw}'
+
+  # Tempo for traces
+  - name: Tempo
+    type: tempo
+    access: proxy
+    url: http://tempo:3200
+    version: 1
+    editable: false
+    uid: tempo
+    jsonData:
+      httpMethod: GET
+      serviceMap:
+        datasourceUid: prometheus
+      nodeGraph:
+        enabled: true
+      tracesToLogs:
+        datasourceUid: loki
+        tags: ['agent_id', 'service_name']
+        mappedTags: [{ key: 'service_name', value: 'service' }]
+        mapTagNamesEnabled: false
+        spanStartTimeShift: '1h'
+        spanEndTimeShift: '1h'
+        filterByTraceID: false
+        filterBySpanID: false
+      tracesToMetrics:
+        datasourceUid: prometheus
+        tags: [{ key: 'service.name', value: 'service' }, { key: 'job' }]
+        queries:
+          - name: 'Sample query'
+            query: 'sum(rate(tempo_spanmetrics_latency_bucket{$__tags}[5m]))'
+      search:
+        hide: false
+      lokiSearch:
+        datasourceUid: loki 
