@@ -16,7 +16,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/card'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
 import { Badge } from '../ui/badge'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select'
 import { Copy, Download, ExternalLink, FileText, Image, Video, Code, Eye } from 'lucide-react'
 
 interface IPFSContent {
@@ -317,16 +316,15 @@ export function IPFSContentViewer({ initialCid, onContentLoad }: IPFSViewerProps
                 </div>
                 
                 <div className="flex items-center gap-2">
-                  <Select value={viewMode} onValueChange={(value: any) => setViewMode(value)}>
-                    <SelectTrigger className="w-32">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="formatted">Formatted</SelectItem>
-                      <SelectItem value="raw">Raw</SelectItem>
-                      <SelectItem value="preview">Preview</SelectItem>
-                    </SelectContent>
-                  </Select>
+                  <select 
+                    value={viewMode} 
+                    onChange={(e) => setViewMode(e.target.value as "raw" | "formatted" | "preview")}
+                    className="flex h-10 w-32 items-center justify-between rounded-md border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-slate-950 focus:ring-offset-2"
+                  >
+                    <option value="formatted">Formatted</option>
+                    <option value="raw">Raw</option>
+                    <option value="preview">Preview</option>
+                  </select>
                   
                   <Button
                     size="sm"
