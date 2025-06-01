@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "1fa3115b25f1aa3b",
+    "content_hash": "1fa3115b25f1aa3b36a63889aa54d7b4457ddbd4dd7b782a941d6ce563d590d9",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.518813",
+    "content": "Emotion logged: confidence (intensity: 0.8)",
+    "signature": "7ea0e312ea442fa7395ef9e32d543b1d5db4f7057af56692721d0e99c28dbd843bcf0fea62a6e8ebe8b7ebadc000edf1cdb9ce1fcee01fb33e2a4dcff7177d02cd0492eb0c6e70ffe659f94755632622fe7acd27b127c100284ccb58707ecfa2b352e3e188dc54c18165057c1e51e8e6e729de647fc72afc340d22472dd18ed44272679d408a801f1bdccad7a172c4a795f59b0eabbc20a09901afc1da6bc307fccbd93c4114e4bd855a3a2a4fca70283d7024b926f3241b93dfb3a1167931e2e4baea17232b313251e3b52d8eeb22ca463df92dc059f6d8700c38f07de820d7b8e7c228ece4d52dd4ee74f683c9e080707fb4199a0095917d67f9ff6bad6e36"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "emotion_logging",
+    "emotion_id": "a9ea531e-5304-47ce-83e0-3816ecf04d18",
+    "emotion": "confidence"
+  }
+}

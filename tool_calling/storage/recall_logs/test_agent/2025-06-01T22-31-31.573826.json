@@ -1,0 +1,20 @@
+{
+  "recall_entry": {
+    "cid": "f7b5a37a7b488072",
+    "content_hash": "f7b5a37a7b488072cd2710534b5341dc3af554c7dd03ce40064b5386c570421b",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.573826",
+    "content": "Executing tool: ui_tag_entry",
+    "signature": "768e6f15b014e8e5258b657590d1e663380d2445640387f8d73c3ac4498c051041d1c2a480f618433f76318407946569e2b9faed6c8dffadfb01cc4a9f8d9e0be4d221630cd677a9fafecbb2b8a6edce2316266c989cd8cfbf0f7f09aade83a1da96494f8a22f3c41ebfab966cd70bafd521be41cec8af908793a967cd69e7b2c0d7d24911bc55b034f7321060698041712440084770e52dd3721f1c2fe79e4768319a56df12a6c96982fd87c81282a32dd92c32c1563415387b744f5278270d9948ff9dbf33cd17186cc7a2ceae5f95e6cc399df2680d6bc3e8653d4b7ded6cf392d1386495d38415f229d8f2b60333404be5561b7aa06c78500c5c7c927fdd"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "a197c087-1824-4209-8489-ca27ea03071c",
+    "tool": "ui_tag_entry",
+    "args": [
+      "content",
+      "tags"
+    ]
+  }
+}

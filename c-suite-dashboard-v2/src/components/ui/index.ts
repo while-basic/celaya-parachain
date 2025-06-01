@@ -9,5 +9,15 @@
 //  Last Update: (June 2025)
 // ----------------------------------------------------------------------------
 
-export { Button, buttonVariants } from './button'
-export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent } from './card' 
+export { Button } from './button'
+export { Card, CardContent, CardDescription, CardHeader, CardTitle } from './card'
+export { Badge } from './badge'
+export { Input } from './input'
+export { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from './dialog'
+export { Label } from './label'
+export { Textarea } from './textarea'
+export { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './select'
+export { Slider } from './slider'
+export { Switch } from './switch'
+export { Progress } from './progress'
+export { Tabs, TabsList, TabsTrigger, TabsContent } from './tabs' 

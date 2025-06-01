@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "9ee12b931745b0be",
+    "content_hash": "9ee12b931745b0bed48e7f197c4d591264c90d491fcc8917043c88c7b0256755",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.555307",
+    "content": "Task dependency linked: 58062f50-5853-499b-afdf-52123f8e5014 depends on 17bdfdac-b43e-445b-8ad3-bee274c8044a",
+    "signature": "073dbf74abf9ed0327c9349226e06c644bc621fbdcb9b96899e94e0e8b850dcd50c466566a5cfb131c2e77997ed7aa14a6942b840ef8fde8a45acb76e6ea099922a3f6f2084726120788cbe7dce1a67ef2a0af3cf30a862924d2cd8190c8d35cf639544022e2c504a5fe1e5ac9fddb27a96a3651e7654a6a99c6ddbcf0aa8270b6263d852083de9e79739bc447c65f168310f38e8e4f22ad738601a7c1e23590bc3498aeac13f165bcb6f0bfd1311f14822185bf1ba8fc357403af9b85d67b8f3cc6a852bb883ad42ad5d7b3b67aa2c590c5708b905d9b654983acb4348f680641b1e12d110b5e679d91d3fd6fea98ec1f4a1bd0b1bf830e658f694d285b4d8e"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "task_dependency",
+    "task_id": "58062f50-5853-499b-afdf-52123f8e5014",
+    "dependency": "17bdfdac-b43e-445b-8ad3-bee274c8044a"
+  }
+}

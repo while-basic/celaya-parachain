@@ -1,0 +1,102 @@
+{
+  "2212a283b904aeb4f3168f576073da9f": {
+    "key": "2212a283b904aeb4f3168f576073da9f",
+    "content": "Test memory content",
+    "metadata": {},
+    "timestamp": "2025-06-01T22:31:31.391437",
+    "vector": null
+  },
+  "c7a94f0e464a5720987f7dd18d78da09": {
+    "key": "c7a94f0e464a5720987f7dd18d78da09",
+    "content": "Plan for Test goal",
+    "metadata": {
+      "type": "execution_plan",
+      "plan_id": "6f656895-3304-4d6a-b7e9-122ed609a376",
+      "plan": {
+        "plan_id": "6f656895-3304-4d6a-b7e9-122ed609a376",
+        "goal": "Test goal",
+        "complexity": "medium",
+        "subtasks": [
+          "Define scope for Test goal",
+          "Gather information about Test goal",
+          "Analyze and validate data for Test goal",
+          "Synthesize insights for Test goal",
+          "Present findings for Test goal"
+        ],
+        "estimated_duration": 50,
+        "created_at": "2025-06-01T22:31:31.513272",
+        "status": "planned"
+      }
+    },
+    "timestamp": "2025-06-01T22:31:31.513278",
+    "vector": null
+  },
+  "67a4f15e513f6ec5c14f06dbfbf45e51": {
+    "key": "67a4f15e513f6ec5c14f06dbfbf45e51",
+    "content": "Emotion log: confidence (intensity: 0.8)",
+    "metadata": {
+      "type": "emotion_log",
+      "emotion_id": "a9ea531e-5304-47ce-83e0-3816ecf04d18",
+      "emotion_data": {
+        "emotion_id": "a9ea531e-5304-47ce-83e0-3816ecf04d18",
+        "emotion": "confidence",
+        "intensity": 0.8,
+        "context": "",
+        "logged_at": "2025-06-01T22:31:31.518662",
+        "agent_id": "test_agent"
+      }
+    },
+    "timestamp": "2025-06-01T22:31:31.518668",
+    "vector": null
+  },
+  "ff3e90eceda1e19750ab85f62b623231": {
+    "key": "ff3e90eceda1e19750ab85f62b623231",
+    "content": "Test memory content",
+    "metadata": {},
+    "timestamp": "2025-06-01T22:31:49.475114",
+    "vector": null
+  },
+  "57b41c44afd5e17298dbd5b1307fc961": {
+    "key": "57b41c44afd5e17298dbd5b1307fc961",
+    "content": "Plan for Test goal",
+    "metadata": {
+      "type": "execution_plan",
+      "plan_id": "db622fad-581d-456d-8c51-d070040643b0",
+      "plan": {
+        "plan_id": "db622fad-581d-456d-8c51-d070040643b0",
+        "goal": "Test goal",
+        "complexity": "medium",
+        "subtasks": [
+          "Define scope for Test goal",
+          "Gather information about Test goal",
+          "Analyze and validate data for Test goal",
+          "Synthesize insights for Test goal",
+          "Present findings for Test goal"
+        ],
+        "estimated_duration": 50,
+        "created_at": "2025-06-01T22:31:49.558749",
+        "status": "planned"
+      }
+    },
+    "timestamp": "2025-06-01T22:31:49.558753",
+    "vector": null
+  },
+  "c6a4fbebe1af1cc8beee6d4d71078152": {
+    "key": "c6a4fbebe1af1cc8beee6d4d71078152",
+    "content": "Emotion log: confidence (intensity: 0.8)",
+    "metadata": {
+      "type": "emotion_log",
+      "emotion_id": "9082fe87-7b1e-4e17-a946-9369a4ef118f",
+      "emotion_data": {
+        "emotion_id": "9082fe87-7b1e-4e17-a946-9369a4ef118f",
+        "emotion": "confidence",
+        "intensity": 0.8,
+        "context": "",
+        "logged_at": "2025-06-01T22:31:49.564343",
+        "agent_id": "test_agent"
+      }
+    },
+    "timestamp": "2025-06-01T22:31:49.564352",
+    "vector": null
+  }
+}

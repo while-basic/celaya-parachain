@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "75634b3e374b2dd4",
+    "content_hash": "75634b3e374b2dd44779ba74c783994cfaaa9e06263e8d72449a2f1272a8435d",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.451955",
+    "content": "Executing tool: ui_stream_to_dashboard",
+    "signature": "7c7662e4351110fe994427f9ffc29e22c6d300e96005d377f237c4f9eab9954bde4abebf30baca94d9659155b2d9986413b0a00a2addcc2dff7e0ad53e0a3acb2b8aca8e450430222654371d3d424d3abeb706864208ada8058ba7b2f5c3e2961a85efd065f88b44adc4fe7595dfd57d1efc0672c1aebbce202a9a27d908932a70f82d81a60715ea3907de4dff784381ceb438ce5b6a914bb778057676417f7d89d13e8809afe44a7df8658b472add1badf24ac453a9213a6a34a9898d66be4dfbbc99e8eaf0a059041b9dd9832578af834ea13e7e66d6780ecec77c7b414daca67225b3492f60284f93dfba876a0e7b0bb9f7540e316f8df8f5bbf6e03d50f6"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "b554fd39-7215-404f-80e8-672199ecb674",
+    "tool": "ui_stream_to_dashboard",
+    "args": [
+      "data"
+    ]
+  }
+}

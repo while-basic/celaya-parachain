@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "96ee1995db172abf",
+    "content_hash": "96ee1995db172abf7eb276d674e5fe6fc0f9e14a6cef2b0fbc959c447264cfa7",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.613949",
+    "content": "Executing tool: ui_show_last_5",
+    "signature": "b124ba257a06dcca7e827d1551b9208c61f5c300125b9acfe2ba9485b2c212540e2176e9706fc2cb29475675850e69e2b08e767217ef7aea529a68a3fa2d3a7469badcfe5cc01640c02a484d9716c1458f49c81d0c5f7fde77a009bd61b551e76b02fdaebff2afed0a9e265263f4f75d7ecbe076132e739134228abecee8eed25f15128c333a07ddcd5a5eb078ee9c0bec241dbf6b21a8b9731408f9bca59ff7f35d1893d2a1ee06d663e8435c1aaf1e5f517ffd55636cc457e1088a1f5febbe55aec0a74c3198fba7c67740c0770a215a9ce042c323b61095f6190a951203204d9e905712e20e5ef1bcd2c674b25b1453bea8e4c0e35d8e022c8305eaa2f021"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "eabed7b8-23ca-4a53-884e-497fb65f160a",
+    "tool": "ui_show_last_5",
+    "args": []
+  }
+}

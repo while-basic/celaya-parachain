@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "0104c71a347aef32",
+    "content_hash": "0104c71a347aef32564b11c8be6676055910fd9c9ca9edc029037c1d335e52d2",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.558913",
+    "content": "Plan created for goal: Test goal (5 subtasks)",
+    "signature": "42ccc309e6039fe84249fcc2c3327115ce03b18bc200fc5414f71eef0151276afabff268f8ae6d4d90626341aa0dc1055b80fb0f8f345c98ae8a0150bfdc493c74f6c073a55f9b97a4c482d887de561e55fc9c136dd3f604fc889d5604c8da4cf149c853e190b4df98dc7d259a162b8461cdc9f552972c14c5a4977ed303302e5c3438400ca8b78f25dba42a0e5c7c480cc441a90af5820c7902368bcfb341455f90fb9731829495a5b40006bb8e06cb19a2fd674f07c884edbb4c8784c4c8b15623a7e3f3cf2180752da0fbed64536d0e2ccccbc5de7d64c81a534134a5bfdd0578cd14b265a487a556f271d8cb2fa18237f4538706401314dc37c93d445f8a"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "planning",
+    "plan_id": "db622fad-581d-456d-8c51-d070040643b0",
+    "subtask_count": 5
+  }
+}

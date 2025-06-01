@@ -1,0 +1,20 @@
+{
+  "recall_entry": {
+    "cid": "739893a6ad12df6e",
+    "content_hash": "739893a6ad12df6e4649664d5519f2d2745e7274e6772a1f3de729f9c5b6b3ff",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.516171",
+    "content": "Executing tool: cognition_log_emotion",
+    "signature": "18702a1d16f1b0c7827f20dacd9eecc4a65adcf36f67523f905fd86eeac28e780717a698185105555cd060c1512e02703d82947760c640f91a79c4e9d6ad883eb8cfac968e90c634f5d24621caa0ca412f494f276899d7802af6030be6fbfec45423cde8c410d453df2e3087c1f911c354b208d433f2f3927d21a7aa76c0bc5b0f862df8e323b0267f507a6e83d0db597f74314ce1d1b49bd6d83c968fdab9ac83af5927db8bfe2f2e6229a7fab038208cfb32cc07d18862fb2e3a6251db7f6decd2272bda51d8c589af59f274bf87b1f4b1f4ecf8098b450cdc41e0803ec69d667acc24ca77a27fb2ced5dbdb480b2e37b0b87265013f6f178f04e72ed2ea4a"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "901b6e06-9855-471e-873f-45d0198f6220",
+    "tool": "cognition_log_emotion",
+    "args": [
+      "emotion",
+      "intensity"
+    ]
+  }
+}

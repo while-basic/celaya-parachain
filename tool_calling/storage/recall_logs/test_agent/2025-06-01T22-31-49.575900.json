@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "27a2ef68dda42235",
+    "content_hash": "27a2ef68dda422355e3ff200c2e1a36c6ad00e9df163c5b7113d6fce25fa26ad",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.575900",
+    "content": "Executing tool: task_create",
+    "signature": "76daf8b84a03cfc43131aa1b0bf8d46c856a337d5645cfc87826fd52dfe1018b9efc951c8402e03e5da69841e2dd65b73996f035690a7bef248a2652d14813739277afe9d81aaebcf9e5fad8a2013d030f15866746d89aa66e041203d757cb5a545c8aed861f0dc3a57b886c9bf6204a062c30091dc28a0ca74b39126a207b05e4d627ba082104d10835e0298daa19227a4bdbe82e71c918c0d257b98189f26ba8240eb00efb83efebdd36ba824bd6b015a89ade122d3254952a79ca660ffcd1e7b649ae221833f1fd0e90bc8b559c8cb011f67c1f46429d0868f1077e998b0f3b948b9364908014126c7969e000a0d411ca5035c048ba65949a90dcf11b2a04"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "b60bcd01-64ab-4ad7-87eb-bf103d02f164",
+    "tool": "task_create",
+    "args": [
+      "description"
+    ]
+  }
+}

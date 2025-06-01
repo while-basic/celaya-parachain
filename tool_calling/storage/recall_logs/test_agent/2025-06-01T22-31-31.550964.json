@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "f57fda1833e76bb6",
+    "content_hash": "f57fda1833e76bb6222f0902aef74d4c92bd8cb226b1c0eaaeb84d2032512a13",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.550964",
+    "content": "Task created: Task 2",
+    "signature": "2df125c9555325d86326354338ecf8b0f1c3a9f3c7bb8668c6b6f4213820150cf37ef3ccf8bf3d1142f993e59026af5e18d1fae997b5aca602f338c2a17dca5dd14d2942cd6ee062105b5e82f144522ca46f407f1ceccee6b8f01b9f97533b47ceced15a21e084d2a175ea3e90ac138ccf10e87c7f8592a47cc592d01a9976379637f28c189b16add34a22a1531c3497148ba70378b1bdb07b5e8fcd36f57f27e4d57c3b08bd3d182a39b1acc0bf790389bce8e9c36d2b675fc2319666b67b3a33e3d3fb67244676f2c4350b2fa5c490b64acb65414e62d607f001ee8449ae0bfe11f729c2ff2ce258643b2d3df9ee4fb4363c6a5dde53f138eb79a8ba793ee1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "task_create",
+    "task_id": "58062f50-5853-499b-afdf-52123f8e5014",
+    "priority": 5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "5a9f000f42c63b15",
+    "content_hash": "5a9f000f42c63b150bdbfa54c522aee829f0655f5118c449e0decdfaabccfb42",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.470710",
+    "content": "Executing tool: security_isolate",
+    "signature": "528c2c85bec526ccd55dd95f159bb2eb02c8c99028b09c4e85274052ee1e1ca68630eba13e532abde98379347bf41ce0ac9d793b62e1642d9b3991942614f189de94a31e67c5bbe767818e387f51157071335e59aa8cc60ade903a8e53d0235b8829b61546aa0dfda60777f10818232a9d5694996445c05430e4cc9934c7c0d606f5fb4d862de907e6410d7734c8eaf7950aefb66da08b53e43c25d949334d46eb23399f6d93e3d68ab94115512f360f6336cc7d5cbae3a54b7100fb165edbd98d069f6da9980e9c58896819fb4b40781a99f5bd3aaade5cfdf7f0e0c4a74f0cec6ae6501b82e75faceb54b51383de20aff8fbc889f7d00db25d96e6a09f1acc"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "387bf49d-387d-412a-867d-f3d5665cba4d",
+    "tool": "security_isolate",
+    "args": []
+  }
+}

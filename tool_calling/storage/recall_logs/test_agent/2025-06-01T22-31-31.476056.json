@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "2fb564f28393cd7b",
+    "content_hash": "2fb564f28393cd7be65d8490a337d8ebf46cc997e8f101c862570f7308da8bc4",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.476056",
+    "content": "Executing tool: council_vote",
+    "signature": "a03501aa2fc6c9778f11054a801118bad1d5f74bafe1725b61bed2a0c551a4765b3c0b32cdbf719d9f8beb09efa8c8764bb41bee37765415daf7a2306e59d6513ec85b1fa93f006f30514db18a54cdfc8c0361a2ac915b50378da596471b9b21b657d070dc6a7b133ce9f49abf25acb559966bd7cdc5267bbe4b17e5c4959352ced35f1f31d08ca1a90ffcbbd9ba729d0689c07b4aec32462892e866e0bbc54e5062ef0f3c8de53822099b9ef0f7aafb5519c9e92c44f07ffca378cec7327a04844ba45d3716aea34ae127e5c9205ad69f2a51fa909929aedbe1e2937dbc0be28e1844bdbb6c9e7aa73c5da82fb483f5ab41ffd0b0b469596b2146e9eafeaaf1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "82b55d33-41d0-4cab-8520-2e3ea3765851",
+    "tool": "council_vote",
+    "args": [
+      "proposal"
+    ]
+  }
+}

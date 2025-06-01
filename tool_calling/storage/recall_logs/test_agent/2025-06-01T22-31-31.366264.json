@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "fb3bd2873a16be9f",
+    "content_hash": "fb3bd2873a16be9f06d6b62b1a0ae0e9aa1d86fe7b8d88acced2ef7a3758cc7b",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.366264",
+    "content": "Comprehensive Tools session started",
+    "signature": "d1f2288a87fd97fbc32b76620bf53fbaaa86e37aca965d6adef224ab63c044cee78cd3c272cc7df94a0fd86631b630dd613915bc1b9ac11d79cfa18dfcdb2617f9aa8fa5c10ec57dc83024c46e0609020680ac5dc56de3b71e54bae43a68e7ac3b28b506720aa1257b516e29830f7d20a90e93c70faf79023cf5fa75a16798963dfa0336d87034a0a7c44e1e7ffc62ad4d1e08dc4cc38b9e9255aed28530ffb4ad812b10a11e158b17e0dc3fa4eb664729be6e98aea4bd69d999ad864bf79c42125cf9d5958e7f429a8b0e71c8755f254c6c0aa4267ac188f4375e55d68e79cd9df67067561234173a9b9ed7a82c70be975326bba28f2033f1dcc1fdfce7b2c9"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "comprehensive_session_start",
+    "agent_id": "test_agent"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "66694ad3858dbb66",
+    "content_hash": "66694ad3858dbb662c172f42da7d9ec8ac1190400c23231f433d97ce7cc35457",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.472404",
+    "content": "Agent isolated: Manual isolation",
+    "signature": "489e890932cf7184c80c7d14b91e3f3a9cde53a8869044544666818683d91e03ab53c8c4d2c8ccccf71eab114b5fb9f66657dbd53943f5d0e0f057e1f4cf256bef06552f0e6e4613f291408271e46febf8f25b0cff896165d65f171e58b93a7e97880f2b87415d46fd18aa10de3244f0d941c8e18c3f53029d34616d456d7299b894e189edea6b7c93c3e72f4f2bc2236bf4a98b06cacba8ca7316fa3373a94b8405cc4f6cf1b6466e031e428f1bf5138b17d226a41b7fd3ef3267cccb4882d47db2de8d6592c59e706634c8db39e897ad308e5c418739cc274ffff38b9339d5272faffd3e1ad041b278a1d10902250119bb093b1060c45c5009d2b2fe9efe57"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "agent_isolation",
+    "isolation_id": "c150ff64-9bec-48c2-883e-bb66bc6de6c3",
+    "reason": "Manual isolation"
+  }
+}

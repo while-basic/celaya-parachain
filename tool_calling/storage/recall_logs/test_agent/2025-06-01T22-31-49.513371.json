@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "65f62a3c014fe108",
+    "content_hash": "65f62a3c014fe108edb655d76634e74cf9540299b81a6bdd2be030bf8c6325d7",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.513371",
+    "content": "Dashboard stream: {'test': 'data'}",
+    "signature": "adf61e62525d018beb215e9a0a282eb1807515a583283be4fe85c9ceff5e8b79fd4c8e9cecf65037a56a9b0e7c725480603e74cbf1546dc55fa2911832fbac0af34711e41c8c216401938facbfe027902af3f8ad548757ac4f556ec64eb087e3e6e924cc95419e4f26226fca8d3eb2c439ecd88b2983836e33c002a5b159ce9737fab3c7aa8633fa679019c21c20b887b1079a94b180e577bc3e5a75db68cacc44c6594e74ee50b124f127ea5b5f6360cf9fe8020d806891ad123f92e18afc721aed9da7b33e8d7e490b96ce478f5c5a3620019ea71e0f3d9ff2dd6ac94244f4383fce2830fbc98e01232c632cf9a5c4e7f4b2073e2cd09f536f97b3b0b6fbca"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "dashboard_stream",
+    "data": {
+      "test": "data"
+    }
+  }
+}

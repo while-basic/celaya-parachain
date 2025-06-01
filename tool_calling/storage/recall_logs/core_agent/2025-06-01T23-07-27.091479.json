@@ -1,0 +1,18 @@
+{
+  "recall_entry": {
+    "cid": "37f18ebabd8f996e",
+    "content_hash": "37f18ebabd8f996e879c8a76d6b52b7cc5824445b9bb923dc03936fb109d5718",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T23:07:27.091479",
+    "content": "Executed Tool Shop tool: 554da528-b3b0-4cf0-8510-cb9a7f1061db",
+    "signature": "b983ef6e2c8f3efab5f8e852786742afc2986d8d03fb7fa47b8342803b4fed7669125cdd412cd49afca9904df22d6c305dace0a6e73a6d11bcaf9eb975e88b9b848cbcb0c9b3ed89e379ff0551ddee3cc9e044841f55b72f937052362d45beb1635873a3ef954bd3cbfcc9edea0f211b319a93e0f1cb78da8c68ed7b30566524a63dc327e477f5df7dece9771938043818c387c47b893e5a3e51d9f0a1b4414823608aea2b0d7b621ad1b470d369c724d701fea7f137ba4adf0cf1be29f8aa45dc9b70a5c5cf7c33ae8f16b3f2ef015ab9348a5e9214e3a61fceb20ad2d56be90ea734c0bbcf42de6b7d3947f4ad4e9f886996e66c38b105451c7b1ab878ec36"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution",
+    "tool_id": "554da528-b3b0-4cf0-8510-cb9a7f1061db",
+    "execution_id": "e86e5040-3081-41bc-be9d-91be7c9f1fff",
+    "success": true,
+    "execution_time": 0.0016779899597167969
+  }
+}

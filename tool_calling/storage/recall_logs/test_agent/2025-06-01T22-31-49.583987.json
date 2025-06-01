@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "55b67a72f15ba7fe",
+    "content_hash": "55b67a72f15ba7fe47dee3a6cb5eeed3d52548ffcf9b8eac357b7ac85bcf0c3e",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.583987",
+    "content": "Executing tool: persona_describe_self",
+    "signature": "be284e280590fd25e176fabf200a9ef399ff026fde2a51c8fb42eb260266b518b315e428040e53572b187a3cbe47a318aadbf8e46991b0efb168a82d0354459cae5bce45b7f0bc3cb6561348c38c60cdeb913ffa8484f35534f2e1a4969edb96386634925685b87533e4cc845ab6d79d5bf06165df8724c8dc8205217aec7fb25da75ca80239824314b311689135e4eba2f05d7ad3d9309898aab484231d9145fd70ef6c4145e370658b39bc5a24fd6a1bd75fc8b8535a1a2a8dac34cdbfb48197c84282feab7bbd1bb9d2b429c28a557ececec819fa8cf0064b0cff3f70594a480871f5111c151f6d17ab17a5e1461c9277073bbcdc452fd86ad4b94a321670"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "dd8d737b-5d9e-4df1-a4f0-7d4fad4ff2b9",
+    "tool": "persona_describe_self",
+    "args": []
+  }
+}

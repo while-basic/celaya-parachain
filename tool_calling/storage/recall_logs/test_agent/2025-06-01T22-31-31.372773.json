@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "2d66afe6b88c4f09",
+    "content_hash": "2d66afe6b88c4f0936f841dc950828fcda812295f7a1b94dbab578c520f6312f",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.372773",
+    "content": "Executing tool: memory_retrieve",
+    "signature": "ad26e2d8b4db768d8d80dc905fcfd80ee85809c7c86cac102193a8b641501999cfdac234f3cbd3a1c3c0724ca995dc043be65a287f546fab918885ece5a2f0761c8a971d8a551550988fd4ea612321906bd8644a56c33da13ec7b84481e6932955653f11a8abe6674278a0937ded3a5be9a54968acc4f52987e72ea8661db32899861a0b3e1e30faa0a9c7abacfa5d985e54f01ca6a0e79fb564a0777fdb85700ead1a854d62588c88e28b146ca1d4b1c7e10b651d9139728c8c7831df02bb3f2ebdd6ed86ff52472d9a426b52b3342cbbf2265e2be1d12559d9a338059744e93b7943251d9c638df61846762887ba6c588d22181aae38748984deb49debba48"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "b1105b4b-516f-46d9-b495-9853df391d22",
+    "tool": "memory_retrieve",
+    "args": [
+      "query"
+    ]
+  }
+}

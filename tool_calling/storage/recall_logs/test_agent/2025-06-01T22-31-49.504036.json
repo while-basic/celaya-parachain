@@ -1,0 +1,18 @@
+{
+  "recall_entry": {
+    "cid": "e8126ebf84ae212e",
+    "content_hash": "e8126ebf84ae212ebc48efbc84990e44a396aeacf9f98d47dd8bdb7cacabcc42",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.504036",
+    "content": "Prompt mutation: add at line None",
+    "signature": "af23fa6f751be11e279cd9d00b9b51f7d12dc411e75bcc8de5a905564f43036eb7aafbfe619d9abb450bc9510ccb6a8ef628dd61c6e6b502d74925845acdded49c8fb3376021c6482c2d613543cf2d743cebba5afedf204298195d9c5eb62180734b9e1364e37cd9eb8cb1313f35369ddc878ef7d4d6f1434d09f2be4ca16ab3489b0afca64ee10798822b5f8f997ff5adb1162456c543158e5f7dd3a74977efbed28f1816804b2206dbd0a73d10989953162eb3147cfa4b8fb806ece16bf15825565269d0bbce8290340107d8e6ec15ff8acda895ad29c948379dfed4c6ee62562edc629b404e156b9e6b73ad2025155bf0dfb6967f30fdd6cdf4830b37e09b"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "prompt_mutation",
+    "mutation_id": "c5ae0275-c01d-4cfc-ab01-e962bd1f0851",
+    "operation": "add",
+    "content": "test line",
+    "line_number": null
+  }
+}

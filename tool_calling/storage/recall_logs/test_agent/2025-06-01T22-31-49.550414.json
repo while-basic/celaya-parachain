@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "c33e1e90b1fd3cc5",
+    "content_hash": "c33e1e90b1fd3cc52b89df44b72e34dadcff10a2db85fe844b22bd6c9ad15566",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.550414",
+    "content": "Executing tool: system_get_status",
+    "signature": "62e60cfc82abadf5a2bdfda38cfd488692df3448465a631044fc03156befd351dbb617a0f74ddb8b5e08ad3f1b431c894e7ae097fc638304b3f1600f3c6805593b188f3e4469dc791009ae91f2ef9369a41ac2e343c3ab0dc134e3cdb23d0aa06ebd5148646c0b8f9ff6a096f6071ec230eccdbab9f62d8af4e184de4064ed9e2eefff1fa353b5f409caf13cc1065626be5ed2869ecd570d0c9eea5b542d07350cd764c26581db2dbe4dd337672f05fad83c21cc60bbf1c0eb566a4c0261a65718ee8f757c67fec2fda014ee5ad367d6818a83e55c825da7ef5ba4d2399f66393424241ffcd1238be9548056c1a50a41ba3ecf0447888f8ba8dee1a713a293f0"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "a617d004-2639-4a16-952b-21b65f5ff3ef",
+    "tool": "system_get_status",
+    "args": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "267a0beb32779b3a",
+    "content_hash": "267a0beb32779b3ae0118dcd0e9ad07ce2ae0a75f27f081b7e578bfdc73418c9",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T22:42:00.897039",
+    "content": "Core Agent Enhanced session ended",
+    "signature": "2d0d4de1cc3a904502d723054669daba086e8a4b3fbf194ef38a0b71aae8befe4d6a64cdfd0ce8834365bf734fc2c6a2bc476a3ea05b48dd43fff4b8e155579d31658668aa4ea214d875769fe0564e4dd45e298389cc9874b161eef0970c82535b1937628960e7027d4980cb105823341408c0fb642136d7d2dad95b3e0900e89670e8ddb07798619e159ec5b6ed85a1e823d57cf0141cc7623b7517a6ecbc941fae094de56c60e138fc1628bded51ae51be07c04b02d8bbf1fe0b0619e713c89ea970e4536a07f82f31c2a3e2a51e27837b422e44d1dc75b2c74c5ba23a71e7b0ca697af4d8dc06696e0fb01598d38e679d2c54539f5610c7abb212060246b1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "session_end",
+    "processes_completed": 0
+  }
+}

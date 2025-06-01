@@ -483,13 +483,30 @@ class CoreTools:
     async def ui_stream_to_dashboard(self, data: Dict[str, Any]) -> bool:
         """Sends agent state or thoughts to Orb UI"""
         try:
-            # Log dashboard update
+            timestamp = datetime.utcnow().isoformat()
+            
+            # Handle case where data might not be a dict
+            if not isinstance(data, dict):
+                data = {'content': str(data)}
+            
+            dashboard_entry = {
+                'agent_id': self.agent_id,
+                'timestamp': timestamp,
+                'data': data,
+                'entry_type': 'dashboard_stream'
+            }
+            
+            # In a real implementation, this would send to actual dashboard
+            # For now, just log it
             await self.recall_log_insight(
-                f"Dashboard update: {json.dumps(data)}",
-                {'type': 'dashboard_stream'}
+                f"Dashboard stream: {data}",
+                {'type': 'dashboard_stream', 'data': data}
             )
+            
             return True
-        except:
+            
+        except Exception as e:
+            await self.security_log_risk(f"Dashboard streaming failed: {e}")
             return False
 
     # =============================================================================

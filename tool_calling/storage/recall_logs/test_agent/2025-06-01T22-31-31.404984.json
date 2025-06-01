@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "f8776835c043c810",
+    "content_hash": "f8776835c043c810ff6c2ecafff7f2c457ca13cca7c17b88f9c857663cf3553d",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.404984",
+    "content": "RISK_HIGH: Tool execution error: tools_call_agent - CoreTools.tools_call_agent() missing 2 required positional arguments: 'agent_id' and 'task'",
+    "signature": "67ef19dca1c29674690a2110cbb0781cc97cb480ed76af12024c7387233fc67d3930ca2a0c9a7b463a70ffbc9d5bc6c6967bf3cb036c5f58ce708fbc97a208a1eb600860aa7e3e561dc7fd18c4b80f445d23cef072691700006cb321096c2735d1ea69c26cb23a33b0fb768ff7b9e86ec8a2a7ec6318584cf801cda83a79512c04d3732f0fe25e93ba800fef9031393114ea574fde1afcc14eb7470cea6dc0d700225e31f9db1978f324a39bed3ae061739cfa4d1848a957fd9417a6383b197eea7ca24da76493fb69cee34a561fdfda16f48cc112e45dc1cd938d8c9c45123b55d65d543dc5c2856cc46c16076e83d9acb8649acd4450d4b7601811e0ad8f63"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "high"
+  }
+}

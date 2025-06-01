@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "898b8e4dc18a5c3f",
+    "content_hash": "898b8e4dc18a5c3fb5898c88b43e9e5632eb8a0aedad601fa1d3af8904eed74e",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.411576",
+    "content": "Executing tool: tools_ask_user",
+    "signature": "5f267bbab91a6b1f7d9bf3a5d3ee51a13d42363e8051e0e232fc85a64d3c0ba1b462a3235baa523c0540b153fd633c0d93b11bb174b3af8b4f26ab3212d36238f20f938b6312fd0a8f05190767c0a83088dbf7f51e1e1500acdfa6e6a4b2c15629c322739fbd97fcbbc31ce3c629a4d99ebb2d284315052668f13804a586e6575631fce341b73d8d519c8f06dc384e3366a55cf84923119a2b29e83e37dbf632248518dbafee9df4cc10ebf8d9d17c972fbd64ab1f3388c62a167587e9d21b0cca83564316edef6ada9ffd2bc75023235fd71507b18eff9c66e877b417a43400dab5339813b1eb093dc1392fb0d738565394c336abc12d649c08e6979363bf54"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "40712122-4890-42fa-aae7-6e441ce92339",
+    "tool": "tools_ask_user",
+    "args": [
+      "question"
+    ]
+  }
+}

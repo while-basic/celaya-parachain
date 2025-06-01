@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "9b6b60c7cdcc30ab",
+    "content_hash": "9b6b60c7cdcc30ab921ecf182ce545fd4e2232b591098304cd2497b5d5d760a3",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.514668",
+    "content": "Tool execution completed: ui_stream_to_dashboard (0.00s)",
+    "signature": "9b4f5287700b2bbaab1c97a952f45abc7812ed3f1fd8b0beae5a1fc76369cb2661648256a3664b89b2295c653c8f78197a8cd85868a1e668d951bf1ce09bcb2b487708a35b96637cc1fd886ea394bec936196d87988bebebeb64d22c9045b8aec9d675c679db2a07e36f47e6c26368d93f1d255ee9d102f1fe9e8a0c7f7112581cfb32b6e5b9442c15e5dc4e0d9975661f8625a9795f5bc5dfb08df470d22d68cc10bd8206148f2fba398853cd51c9c104b04986a135f9b5a94b838d90f03b5c2e028f2aba533250b198d2f9f168dca3c38608d9477917b278ef361e58906cb2f7bca1ff1141f635b2982b8d13873409edc6c05de3941f6574bee310eaffd265"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_complete",
+    "execution_id": "c242bc50-f5c6-4c37-9ea0-bfed8d63084b",
+    "execution_time": 0.002834796905517578
+  }
+}

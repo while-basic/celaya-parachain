@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "5dcd24200c39c201",
+    "content_hash": "5dcd24200c39c2019ab960e7e43233d81e58f72d2823311c05d9147ad260ec85",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.549111",
+    "content": "Tool execution completed: id_sign_message (0.00s)",
+    "signature": "297ccc86b723e4f010d842c80844eab5a5119b58592924a30dff8e429e1159da5ee3919b34119cf7a42dc8efa6bdcc8df08e51c991a7b3d5867177708aceeba9b2f4a40f05506909593aac68a835781cfe5159c66dfeb857dd7beee30953a0dced6c96195b680071b00ea1f7ac11a5a7feb8b8053073346b7e60e92e087833bbb836100cc3c2fe22853b5b00071cfae5c35acad32885b6a00c02b9babb03f5843afcb863c2c3e58ffed9a384a3630b8ec89db9ef3153410669cdc238700338875df527386fc15efb1e5af95643f43ebfcae6c6172c10c959148f5bfd403195223779b48feb390a8c4b4ae57687cb1e49010972e5f6cdf0c3fa514ba524fd7f0c"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_complete",
+    "execution_id": "3f244dc1-0f29-40c0-9672-9277c6d1491e",
+    "execution_time": 0.003576040267944336
+  }
+}

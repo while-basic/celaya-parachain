@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "e492338f5b3d19bc",
+    "content_hash": "e492338f5b3d19bc441158a8004877d02786151c4a91d6b69598c21840c8e94a",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.596701",
+    "content": "Comprehensive Tools session ended",
+    "signature": "01920e9d1f2241211bfe18d27589f74b42542e0f82b02cd43883849bc1f681911d65c10dc027d95b8bddf464b82c9ac710a2df0fda5b51026f97edddd80ae405fbf9c13be227d4ba421057013f9bc8d95ce3ae75adbf5253b9150eb0886e98c8b1ca49557419420a50d77566f70aebd0e9ffa8b447fdae0de7043ea331caac9c5b9d91993e1a02ac16fdb85841caeef7a517056647d9554e008aec654b6fa06e51588a0473313f1626ff6e2a14505fb416b134e1730d51ce9e74514e0371929c6df8336a4cda0828fca12a6993318fe8a71b3a1b012d18bbb2255c5980d0dbd7d026d5d122145739b47baa49f527f28f8dc7b9ed4a4eafcbc37ee0decd5d432c"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "comprehensive_session_end",
+    "agent_id": "test_agent"
+  }
+}

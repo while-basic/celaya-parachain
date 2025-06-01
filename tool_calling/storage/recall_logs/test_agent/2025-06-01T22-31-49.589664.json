@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "9e6be062d78d161d",
+    "content_hash": "9e6be062d78d161dc6d73f3641173c3974531ef877a927d87ecaa89ff66df73a",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.589664",
+    "content": "Style shifted from helpful_professional to formal",
+    "signature": "ce35f30ea316e21dfb3463a7303496f6d5dc90309c0f96d86bf8107958b1f016043a84b606bbfab101e466b569638ab31881cd78be9776157941389e0d7cca3996264caf12e62e44bb55977a277b91a48dbb1a50a9b42e52fac5b17bbbbada52f4612ce4f0fd76ee0d0c6d0db5569c444d633b75587ecd0b1802424fc1c03717258c99bb6536536c9a81c7b6efcc0d39eae9ce20bf098f888ad5dbfe1f43f148f86a650e45347ad265e1ab5026c9466d6ade722a97a62344ab40c11d3aa114aae36a7513c6d6c0f2d8eeeb56241570aa0e18c7ca0f0592b3bafd87c1d98eb50f0f7dbf2daa78059f2595c65ca905b9712f4f62346b7bd8a2097d1cb59aa504a6"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "style_shift",
+    "shift_id": "591f7eeb-4a41-4df0-908f-a03461eb01d2",
+    "old_tone": "helpful_professional",
+    "new_tone": "formal"
+  }
+}

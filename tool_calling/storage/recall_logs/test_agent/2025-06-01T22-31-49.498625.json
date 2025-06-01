@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "8d550e591b534560",
+    "content_hash": "8d550e591b5345607c9be2c1cf331906b677542ccdb7023ecbcba6fc7fe7019b",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.498625",
+    "content": "Executing tool: dev_get_prompt",
+    "signature": "6607c68c6799d5e9400558a04e96cb62f252a2e903d1eb8012537830a10eaec9be5f40b30f5b662e5de57c68f5506a446a435a98e377d124b935dedf5c54819e5a2445c021da824290bbe771a40e7cb8b0f77d38cc05be4326db428fe7c5efecd676c9fa5a28462035ebf23dd22a307d986ecc41418fce2543e457f2dc7dbf392448e79ceb44b5086d011c86761bece791e0d77c2500755a3405696f066e2ba7aee5e2dbd353bc6641277dbb067b27f463b127d7e137c1ab912d8e3730f138488a46254d4dace70884cf5ab3e5ac6c8311bc19252e86129cd1c070b3ab8d86e9965a7feb95c091a82fe7c1189e7d978998aa505a2642198c61c4e94a230f028b"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "03741e38-64f7-4401-abb3-87da793770e4",
+    "tool": "dev_get_prompt",
+    "args": []
+  }
+}

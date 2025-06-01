@@ -1,0 +1,14 @@
+{
+  "recall_entry": {
+    "cid": "a659a8a30fcc5191",
+    "content_hash": "a659a8a30fcc519112a7bf09168d4dffac044dca2de138812026560aa411e746",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.454129",
+    "content": "Dashboard update: {\"test\": \"data\"}",
+    "signature": "0e8521c87aabb17ada184858b45d5444b35d1de723cdfeeb5134f7fbca3db3df674b0414c8c632d29d38b6ec9c7657f68399ea2fe31cce1abb70fc71e7b8ff124125cf1c5869b11872c25ed6a3128e0d6b660cb0f6ca06f93c7295a57488cb2ce0e42e9124f46ee81ef1bc3285fe4834886e3b049a646b414ae712b7d25e3a4794000b1ac234e2bb576dcdeb1fe39fd1f448f9bf2e4586e3f860f582555733df3332149d3444ee7c908334f7ed6c048c521917dd821fa86a099ae91e03cf73b7d46a8b2523d33e235358a23cda05da486d57d8354dba9c406e1e357214afedfc2c185043fc5825198071822ed2f354502cc8985b09071a1e458d90d564b24228"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "dashboard_stream"
+  }
+}

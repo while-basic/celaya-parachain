@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "558c26bda6ed0c82",
+    "content_hash": "558c26bda6ed0c8281b736dffc3aceaa9d6e3fda282ac11c43d8492fc578ed9f",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.590217",
+    "content": "Tool search for 'security': 5 matches",
+    "signature": "054642a707894a813f3a6375d0bf3f628d21d6975ee16e51787c6afba5b5d3e478c0488744e4dec6c8f7f1b438d19c140c322d96248ca65576f9647476ccf8994d6e4ec5488e32a9efc599eea3bebfffffe0375fef5bf0040c642db3eca937af811fb0743ceb512545700f54154cd99d7654a76bb8e7e714ca6e873688fb67ac72944d36901b27f916037ad048b1d9b4686da43a4fb70eb09a944557d8b2f9debbfe16e57d50aad94cb547af781495d45aac41cacf9ba34019e3fc0f24e2abd5d31d178e5c089637e7ef2a18d503c680296f2e8218b7fad680d1d71cb4074fd7100f1e462ea7b8fcf4a37daf9ecee08f7878cb5572c2b7f0b4d47da3a893a837"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_search",
+    "search_term": "security",
+    "matches": 5
+  }
+}

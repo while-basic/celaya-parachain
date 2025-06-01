@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "9f1c054475efd35b",
+    "content_hash": "9f1c054475efd35b0cda097f021afcf3de9bff4f286b5f0239578d88f6ea40cc",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.541297",
+    "content": "Public key requested",
+    "signature": "9ba314c136d7cbe0640658aff0359ceae022f32a7376ec824ce9bb2873cd92359ff12bc510c484f31ec97d92aaf8962928c8d9cb9513f2368635d45f341faca6e45b11e43535df32d0d483af41d792c47d0f7511d6e2820cb718e8729d1a662b793b5b1e9bf60f5eb7cb43aa4a4d9fb5cc22a64dc9e8043f6d5ab01db137c86d40dea35f004cec79c9ea7595dadc5fb9d7de400bf8f75d9c75ed2375b7c2ca961679aba54887d42e7b065ce7fb54edf8bd685003ae007d90a961eaca52abc46e9ed0cee27c4a1c1069f429c000e0f41ab25af3d1163b7b8068efab8ecf837c7934e6fdbdc22142ce2ee91d683ee16bcdce6a002c66cc230d12625f2d29971690"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "public_key_request",
+    "key_hash": "bfa0ec8bdf2946547879d50a68687ea3"
+  }
+}

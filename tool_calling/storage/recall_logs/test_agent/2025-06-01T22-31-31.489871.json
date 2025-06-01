@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "f62385e811805e1d",
+    "content_hash": "f62385e811805e1d86b9c6f5c51664c21c0fc99531bcaf3269f6375159e35e7b",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.489871",
+    "content": "Executing tool: id_get_public_key",
+    "signature": "cbcccafc7f3401e594adddbacb111b9d8b4f92cfcba3006aae952e7a383437d713fb91474a29c296a3ee7110c66c57c0102d5ac5bb36e8d783582ea9b343d1a1055ca9d995a6ef968e051432389da74b1621fcf77999e7d98d77ec3c5ee22b8a6f5dc71c83558cd4e61ac0b4a270038f69f2095dcc3d3f29a514ae8c676a19a856bc93d85386bbcc4422c42ee16aa9042225141bd965bb36bb41ca12247b7f35f350db3466a4a3afa4b3141315738a95f845702a8dd00719a77f7f42e6f1f384e6ebb7571966a1927cf609e6099f739b6940c9a62ddffdbc5665dbf9491337208a15b1e167ee9714520c3066a3a4428c212159250020c2101a1603a5febed4a9"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "7a74e826-ac4c-4fc8-8831-5afc2fe12ec9",
+    "tool": "id_get_public_key",
+    "args": []
+  }
+}

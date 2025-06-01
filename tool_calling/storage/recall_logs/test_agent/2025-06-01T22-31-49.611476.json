@@ -1,0 +1,18 @@
+{
+  "recall_entry": {
+    "cid": "1b4f4e1006b0cb16",
+    "content_hash": "1b4f4e1006b0cb164f57eae5a87f57f7ac3d14fd99db877ba76d8240217fd741",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.611476",
+    "content": "Entry tagged: Test content... with tags: test",
+    "signature": "3e5746099919ec88c56c2b8dffcad3e49ffc8b3e8fcbf1067f255e3069e4042e736d6d0f98744957d2af71242ecca554dd60570f715b17a8e7b3306f64c27531e460321800156fd6890bc0d131eb0f3ec3e1d8c2ec4d3f288a88347436a7c86413818a767fcd2a1f06ce277b7bd4d51d8536a85c4e1066715b375cd3471b1227110037944f3a51a28fee6640e5f8864777defe35448cd04e2d9ffd4f3a24613e03cc8e595785cea69d07f1bcea79f89eec0a8b6645eee8d23c40d9ceaca16cc50649d0fc5e1d7efb54be6f125ced234374077f490556a3cbc42d093672c6495fc37a572fad73c05c71f49ca063c6fa5645f7033a4572f13c4464dfb24fbd468f"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "ui_tag_entry",
+    "entry_id": "f56d6179-ac55-4f61-acbc-8010834a81a0",
+    "tags": [
+      "test"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "e83af823a123c6a7",
+    "content_hash": "e83af823a123c6a7e22880345f45809ad0a743f6aaf04e244b7b93ca9f750e53",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.624017",
+    "content": "Tool search for 'memory': 5 matches",
+    "signature": "c47d6cac219cf8bf0ca311aad4e4b4f2258e63c5235d6a09221949539c87fe7d057c534f53f66327cb9e7d328721626639cda187c7ac297dcb04d0b7b80a76b8a2c40595757c3e5551c70549e70c2465049d56e84ca1ead9d8016cca76d143e15bae6f0615d301d908ca7f548d0f3e5674e5515834a8e42b89fb8fee3f2b238482aef302d7ccede1429c6928cc0fc83a632e150f237f7c13847f5c5e52100f3711704326ea530b20c3b275d98a950b8c6158e6ac5f1cf9cd9ffa4ce27dd3911d9781b8e6b3d476ece58acc1bfba5531b5fb9543669d9fdd8e71f723965dd2db2ce40a07564b2ddce78a8aebf117927ef2dff4f5aa2c98f6ce28cd846c07c70dc"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_search",
+    "search_term": "memory",
+    "matches": 5
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "a4192e26afeeb284",
+    "content_hash": "a4192e26afeeb28477b34abf7bf8f3227311c974946915a265978f126bc3d7aa",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.521289",
+    "content": "Alignment check completed: 0.85",
+    "signature": "3a92e4e00e76ed8d107874120f08b64cad2e46a1d4b6de8b759069ac0c6b541e8b5a05402251abfd59011111d9370a7ce42ecbe42531c980510877382f6091333e7bd1da165d0014327d2ebf18437c516aed1136e9a50fdc77a174b86b3bd5e5a1d253b5a87bb46b92a825b7214b7137ef346e6a9b405974456f46747316ec93f22d8ca907131371c7d7ccf55d14ac71d521d63c90a5e9180b4543e1120b04c6f158c8742e4303c9bbfb3daf6348f7d625279a1f1b61eadbe38e44c15927b9467f30313a625ed6deb262d8919fee16f6384fbe0415c3b5f60ba64a25446a4021bac2a328669f67fe05f4142186721bbfad01215ad717712cc76c2c1a5eecfcb1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "alignment_check",
+    "check_id": "e5733d91-def7-435b-9e1a-a5a1997d68b5",
+    "score": 0.85
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "01fedcb7741fc8c6",
+    "content_hash": "01fedcb7741fc8c66bba824464ea1885b455841e8691996b66ebe8a80d662bcf",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T23:10:21.248606",
+    "content": "Listed 78 tools including 0 Tool Shop tools",
+    "signature": "2cf49c722d6d5411d208beee00ce36a952e7185e44979356a55f67b398f3e98cc870572a5ed904de020adaf5a3677fcee32da124c2a9ef03278309e229cd171cb8b3b20741d659c6db563a27418f3f5f3fabd2503c0aea9bff661e48584b02374f816190f2d0b94a147e490f441307b61491ad4583787f4cabff1af520bcacf5d33ae9c9bcda7ddc755ed3ffc23a3a0e4767abc6099d42a0a2980d979094af0643e3662e140ddb38a5b75a21cac03d8d4412c1dae3d1eb4d1f7d9f3cabf2047f3bfc231b29d7c30d17fda45de5e6ccc9b5e456213e12d42c1aa3e3d3f4e871976a84cd3d7d60655dcfad26046f2547f9ec29fee80902e95da91004b679117b6e"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tools_list",
+    "total_tools": 78,
+    "shop_tools": 0
+  }
+}

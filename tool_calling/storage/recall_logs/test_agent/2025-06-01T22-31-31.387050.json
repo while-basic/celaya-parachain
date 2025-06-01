@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "248da7029fe31346",
+    "content_hash": "248da7029fe31346d161956b14bcc44fda31ce1f8430f27b507daff56e9ba7e8",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.387050",
+    "content": "Executing tool: memory_save",
+    "signature": "86524c28bf9262f913d905b35870efe9abbb72208579e23454d9f75678b88f991701b392c7b758d4e686c305c40e4f22a482f8c3e84adfd5a8fb86a91fe8e2230ba92eb727796c6443570cd744cb0c0144357fa6d292dbb97b742579a63284cbba4e36219cf3c318f0b665f9c7459ecf6d4fb15f3abeb95ddd730b560313d2111bcff8f0a5f1e1ed3f85919c7e1134c6e495cfa0eb2ec82b1072e2d4b533287b5a2f2393fc0f34e7b3a3db2a1d71c3a8e1b407a40f62197607b897a6b36c9795a9c19526f7f94ccb3da6216212a960c7f077756954631115257a5110b6aeac4dc8ebbe0fbb91eb16d029d1a63e9e229f2a1851462ed4ce5c4084b40c5b067769"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "340101ab-8371-4523-832d-d6510a8a6086",
+    "tool": "memory_save",
+    "args": [
+      "content"
+    ]
+  }
+}

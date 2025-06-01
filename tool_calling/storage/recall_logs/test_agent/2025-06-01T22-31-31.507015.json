@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "989eb73f2f34fc21",
+    "content_hash": "989eb73f2f34fc211557263efedf20b2d1850d928b6e57ba88987ae90d8f51c7",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.507015",
+    "content": "Executing tool: system_restart",
+    "signature": "cf7a231f761efd8c1757a2a4ef6cebf16919f9ade5a03ec673a85dbdc55cc057df258d7373e41546797b3235b14ee28a2dc852a0a35fefb353c177bdc97b09d26365863a4bc1c19ffa96c94e0bf1766c6a081084cdeaff210f667643f227a17bc0280ca3f495607efbef6017700092912eaad0a1f094b998c59b66197d92d453f04b64451c14b434bd17529040c4fd786531666db6061a6ccc2f5faeca38c8bc83d2da3e5de9eddd8f8622b683b3437e03db181ab659a9efac41e59fb86baec88daa1655d5859ff83f575629eed26d01f4b04a9d4e2605283a2946253c2d4d580f70a988a2e44b244e052a06668535b23da65ca49560b384c9491256cd847cd9"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "d457a538-bd18-4fc5-aa2a-3d3af46b06ca",
+    "tool": "system_restart",
+    "args": [
+      "reason"
+    ]
+  }
+}

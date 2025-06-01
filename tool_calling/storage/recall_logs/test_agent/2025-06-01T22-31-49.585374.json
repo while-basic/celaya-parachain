@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "f6aeb834dde5a01d",
+    "content_hash": "f6aeb834dde5a01d8067b2b248bc20a60bbba13bd8b5de263959f81e9f575883",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.585374",
+    "content": "Persona described: helpful_professional style",
+    "signature": "9c3741a53515b86b1f3641c60ca57121528793f5798f3ae7c1b2c11e75100a9787791811157c7683b30a1641e76e2b3c1f4e6b0d111671d4064dffc401e72261b0a01cb3fdced8c23a27217a0c130ee2225d855afcf72a3c159279b46b7dc6400b8f0ba8dca5394048cc0bbc4a71d7c8d43d1e487e3f0f8143df41c0981d4f4fd1e278ce32b45804c024d0c6392367da62ca9deea876a9c9295526cd0a870e6ccecdf625e397efd219181de7db0a613ae48bb5d113895e35170853a9dc674068eec63ec21a5d036a2e0de2ed6c663b434c16220ea5c961eea05c57e677ae2ad976f89a8927aeaedfc534c76f0d36315b25082f6d7adf25e75de7ade0f1c676a5"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "persona_describe",
+    "tone": "helpful_professional"
+  }
+}

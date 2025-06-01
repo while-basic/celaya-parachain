@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "ec651f2667d14ef7",
+    "content_hash": "ec651f2667d14ef7775d3a7ff1b86db3c9a91d8b3596932c7ff59b1d8a7f0f96",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.519694",
+    "content": "Executing tool: security_check_alignment",
+    "signature": "4caa39b16b87363fee7f2549061caaf5f09da0a5244a3aeacebc60b0d150be00d6d5c091b1422478dc08310d88a55e8319341764a985aea3f45f58836dbca265642194be2e9c45afe78b26c65516326a42023e3c7b78f6659cd799d95af7c0956dccd2c4a5d1c6ff5c2bba49a79ed305685bd74c5986aecb852f28909749cfc4ed1a888b3410a5e8e70a308b0c0871327e1e19dfac5d35e94db3610d237cd25a07fb50166a1d5bcfff89944e3d54e07204b7e275844ffc5d028f5e307a3cfb285d6bfab41474f5388273b1455ba162420a2d08711c198df5dd92ee3297dabfa0e1cb578a01418842e6d49aec5b2786726d5ddf3e79af3d3a55167a80225f5ced"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "dd1b41e6-a734-41d1-9d19-f2c418117067",
+    "tool": "security_check_alignment",
+    "args": []
+  }
+}

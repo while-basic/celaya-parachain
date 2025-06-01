@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "573ef37e5cec68d9",
+    "content_hash": "573ef37e5cec68d927f140ce282934173ab7539aa838eda3a62f7afc9465873a",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T23:09:30.576274",
+    "content": "Listed 72 available tools",
+    "signature": "24e6ac80a25a9cef9bf363c15696cd1edd252eb214e7e5b4156d59b3134dce367674e408a36ccdb65235288f4abbddcd6e6aebc5c706ac41b18844efedcac1f64218f1dc8586c36616cbfdcac65f136a5ed43a1d5d7f075f7a64fe0a0e6c3e6ba0586ee7547bd158f56fd91de0d71b5e35afc5c6d1f259c245f2f1d453d6025a540e9be5d25b10714fba77c031764cf1f010985b14ce75d3d8a7dcb7985126a9f66e88ca9fe543e7505f87312237e4c049dca28b7eebfacc18448efb5ac4c7ebddf34224364090f6f7a8c9ce1ed28038c76fc6b3cdeb0c1a4c7bcfaeb446f954ce70a628f891845f61657df02e0da0fa7a200b3b7ef8d7f1a494c78f27454654"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tools_list",
+    "tool_count": 72
+  }
+}

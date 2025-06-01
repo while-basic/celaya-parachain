@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "11a4a851fffd349d",
+    "content_hash": "11a4a851fffd349d332f2516eaa15f0a377cddec1c8f296e3a97d18d0eed7793",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.561799",
+    "content": "Executing tool: persona_shift_style",
+    "signature": "300a6453831661ac0caffa9e2147f06df7d22b3129b063273e94d98613e105ad7e1636134c376c104c264a7ba8ec1b1ee4c8224f80070ec1e3aa9a2b9b2f7925632c020d1845883523f2372f01deabb3a4a447120e85656426e980e6dd8db8b73ac95395e85aa2a7f3d3ca89fdf4321546888aedd63d63a54e32a83554c881f6e3a193261c53f2e21221e8bac3df5ea685aebc8320be28f552b8f08138648f63dafcb6128c4350572ce90eee1f7ce28b24d46c38d98bfc3b357fc1054a81e6e39d6b8508317d716edf0966c37ce777c6414e2f89ab71b83c2f2e2831544cbe2de4e5940055c440260c93a8e8c47cdfe217449ab2429816915da6b2fee937b13e"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "3a8796eb-404c-4e2d-9c02-de444ba41597",
+    "tool": "persona_shift_style",
+    "args": [
+      "new_tone"
+    ]
+  }
+}

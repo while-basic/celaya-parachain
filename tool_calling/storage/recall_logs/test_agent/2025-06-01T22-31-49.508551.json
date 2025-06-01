@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "ddea15b3ddbbe249",
+    "content_hash": "ddea15b3ddbbe249f7456c0e4c72837a8bab1508a897b531d9d2f239316e5f32",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.508551",
+    "content": "RISK_MEDIUM: Test risk event",
+    "signature": "74af1a531977a2cda4a5ebeb86cb860abb5fbdf0504068fa647a9b841b07fe2f810a39a7770b81d14847c6056f290b1c24d38f1224cac03d9ac7127bbb8fab85502a5839221b998fe731a81ce874993dc8d542b4cf63775d27826769a90b7df301af3f2d2c8f8fcb994bb05903ee631e7b91b6f160b2af65d2b993d37ce264bc95b1c474626cf8288bffe24b0bf01afed79a388b28251561826678ad5968b02c92bb29e6717473c2b8060d747266de47a26520ca4cb1c9b09891b733b03d119539f5cd9d5ec3fe1b0e105eb23320fd0ff93b661188d67ca217b83354a8564cea5e3b679f161ecf4cfab97a9503eebf271649e9a855c914f39c3b3b6a6dd8ea79"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "medium"
+  }
+}

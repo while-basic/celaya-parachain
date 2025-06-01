@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "e66d0357852a9a7b",
+    "content_hash": "e66d0357852a9a7b49038b1d4c0c42f661776c2e2ce6cc75b47bd3ad2661655f",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.560085",
+    "content": "Tool execution completed: cognition_plan (0.00s)",
+    "signature": "40a9c931a7350c2749f7f7ae3c8f06eee4fddeaefbefeb6e64cb5c20118495d4ae3f6dd6284b5b9c72533caf4f3f55284759b291dd4680e2db63e201f7abffa257c70bb9df20935986d76406c9c654676ccdf14f44b99de080d3ba2f3c7b35575842fe86b7ffc9a08c944b9d1061141b1e5c66680c15ce2d2ced8ee70209c6166409554819335e73f2bec83daf24e23b693d7e64291f5866f91fe7afbcadd4b73ba42b38cf24c9427620fc99c06252f69e31e71514a5ca24db56e58bd963f1a01866cad3725a04629d2d1f4331c6744fe445552d89366957db6891130ecad33cd15a4a39b7d135d441af78f3a35ac8fbc9a4d35f7929f162452c86748066f2dc"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_complete",
+    "execution_id": "ec84efeb-ed3e-420c-af5b-4ff585eda58b",
+    "execution_time": 0.0025510787963867188
+  }
+}

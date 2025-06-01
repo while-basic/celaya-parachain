@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "1ef952c6e529f3fc",
+    "content_hash": "1ef952c6e529f3fca6fa2e48bb855ea96a566d76c228801dde4444825151af59",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T22:42:00.985884",
+    "content": "RISK_MEDIUM: Tool generation failed: Tool generation failed: Generated code failed validation",
+    "signature": "b23933f706cce7e61c3133b184e441f512210ec64d06a7d5a32c63ab952b2890df70d7e344fab614362b9e546cd90bb682ab3865353ec410a37596e6e49f2fec69447a444f2a9d5b7a20d529f4086ed0abac999183ec67c85c9d7ea1960a1077d446e53ecdbb819214d711f1625606940adbfe845f27df76af1a09a8e8ea742b6eeecb70167cb1316d4ed2baad1395e181d45021ac6d8289da9f3500fc7a2479bb60756cd2b273860d5705694359f1f8a2f26f3c2fdb91f9238677eb8451c8391671085e341bfc748f76c338c5db54965d244831eaf1686211a168087806c80cc69f968d070dce0644678b95e96543ba6e2a7c8b19b4d7aa0db317f38dff7308"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "security_risk",
+    "risk_level": "medium"
+  }
+}

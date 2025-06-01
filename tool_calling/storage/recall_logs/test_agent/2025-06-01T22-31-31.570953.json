@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "4d014d251f9419e4",
+    "content_hash": "4d014d251f9419e42778e0b92c192825d1c54a82c61e2796512ad3d903dc044d",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.570953",
+    "content": "Trigger condition set: test_condition \u2192 test_action",
+    "signature": "d6fe7e57477267fdd9fac6329673600c2e14a26cb70455a59c331afff6f50fafcd164f8764356f0fd4ca05616eafbd580898ea334f7990aeb3723a4ad169ce646cd413eae8ebf625d9b1be17e6572cd820f8bca332e72d44ba19ad680ce74ef06ee12671d01fde18be1eaa28d5e86938c442b268cf977963a76b31a16860883a1fb99ca1a0ae1ab58fa0cd20ef67a8717390bb7c78cd51fa9619007a731ed9d1ad7110987405025dab52e2b709ae2515936a9f6b0c2cb7612be9de8f3daa7cc07b3cd18080419713ae962b52b0396e7c597c7d787d4c528ea66b5678f0380344f99c0b7853a2d3d65653cb10737c883220972ddd787d597c655b24743551a2e2"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "watch_trigger",
+    "trigger_id": "e716911c-9992-4958-ace9-01df3a1b1cd4",
+    "condition": "test_condition"
+  }
+}

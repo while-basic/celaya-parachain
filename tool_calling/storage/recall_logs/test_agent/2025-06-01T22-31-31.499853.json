@@ -1,0 +1,15 @@
+{
+  "recall_entry": {
+    "cid": "484fa5ea18f5e67a",
+    "content_hash": "484fa5ea18f5e67aec686a30a14afa4b36580332a45b2b984495177101170f1b",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.499853",
+    "content": "Message signed: c0719e9a8d5d838d...",
+    "signature": "b15bc0bdb23439efd387ea83223097673accfc9c56aa46b08e5adcd61199b58f55812c0df5951c04891fdc3fdbf41472af5b7b4d6b1637913c914c5f1fc081e54602b7feb92aab6fbbd4aeb3780e57d32547ab2e4c92aff9ee6b753ab54b902d3a5b10df60e7ef0bfe8a2df0442a4fc3c0cecc7b4ae9e238277e96e44e0586bdc32878f20b406052e1717fa1a921a299a1d04b4debc01d82c3a7edc1a21434447c10ad7307af9dab33bed12168bed53cba089455823b08ed964ef1d35cbacfcf725056788d22e99a418bb3ac55476804d46d1749e9319c7d89dece275f4bddfd27f8cde3971ace43663c0f24a167e47edbc28d845bc8914f402a7ee462cb593f"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "message_signing",
+    "message_hash": "c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1"
+  }
+}

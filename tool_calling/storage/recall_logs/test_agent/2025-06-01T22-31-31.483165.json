@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "3eeb975bc6ab81d2",
+    "content_hash": "3eeb975bc6ab81d2a7ed735a07ebb2bc9d24a01886bd17e75db613c05a953491",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.483165",
+    "content": "Council vote started: Test proposal",
+    "signature": "595bc9a0abfd1fb07493f6cad674c035200497c1083f083e9e9308ae5defa9c9d6b5912eb69193c5cdb2cb634785708988a39632ac2ae8b93f9cdf6a272155b1eacece882285a593fdb3638515eed69cb51212e32bdbb489e2c9c6735c341976e528d88153411141a5b34d3a9412b751363ef16977b3bf7613dbbf3ee53885d5845d96f70f62ebfac12c36010d12a7620780976491338a665b9c41edfbbf804e9bd11fc05798fdd73725ff267fceec5014a39f4b733559f024288234019f09f9baf79c01f1924ebc1f4d86ca15e970dec15ee2e497e5b9ec6c3e2ab4dd404077f41c7f28b59a36b34817cda40f02d28690c1da99007d4b1bed35f004d8fb5a2d"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "council_vote",
+    "vote_id": "5e21a91d-a673-4bc3-a551-9bdb3620bd4b",
+    "proposal": "Test proposal"
+  }
+}

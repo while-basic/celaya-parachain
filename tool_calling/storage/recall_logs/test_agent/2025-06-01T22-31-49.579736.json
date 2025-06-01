@@ -1,0 +1,20 @@
+{
+  "recall_entry": {
+    "cid": "612d34b4594b08ee",
+    "content_hash": "612d34b4594b08ee72d8ae33637b3ff2f89d10cd385822ea6a4da3ab6cfb05cb",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.579736",
+    "content": "Executing tool: task_link_dependency",
+    "signature": "33d9336a5125ec29ea597dcbc5c4378e16f64a07a618d5cb8de5b548aef20c854b1f87237a1ab36dfb26673449c009f26a0e40205bd25a0dbf1dc3addd087296c1504625e645c03be66aa105b619d98d99d9e5d7e61f9059b260435d9471cb31fca19f7ff26aec2d5504cd12e70ae03c8520cf70977d9e4eaedfd56cc769ceb6afb713754943346daf1d1b1e10db97e46b55033945af3e34d41dd7d9f0782e94d9c02aac292fb553ef9804ec6715cbb802d02feff228200793cafcc4fe9a7db3a2b849f1e6af1bfbcc615b8d200f180ad1c0c8ea0e7049b6602c95316f5f867cefce951429fdf22665c7c0516c8cabeacb9e74ef035df0760fa2c0ff715f34d4"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "3991d5a5-766e-43fc-a0a2-a8a747a3c740",
+    "tool": "task_link_dependency",
+    "args": [
+      "task_id",
+      "dependency_task_id"
+    ]
+  }
+}

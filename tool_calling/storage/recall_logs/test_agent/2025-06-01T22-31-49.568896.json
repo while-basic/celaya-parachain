@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "9cef90699bda2547",
+    "content_hash": "9cef90699bda254790a1295210eca843e0354cfc01b8f36c61ec218ec1845e83",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.568896",
+    "content": "Task created: Test task",
+    "signature": "c29243960cb3774a5ad8562d38a3fb56d3e66a32e1d3d7f1645ce1b6845b92d55d23a2ac90c3fa6e2141fa4ade32f5a85c9c9c3ca146b5b34a41a089dd00a56bab74e37bafed35ba51e247c68b13be3ca1d494eb56b0ec56f4fd995acbb784311263c9d09b744029b0fbee6f0eab229eb96edab4047a5e49cb12d9dde721ff54b3d79c59812a6bded4d2524f16d9dfc142de6be5ebc0390459bcbc777c2c38c026c1e32f381f1c53fa60c49444e339454fdb01d072df2845d3165ea31a80c452399632d923891bc5649a75541285a4284727de4b2f799e479d0048dc8e48e89fea4cd76b2e3a9dcd2911247940aed47c6e9d756d151fb2f25830e9d377d38016"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "task_create",
+    "task_id": "b3372d5d-228a-4b88-ab57-fec88c1fb532",
+    "priority": 5
+  }
+}

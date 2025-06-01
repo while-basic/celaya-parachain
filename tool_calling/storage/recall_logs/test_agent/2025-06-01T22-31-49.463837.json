@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "a79134962b68ce60",
+    "content_hash": "a79134962b68ce607f2f0f1f576eb597a7249cb3660b2241cb08f793af5e9f62",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.463837",
+    "content": "Executing tool: recall_log_insight",
+    "signature": "89c59d17913545e8dec5dccddd124060e05d7ff5becfd95e362232413ca97aa6e913429bb80d2eb8e75e808ef1cbe4ecd545d2f0dd1b2aea3b20a5d206bad402a3790e34609fc83dd461a687a29403816661c2becf561c094c90daf79658f0ffae3ca6a2dd125bf073e5633f0c354062895b4e245ac6a65ea9016f35ab1188317ff2b77f990a4f49ea6b1d7b40220b994b7a5cbc264930cc403f71b507a7b64cd8c46b8cba5578612b3664802c630acca7751267d89eb192f0b04baf2c48e5b12c225028c777e5e94792b6bc50710cd242f053fcf4693ff80e01330bf157faa2ef1a92e840b0c7c9a03f796882080c3cabfd13146608e6912fd43b3e1a2726f1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "6fb694c1-c469-48ac-9d51-6052539e92b0",
+    "tool": "recall_log_insight",
+    "args": [
+      "content"
+    ]
+  }
+}

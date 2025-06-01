@@ -1,0 +1,17 @@
+{
+  "recall_entry": {
+    "cid": "2b997a0b052689e8",
+    "content_hash": "2b997a0b052689e8c540d028d3ce5d27575862c771dea1e36728e796ab2efe83",
+    "signer": "core_agent",
+    "timestamp": "2025-06-01T23:10:21.140767",
+    "content": "Installed Tool Shop tool: Hello World Tool",
+    "signature": "634d9476d80888b25f3ce756ea54bd2e4be3a669966fd77f8ff7664854f8984f6123b507136ff456218684a59bb10f4d1e66a01a2319c552d3d528b0c14ca1f7107f4f053053de6aa26aa7b98f2499498ea546141688e0e4b9a1a11d38f7cc91e2996f438b9f3f376692e0da09d34fc6bfabdfb6816a3919bae90f1efd5720077deca29f34ee4e69bb7cd8eda5f5b437562cf66ec11356a4414bed9aee42c424282ce57d16b538f5e18d9cc33118405c4c9d7ef45e43113283626658351f23f04b89fce72ccf5f9108326f775c4b0ec5d3c6b1f03a5c6da06a46c3a4ce5fffc5b86d2be34709a788918a2fc54c60ba97cb6df0d807f056e268ac816bfe347ba1"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_installation",
+    "tool_id": "2df76ccd-af6b-402e-94d7-3bc4b8c05511",
+    "tool_name": "Hello World Tool",
+    "agent_id": "core_agent"
+  }
+}

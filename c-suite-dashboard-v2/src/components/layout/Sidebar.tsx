@@ -27,7 +27,9 @@ import {
   FileText,
   Zap,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Brain,
+  Wrench
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useSystemStore } from '@/lib/stores'
@@ -93,6 +95,13 @@ const navigationSections: NavSection[] = [
         description: 'Consensus logs and decisions'
       },
       {
+        id: 'cognitions',
+        label: 'Cognitions',
+        icon: <Brain className="w-5 h-5" />,
+        href: '/cognitions',
+        description: 'Multi-agent cognition simulations'
+      },
+      {
         id: 'network',
         label: 'Network',
         icon: <Network className="w-5 h-5" />,
@@ -102,8 +111,15 @@ const navigationSections: NavSection[] = [
     ]
   },
   {
-    title: 'Data',
+    title: 'Tools & Development',
     items: [
+      {
+        id: 'toolshop',
+        label: 'Tool Shop',
+        icon: <Wrench className="w-5 h-5" />,
+        href: '/toolshop',
+        description: 'Generate and manage ultimate tools for agents'
+      },
       {
         id: 'cids',
         label: 'CID Browser',

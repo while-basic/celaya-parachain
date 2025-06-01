@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "8dae20c695330faa",
+    "content_hash": "8dae20c695330faa3813a65d88a0a057dfab76186525791163d8f274f969b2de",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.508302",
+    "content": "System restart initiated: Test restart",
+    "signature": "6a7872996b6cae1ac6a9db6a4045bd72c0d76d1a0c551e459093d7dbed2872ac12e8cf0f88bf92378f9cf8ac0f820304aefa901696b5f86b825b8af766609f9648021f3ec010a2d95624d61fbbfccb1cbdb8f1c396ecbc41296f7fd5f8e98c7d4dc6c523413fa309694c025b58e294fea29dbf154d543e0c9070624594033a7830d9b530c5c917d8eaf7ee19147df5f929135d5383e6cae095231c0ff1d4530f7305b6bb0690baa33faa0a1a47493b1ad562b4c392ddb90fd328f02da2ea1362e14244628ea16dd264549ebf2fb999476acab80de53f35de2b081fc6a297f9902b8d882e18109e83a8cc49f3cca57282fffa734963fc4a860119226331743feb"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "system_restart",
+    "restart_id": "a4b7642f-168f-43c4-8b18-c3570d0a7539",
+    "reason": "Test restart"
+  }
+}

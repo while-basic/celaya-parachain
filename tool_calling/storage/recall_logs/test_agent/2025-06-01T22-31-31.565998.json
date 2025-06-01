@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "5ed540d3d2c32b76",
+    "content_hash": "5ed540d3d2c32b763da85eb9de4e85cef91134faa949270f2ef959c5a7eb2e21",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.565998",
+    "content": "Executing tool: watch_listen",
+    "signature": "7b77f4a48f6492b5974c995e5cc8afe6eeb93a5b78bb7a47ed810b67bddae4e8b751cf259c5685c335951b44d7aa04df203de95927205545ebdc5122888ab459608da35b9a0cdcb571b35a36b1d208348d85f219ada79dde5893fc26a0867461d75325d34960709c8f637dd7e8460a5d239dbee9602c9b34770e56cae0158d063d34969858fd231fa554c324904afd9163e80ffe056f2016c741bb5fe433c632507529487fa08fea747c696311a9f6dbeb18b92aa0df8efa73b5707b98380e64673b9333a7e1c4c5d316ce9ba5912a92e7791793ecd97a8fb570ee5025e84b8794ed6046fc3f1cf20a0ef09af3a02df9f0a5104663079ccd3ca5317e8891410f"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "319ec4d8-c04e-43fa-8233-b2db13462ec0",
+    "tool": "watch_listen",
+    "args": [
+      "topic"
+    ]
+  }
+}

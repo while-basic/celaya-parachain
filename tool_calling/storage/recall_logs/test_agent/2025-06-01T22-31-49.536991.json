@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "d1e0b00315fe66d2",
+    "content_hash": "d1e0b00315fe66d2d1c08da88058a2d662422ebd372247fded99501ac7d0d09b",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.536991",
+    "content": "Executing tool: council_get_result",
+    "signature": "c351df825526a15e814cb7012695280a41f6f7b97c7a3b43b56355a65285a38d71a1eb59b9461bcd90431198d099c08eac9382d8528b8e36319e470948f47c122b349da414ec1237b3a3ccbfe84947214f21049a90e4f133be7cf82803253a8c241f3f3dd4d7b8b2f3447b7fda976cc22f5649e488c95f09fcd6457367f4da971c0429e1c1470ffefd414b5a06f94a349a3fc92b5111db5b7e8e874c27a56218838f428a72a162d16ea96fed32b7270d3138a6238a34c0768738597363f7c3dc6318f9208ab50633b7988dd292092a6dd8e1edc0172cbca2832de2cb23e7e0cfb735c6e172dad610f4095d0469eac0f25e0eb83750a0f3c8ca7ebf08472f84df"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "7fad4ad2-7534-4689-ad76-2f11d9dac849",
+    "tool": "council_get_result",
+    "args": [
+      "vote_id"
+    ]
+  }
+}

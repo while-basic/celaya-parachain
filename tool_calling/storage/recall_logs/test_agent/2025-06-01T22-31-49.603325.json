@@ -1,0 +1,16 @@
+{
+  "recall_entry": {
+    "cid": "37bb0d81e41fbce2",
+    "content_hash": "37bb0d81e41fbce21118eb2cf50f7655f7a3a5ee2b90ad6323a7da30c9b9ca36",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:49.603325",
+    "content": "Watch listener activated for: test_topic",
+    "signature": "79843a5cb4f3e2d2f64a15b5b1b502370a2c527b4330c096d5f13106de0b45f494a4f46b328b4d09091b533c3cb122b9d8e935952cc16121a2f2afd12b42dada4c4510f73a32269eaabc75d1673732fe9bf1f92c52df988f5aaee1a1225ea0e3cbcbac7f4e81696310f3072f3a1b5a682a6aae45a549a4400ae8a457808aed76c937e7500ba14b4b4a00cc575bc875ce1b4fb5ad236032ad10df67b41c5a18cfa3f6e57849dfd7c417a2d70884b4179925eafd5c301c05ac99458cba7d43ba636153909c9c9f1be2f6aa4d423000c0e404001ce07464d41d06343c28e9de9524cdb23de85f327fef4b903ab30928fcbd27f682d0d0d77c3b0edddaf6ecf0b8e8"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "watch_listen",
+    "watch_id": "1927b5ae-0e18-4484-8a9d-9307796881e3",
+    "topic": "test_topic"
+  }
+}

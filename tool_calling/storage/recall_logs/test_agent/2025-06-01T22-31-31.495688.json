@@ -1,0 +1,19 @@
+{
+  "recall_entry": {
+    "cid": "d4b63df0bb02b8e5",
+    "content_hash": "d4b63df0bb02b8e506806037df72331fa5f51db7a877f3db575bc03a6db4ef6c",
+    "signer": "test_agent",
+    "timestamp": "2025-06-01T22:31:31.495688",
+    "content": "Executing tool: id_sign_message",
+    "signature": "92ba02b6bfb61c20edc718d1eb97623c91a70f4f83eca422b3b7a86adfe67ff4f49a5a08007b454c5cff4b99dea28927ec7b18545be467a488f45d0ae8b842bd5c61a2fbb89b1fca425c17188814926c55cf1686b72954452de54ce339db0cc7d367d32e7ea81b0845b5b10ef9077e5a739a9d93b1df4ce449e1eafc34de7f88ff406c64c94a1dfe8780028491ff7a49996785853560231b52b4106aa60b2cec75a0af408ca5128df16f5aa8df2a5d51492ec93e97b747836621c1b31d75a736285df9f85d553daf018e8f8bebab10dbc9a4cf8f559b897cd826e5590f5f345b83fd3df5808b3051004ea5cf641e31634ad5fa889413b1128952eb96ed95aa82"
+  },
+  "ipfs_cid": null,
+  "metadata": {
+    "type": "tool_execution_start",
+    "execution_id": "5e14c8ce-2dd8-480d-ba18-41635cccb6c0",
+    "tool": "id_sign_message",
+    "args": [
+      "message"
+    ]
+  }
+}
