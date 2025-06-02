@@ -27,14 +27,16 @@ import {
   Clock,
   Users,
   BarChart3,
-  Blockchain,
-  Globe,
-  Shield,
-  CheckCircle2,
-  XCircle,
-  RefreshCw,
   ExternalLink,
-  Hash
+  TrendingUp,
+  CheckCircle,
+  XCircle,
+  AlertCircle,
+  Activity,
+  Database,
+  Shield,
+  Zap,
+  RefreshCw
 } from 'lucide-react'
 
 interface ExecutionReport {
@@ -199,7 +201,7 @@ export function ExecutionReports() {
               </div>
               <div className="flex gap-2">
                 <Button
-                  onClick={() => openHtmlReport(selectedReport.report_id)}
+                  onClick={() => selectedReport.report_id && openHtmlReport(selectedReport.report_id)}
                   variant="outline"
                   size="sm"
                   className="glass"
@@ -244,7 +246,7 @@ export function ExecutionReports() {
         <Card className="glass border-blue-500/30">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Blockchain className="w-5 h-5 text-blue-400" />
+              <FileText className="w-5 h-5 text-blue-400" />
               Blockchain & IPFS Storage
             </CardTitle>
             <CardDescription>Immutable storage and verification</CardDescription>
@@ -260,7 +262,7 @@ export function ExecutionReports() {
                     variant="ghost"
                     className="h-6 px-2"
                   >
-                    <Hash className="w-3 h-3" />
+                    <FileText className="w-3 h-3" />
                   </Button>
                 </div>
                 <div className="font-mono text-xs text-blue-400 break-all bg-blue-900/20 p-2 rounded">
@@ -277,7 +279,7 @@ export function ExecutionReports() {
                     variant="ghost"
                     className="h-6 px-2"
                   >
-                    <Globe className="w-3 h-3" />
+                    <FileText className="w-3 h-3" />
                   </Button>
                 </div>
                 <div className="font-mono text-xs text-green-400 break-all bg-green-900/20 p-2 rounded">
@@ -389,7 +391,7 @@ export function ExecutionReports() {
                 <div key={check} className="flex items-center justify-between p-3 bg-black/20 rounded">
                   <span className="text-sm">{check.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</span>
                   {passed ? (
-                    <CheckCircle2 className="w-5 h-5 text-green-400" />
+                    <CheckCircle className="w-5 h-5 text-green-400" />
                   ) : (
                     <XCircle className="w-5 h-5 text-red-400" />
                   )}
@@ -551,7 +553,7 @@ export function ExecutionReports() {
                           View Report
                         </Button>
                         <Button
-                          onClick={() => openHtmlReport(report.report_id)}
+                          onClick={() => report.report_id && openHtmlReport(report.report_id)}
                           variant="outline"
                           size="sm"
                           className="glass"

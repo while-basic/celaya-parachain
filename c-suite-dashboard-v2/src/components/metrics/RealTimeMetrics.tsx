@@ -62,18 +62,18 @@ function MetricCard({ title, value, previousValue, icon, color, suffix = '', pre
 
   return (
     <Card className="glass glass-hover">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-        <CardTitle className="text-sm font-medium text-white/90">
+      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-1 sm:pb-2">
+        <CardTitle className="text-xs sm:text-sm font-medium text-white/90 truncate">
           {title}
         </CardTitle>
-        <div className={`${color}`}>
+        <div className={`${color} flex-shrink-0`}>
           {icon}
         </div>
       </CardHeader>
-      <CardContent>
-        <div className="flex items-end space-x-2">
+      <CardContent className="pt-1 sm:pt-2">
+        <div className="flex items-end space-x-1 sm:space-x-2">
           <motion.div 
-            className="text-2xl font-bold text-white"
+            className="text-lg sm:text-2xl font-bold text-white truncate"
             key={formattedValue}
             initial={{ opacity: 0.5, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -85,7 +85,7 @@ function MetricCard({ title, value, previousValue, icon, color, suffix = '', pre
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className={`text-xs ${isIncreasing ? 'text-green-400' : 'text-red-400'} flex items-center`}
+              className={`text-xs ${isIncreasing ? 'text-green-400' : 'text-red-400'} flex items-center hidden sm:flex`}
             >
               <TrendingUp className={`w-3 h-3 mr-1 ${isIncreasing ? '' : 'rotate-180'}`} />
               {Math.abs(((typeof value === 'number' ? value : 0) - previousValue) / previousValue * 100).toFixed(1)}%
@@ -115,7 +115,7 @@ export function RealTimeMetrics() {
     : 0
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
       <MetricCard
         title="Active Agents"
         value={metrics.activeAgents}

@@ -67,48 +67,50 @@ export function Header({
 
   return (
     <header className="sticky top-0 z-40 w-full bg-black/20 backdrop-blur-xl border-b border-white/10">
-      <div className="flex items-center justify-between px-6 py-4">
+      <div className="flex items-center justify-between px-4 sm:px-6 py-2 sm:py-3">
         {/* Left Section - Menu & Breadcrumbs */}
-        <div className="flex items-center space-x-4 flex-1">
+        <div className="flex items-center space-x-3 sm:space-x-4 flex-1 min-w-0">
           {/* Mobile Menu Button */}
           <Button
             variant="ghost"
             size="icon"
             onClick={onMenuClick || toggleSidebar}
-            className="lg:hidden text-white/70 hover:text-white"
+            className="lg:hidden text-white/70 hover:text-white touch-manipulation flex-shrink-0"
           >
             <Menu className="w-5 h-5" />
           </Button>
 
           {/* Breadcrumbs */}
-          <nav className="flex items-center space-x-2">
+          <nav className="flex items-center space-x-1 sm:space-x-2 min-w-0 flex-1">
             {breadcrumbs.map((item, index) => (
-              <div key={index} className="flex items-center space-x-2">
+              <div key={index} className="flex items-center space-x-1 sm:space-x-2 min-w-0">
                 {index > 0 && (
-                  <ChevronRight className="w-4 h-4 text-white/40" />
+                  <ChevronRight className="w-3 h-3 sm:w-4 sm:h-4 text-white/40 flex-shrink-0" />
                 )}
                 <motion.div
                   initial={{ opacity: 0, x: -10 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.1 }}
                   className={cn(
-                    "flex items-center space-x-2 px-3 py-1.5 rounded-lg transition-colors",
+                    "flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg transition-colors min-w-0",
                     index === breadcrumbs.length - 1
                       ? "bg-white/10 text-white"
                       : "text-white/60 hover:text-white hover:bg-white/5 cursor-pointer"
                   )}
                 >
-                  {item.icon}
-                  <span className="font-medium">{item.label}</span>
+                  <div className="flex-shrink-0">
+                    {item.icon}
+                  </div>
+                  <span className="font-medium text-sm sm:text-base truncate">{item.label}</span>
                 </motion.div>
               </div>
             ))}
           </nav>
         </div>
 
-        {/* Center Section - Global Search */}
-        <div className="hidden md:flex items-center justify-center flex-1">
-          <div className="relative max-w-md w-full">
+        {/* Center Section - Global Search (Desktop only) */}
+        <div className="hidden lg:flex items-center justify-center flex-1 max-w-md mx-4">
+          <div className="relative w-full">
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
@@ -123,9 +125,9 @@ export function Header({
                 document.dispatchEvent(event)
               }}
             >
-              <Search className="w-4 h-4" />
-              <span className="flex-1 text-left">Search anything...</span>
-              <div className="flex items-center space-x-1">
+              <Search className="w-4 h-4 flex-shrink-0" />
+              <span className="flex-1 text-left truncate">Search anything...</span>
+              <div className="flex items-center space-x-1 flex-shrink-0">
                 <kbd className="px-2 py-1 bg-white/10 rounded text-xs">⌘K</kbd>
               </div>
             </motion.button>
@@ -133,15 +135,15 @@ export function Header({
         </div>
 
         {/* Right Section - Status & Controls */}
-        <div className="flex items-center space-x-4 flex-1 justify-end">
+        <div className="flex items-center space-x-2 sm:space-x-4 flex-1 justify-end">
           {/* Connection Status */}
           <div className="hidden sm:flex items-center space-x-2">
             <div className={cn(
-              "w-2 h-2 rounded-full",
+              "w-2 h-2 rounded-full flex-shrink-0",
               connectionStatus.color,
               connectionStatus.pulse ? "animate-pulse" : ""
             )} />
-            <span className="text-sm text-white/70">
+            <span className="text-xs sm:text-sm text-white/70 truncate">
               {connectionStatus.text}
             </span>
           </div>
@@ -150,7 +152,7 @@ export function Header({
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden text-white/70 hover:text-white"
+            className="lg:hidden text-white/70 hover:text-white touch-manipulation flex-shrink-0"
             onClick={() => {
               const event = new KeyboardEvent('keydown', {
                 key: 'k',
@@ -160,7 +162,7 @@ export function Header({
               document.dispatchEvent(event)
             }}
           >
-            <Search className="w-5 h-5" />
+            <Search className="w-4 h-4 sm:w-5 sm:h-5" />
           </Button>
 
           {/* Theme Toggle */}
@@ -168,27 +170,29 @@ export function Header({
             variant="ghost"
             size="icon"
             onClick={toggleDarkMode}
-            className="text-white/70 hover:text-white"
+            className="text-white/70 hover:text-white touch-manipulation flex-shrink-0"
           >
             {darkMode ? (
-              <Sun className="w-5 h-5" />
+              <Sun className="w-4 h-4 sm:w-5 sm:h-5" />
             ) : (
-              <Moon className="w-5 h-5" />
+              <Moon className="w-4 h-4 sm:w-5 sm:h-5" />
             )}
           </Button>
 
           {/* Notifications */}
-          <NotificationPanel />
+          <div className="flex-shrink-0">
+            <NotificationPanel />
+          </div>
 
           {/* User Menu */}
-          <div className="relative">
+          <div className="relative flex-shrink-0">
             <Button
               variant="ghost"
               size="icon"
               onClick={() => setShowUserMenu(!showUserMenu)}
-              className="text-white/70 hover:text-white"
+              className="text-white/70 hover:text-white touch-manipulation"
             >
-              <User className="w-5 h-5" />
+              <User className="w-4 h-4 sm:w-5 sm:h-5" />
             </Button>
 
             {/* User Dropdown */}
@@ -197,7 +201,7 @@ export function Header({
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, y: -10, scale: 0.95 }}
-                className="absolute right-0 top-12 w-64 bg-black/90 backdrop-blur-xl border border-white/20 rounded-xl shadow-2xl overflow-hidden z-50"
+                className="absolute right-0 top-12 w-56 sm:w-64 bg-black/90 backdrop-blur-xl border border-white/20 rounded-xl shadow-2xl overflow-hidden z-50"
               >
                 {/* User Info */}
                 <div className="p-4 border-b border-white/10">
@@ -243,7 +247,7 @@ export function Header({
       </div>
 
       {/* Mobile Connection Status Bar */}
-      <div className="sm:hidden px-6 pb-2">
+      <div className="sm:hidden px-6 pb-1">
         <div className="flex items-center space-x-2">
           <div className={cn(
             "w-2 h-2 rounded-full",

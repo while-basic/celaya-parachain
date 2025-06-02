@@ -11,7 +11,6 @@
 
 'use client'
 
-import { motion } from 'framer-motion'
 import { Sidebar } from './Sidebar'
 import { Header } from './Header'
 import { CommandPalette } from './CommandPalette'
@@ -40,7 +39,12 @@ export function Layout({
   const { sidebarCollapsed } = useSystemStore()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-blue-900">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-blue-900 relative overflow-hidden">
+      {/* Enhanced Background Effects */}
+      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900/30 via-transparent to-transparent pointer-events-none" />
+      <div className="fixed inset-0 bg-grid-white/[0.02] pointer-events-none" />
+      <div className="fixed inset-0 bg-gradient-to-br from-purple-900/10 via-transparent to-blue-900/10 pointer-events-none animate-gradient" />
+      
       {/* Command Palette */}
       <CommandPalette />
       
@@ -49,7 +53,10 @@ export function Layout({
       
       {/* Main Content Area */}
       <div className={cn(
-        "flex flex-col transition-all duration-300 ease-in-out",
+        "flex flex-col min-h-screen transition-all duration-300 ease-in-out relative z-10",
+        // On mobile and tablet, always use full width
+        "ml-0",
+        // On desktop and larger, respect sidebar state
         sidebarCollapsed ? "lg:ml-[72px]" : "lg:ml-[280px]"
       )}>
         {/* Header */}
@@ -58,18 +65,23 @@ export function Layout({
           breadcrumbs={breadcrumbs}
         />
         
-        {/* Page Content */}
-        <motion.main
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+        {/* Page Content - Enhanced with better scrolling */}
+        <main
           className={cn(
             "flex-1 overflow-auto",
+            // Add safe area padding for mobile devices
+            "pb-safe-area-inset-bottom",
+            // Enhanced scrolling behavior
+            "scroll-smooth",
+            // Better backdrop for content
+            "relative",
             className
           )}
         >
-          {children}
-        </motion.main>
+          <div className="relative z-10">
+            {children}
+          </div>
+        </main>
       </div>
     </div>
   )

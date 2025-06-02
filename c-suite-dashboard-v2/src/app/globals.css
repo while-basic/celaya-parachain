@@ -50,6 +50,16 @@
   
   body {
     @apply bg-background text-foreground;
+    /* Prevent horizontal scroll on mobile */
+    overflow-x: hidden;
+    /* Disable text size adjust on mobile */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  /* Improve tap targets for mobile */
+  .touch-manipulation {
+    touch-action: manipulation;
   }
 
   /* Glass morphism utilities */
@@ -72,6 +82,7 @@
   /* Custom scrollbar */
   ::-webkit-scrollbar {
     width: 6px;
+    height: 6px;
   }
 
   ::-webkit-scrollbar-track {
@@ -85,6 +96,23 @@
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-white/30;
   }
+
+  /* Mobile-specific styles */
+  @media (max-width: 768px) {
+    ::-webkit-scrollbar {
+      width: 3px;
+      height: 3px;
+    }
+  }
+
+  /* Safe area padding for mobile devices */
+  .pb-safe-area-inset-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .pt-safe-area-inset-top {
+    padding-top: env(safe-area-inset-top);
+  }
 }
 
 /* Animation utilities */
@@ -96,6 +124,19 @@
   .animate-pulse-slow {
     animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-gradient {
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+  }
+
+  .backdrop-blur-strong {
+    backdrop-filter: blur(20px);
+  }
 }
 
 @keyframes glow {
@@ -104,5 +145,26 @@
   }
   to {
     box-shadow: 0 0 30px rgba(59, 130, 246, 0.6);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }

@@ -44,16 +44,27 @@ interface AgentGridProps {
 export function AgentGrid({ onAgentSelect }: AgentGridProps) {
   const { agents } = useAgentStore()
   const [mounted, setMounted] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     setMounted(true)
+    
+    // Check if device is mobile
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+    
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    
+    return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
   // Generate grid positions for agents
   const generatePositions = (count: number): [number, number, number][] => {
     const positions: [number, number, number][] = []
     const cols = Math.ceil(Math.sqrt(count))
-    const spacing = 3
+    const spacing = isMobile ? 2.5 : 3 // Tighter spacing on mobile
     
     for (let i = 0; i < count; i++) {
       const row = Math.floor(i / cols)
@@ -74,7 +85,7 @@ export function AgentGrid({ onAgentSelect }: AgentGridProps) {
   if (!mounted) {
     return (
       <div className="w-full h-full flex items-center justify-center">
-        <div className="text-white/70">Loading 3D visualization...</div>
+        <div className="text-white/70 text-sm">Loading 3D visualization...</div>
       </div>
     )
   }
@@ -83,20 +94,26 @@ export function AgentGrid({ onAgentSelect }: AgentGridProps) {
     <div className="w-full h-full">
       <Suspense fallback={
         <div className="w-full h-full flex items-center justify-center">
-          <div className="text-white/70">Loading 3D visualization...</div>
+          <div className="text-white/70 text-sm">Loading 3D visualization...</div>
         </div>
       }>
         <Canvas
-          camera={{ position: [0, 5, 10], fov: 60 }}
+          camera={{ 
+            position: isMobile ? [0, 4, 8] : [0, 5, 10], 
+            fov: isMobile ? 70 : 60 
+          }}
           style={{ background: 'transparent' }}
+          dpr={isMobile ? 1 : window.devicePixelRatio} // Lower DPR on mobile for performance
         >
-          {/* Lighting */}
-          <ambientLight intensity={0.4} />
-          <pointLight position={[10, 10, 10]} intensity={1} />
-          <pointLight position={[-10, -10, -10]} intensity={0.5} color="#4f46e5" />
+          {/* Lighting - Simplified for mobile */}
+          <ambientLight intensity={isMobile ? 0.5 : 0.4} />
+          <pointLight position={[10, 10, 10]} intensity={isMobile ? 0.8 : 1} />
+          {!isMobile && (
+            <pointLight position={[-10, -10, -10]} intensity={0.5} color="#4f46e5" />
+          )}
           
-          {/* Environment */}
-          <Environment preset="night" />
+          {/* Environment - Conditional for performance */}
+          {!isMobile && <Environment preset="night" />}
           
           {/* Agent Orbs */}
           {agents.map((agent, index) => (
@@ -108,13 +125,15 @@ export function AgentGrid({ onAgentSelect }: AgentGridProps) {
             />
           ))}
           
-          {/* Camera Controls */}
+          {/* Camera Controls - Mobile optimized */}
           <OrbitControls
-            enablePan={true}
+            enablePan={!isMobile} // Disable pan on mobile to avoid conflicts
             enableZoom={true}
             enableRotate={true}
-            maxDistance={20}
-            minDistance={5}
+            maxDistance={isMobile ? 15 : 20}
+            minDistance={isMobile ? 4 : 5}
+            dampingFactor={isMobile ? 0.1 : 0.05} // More responsive on mobile
+            enableDamping={true}
           />
         </Canvas>
       </Suspense>

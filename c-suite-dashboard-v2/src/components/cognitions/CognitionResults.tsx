@@ -282,7 +282,7 @@ export function CognitionResults({ results }: CognitionResultsProps) {
               <div className="bg-black/40 rounded-lg p-4 h-96 overflow-y-auto font-mono text-sm">
                 {selectedResult.logs.map((log, index) => (
                   <div key={index} className="text-white/80 mb-1">
-                    {log}
+                    {typeof log === 'string' ? log : JSON.stringify(log)}
                   </div>
                 ))}
               </div>
